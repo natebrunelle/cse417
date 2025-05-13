@@ -1,0 +1,948 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//University of Virginia//cse421_wi25//EN
+CALSCALE:GREGORIAN
+NAME:cse421_wi25
+BEGIN:VEVENT
+SUMMARY:Courses begin
+DESCRIPTION:
+DTSTART:20250106
+DTEND:20250107
+DTSTAMP:20250217T192221Z
+UID::20250106-Courses begin@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Intro; Stable Matching
+DESCRIPTION:K&T 1.1\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture1_intro.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture1_intro.pdf>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture1_intro_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fee198d-b38b-4b09-9a1d-b25d0154cc5d>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250106T140000
+DTEND;TZID=America/New_York:20250106T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250106T140000-Lecture -- Intro; Stable Matching@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250107T140000
+DTEND;TZID=America/New_York:20250107T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250107T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250108T000000
+DTEND;TZID=America/New_York:20250108T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250108T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Stable Matching; Overview
+DESCRIPTION:K&T 1.1\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture2_stablematching.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture2_stablematching.pdf>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture2_stablematching_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2bc25796-644a-41df-b240-b25d0154cd99>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250108T140000
+DTEND;TZID=America/New_York:20250108T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250108T140000-Lecture -- Stable Matching; Overview@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S1 Stable Matching; Proofs/Induction
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section01-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section01-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section01-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section01-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250110T000000
+DTEND;TZID=America/New_York:20250110T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250110T000000-Lab -- S1 Stable Matching; Proofs/Induction@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Stable Matching 2
+DESCRIPTION:K&T 2 (review)\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture3_stablematching2.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture3_stablematching2.pdf>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture3_stablematching2_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87759fa9-d9d5-4996-a3f4-b25d0154d1aa>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250110T140000
+DTEND;TZID=America/New_York:20250110T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250110T140000-Lecture -- Stable Matching 2@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250111T140000
+DTEND;TZID=America/New_York:20250111T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250111T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250112T000000
+DTEND;TZID=America/New_York:20250112T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250112T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250112T140000
+DTEND;TZID=America/New_York:20250112T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250112T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250113T000000
+DTEND;TZID=America/New_York:20250113T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250113T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Graph Traversal (BFS & Applications)
+DESCRIPTION:K&T 3.1-3.4\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture4_aysmptotics_graphsearch.pdf>\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture4_aysmptotics_graphsearch.pptx>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture4_aysmptotics_graphsearch_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbd91eba-4971-4f31-887b-b25d0154d738>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250113T140000
+DTEND;TZID=America/New_York:20250113T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250113T140000-Lecture -- Graph Traversal (BFS & Applications)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250114T140000
+DTEND;TZID=America/New_York:20250114T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250114T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250115T000000
+DTEND;TZID=America/New_York:20250115T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250115T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Graph Traversal (DFS & Applications)
+DESCRIPTION:slides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture5_graphsearch_greedy.pdf>\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture5_graphsearch_greedy.pptx>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture5_graphsearch_greedy_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b79aa2b8-7167-487a-a4e5-b25d0154d83c>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250115T140000
+DTEND;TZID=America/New_York:20250115T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250115T140000-Lecture -- Graph Traversal (DFS & Applications)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW1 Stable Matching
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250115T234400
+DTEND;TZID=America/New_York:20250115T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250115T234400-programming HW1 Stable Matching@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S2 Graph Search; Asymptotics
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section02-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section02-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section02-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section02-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250117T000000
+DTEND;TZID=America/New_York:20250117T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250117T000000-Lab -- S2 Graph Search; Asymptotics@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Greedy Algorithms 1
+DESCRIPTION:K&T 4.1-4.2\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture6_greedy.pdf>\nslides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture6_greedy.pptx>\nslides(ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture6_greedy_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9734cfb-fd7f-495b-90d0-b25d0154d94c>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250117T140000
+DTEND;TZID=America/New_York:20250117T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250117T140000-Lecture -- Greedy Algorithms 1@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250118T140000
+DTEND;TZID=America/New_York:20250118T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250118T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250119T000000
+DTEND;TZID=America/New_York:20250119T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250119T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250119T140000
+DTEND;TZID=America/New_York:20250119T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250119T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250120T000000
+DTEND;TZID=America/New_York:20250120T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250120T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MLK Day<br>(no class)
+DESCRIPTION:
+DTSTART:20250120
+DTEND:20250121
+DTSTAMP:20250217T192221Z
+UID::20250120-MLK Day<br>(no class)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250121T140000
+DTEND;TZID=America/New_York:20250121T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250121T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250122T000000
+DTEND;TZID=America/New_York:20250122T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250122T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Greedy Algorithms 2
+DESCRIPTION:K&T4.4-4.7\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture7_greedy2.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture7_greedy2.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture7_greedy2_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19117e59-a8d3-42ce-80e4-b25d0154da40>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250122T140000
+DTEND;TZID=America/New_York:20250122T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250122T140000-Lecture -- Greedy Algorithms 2@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW2 Graph Search
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250122T234400
+DTEND;TZID=America/New_York:20250122T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250122T234400-programming HW2 Graph Search@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S3 Problem Solving Strategy - Greedy
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section03-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section03-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section03-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section03-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250124T000000
+DTEND;TZID=America/New_York:20250124T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250124T000000-Lab -- S3 Problem Solving Strategy - Greedy@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Greedy Algorithms 3
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture8_greedy3_mst.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture8_greedy3_mst.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture8_greedy3_mst_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb6f4b8-9893-4f2d-b5b3-b25d0154db93>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250124T140000
+DTEND;TZID=America/New_York:20250124T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250124T140000-Lecture -- Greedy Algorithms 3@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250125T140000
+DTEND;TZID=America/New_York:20250125T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250125T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250126T000000
+DTEND;TZID=America/New_York:20250126T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250126T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250126T140000
+DTEND;TZID=America/New_York:20250126T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250126T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250127T000000
+DTEND;TZID=America/New_York:20250127T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250127T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Divide and Conquer
+DESCRIPTION:K&T 5.1-5.4\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture9_divideandconquer.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture9_divideandconquer.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture9_divideandconquer_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f996c131-04d0-4e56-a099-b25d0154dca0>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250127T140000
+DTEND;TZID=America/New_York:20250127T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250127T140000-Lecture -- Divide and Conquer@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250128T140000
+DTEND;TZID=America/New_York:20250128T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250128T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250129T000000
+DTEND;TZID=America/New_York:20250129T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250129T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Multiplication (Matrix, Integer)
+DESCRIPTION:k&T 5.5-5.6\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture10_divideandconquer2.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture10_divideandconquer2.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture10_divideandconquer2_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=131bb80a-da96-4367-8654-b25d0154ddbc>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250129T140000
+DTEND;TZID=America/New_York:20250129T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250129T140000-Lecture -- Multiplication (Matrix, Integer)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW3 Greedy
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250129T234400
+DTEND;TZID=America/New_York:20250129T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250129T234400-programming HW3 Greedy@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S4 Problem Solving Strategy - Divide and Conquer
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section04-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section04-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section04-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section04-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250131T000000
+DTEND;TZID=America/New_York:20250131T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250131T000000-Lab -- S4 Problem Solving Strategy - Divide and Conquer@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Median, Quicksort
+DESCRIPTION:K&T 13.5\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture11_quicksort_median.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture11_quicksort_median.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture11_quicksort_median_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e937b25-9a6d-423f-8e44-b25d0154df2a>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250131T140000
+DTEND;TZID=America/New_York:20250131T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250131T140000-Lecture -- Median, Quicksort@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250201T140000
+DTEND;TZID=America/New_York:20250201T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250201T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250202T000000
+DTEND;TZID=America/New_York:20250202T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250202T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250202T140000
+DTEND;TZID=America/New_York:20250202T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250202T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250203T000000
+DTEND;TZID=America/New_York:20250203T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250203T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Dynamic Programming 1
+DESCRIPTION:K&T 6.1-6.2\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture12_dp1.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture12_dp1.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture12_dp1_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5cb1e2b4-b3ae-4726-97aa-b25d0154e044>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250203T140000
+DTEND;TZID=America/New_York:20250203T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250203T140000-Lecture -- Dynamic Programming 1@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250204T140000
+DTEND;TZID=America/New_York:20250204T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250204T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250205T000000
+DTEND;TZID=America/New_York:20250205T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250205T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Dynamic Programming 2
+DESCRIPTION:K&T 6.3-6.6\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture13_dp2.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture13_dp2.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d638ff8d-d34f-4850-8159-b25d0154e159>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250205T140000
+DTEND;TZID=America/New_York:20250205T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250205T140000-Lecture -- Dynamic Programming 2@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW4 Divide and Conquer
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250205T234400
+DTEND;TZID=America/New_York:20250205T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250205T234400-programming HW4 Divide and Conquer@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S5 Problem Solving Strategy - Dynamic Programming
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section05-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section05-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section05-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section05-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250207T000000
+DTEND;TZID=America/New_York:20250207T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250207T000000-Lab -- S5 Problem Solving Strategy - Dynamic Programming@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Dynamic Programming 3
+DESCRIPTION:K&T 6.8-6.10\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture14_dp3.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture14_dp3.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57e0eed4-6e98-4120-9b1b-b25d0154e276>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250207T140000
+DTEND;TZID=America/New_York:20250207T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250207T140000-Lecture -- Dynamic Programming 3@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250208T140000
+DTEND;TZID=America/New_York:20250208T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250208T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250209T000000
+DTEND;TZID=America/New_York:20250209T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250209T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250209T140000
+DTEND;TZID=America/New_York:20250209T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250209T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250210T000000
+DTEND;TZID=America/New_York:20250210T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250210T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Network Flow
+DESCRIPTION:K&T 7.1\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture15_bellmanford_maxflow.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture15_bellmanford_maxflow.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture15_bellmanford_maxflow_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e70cbd8-a1c8-4b1e-9ee0-b25d0154e38d>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250210T140000
+DTEND;TZID=America/New_York:20250210T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250210T140000-Lecture -- Network Flow@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250211T140000
+DTEND;TZID=America/New_York:20250211T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250211T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250212T000000
+DTEND;TZID=America/New_York:20250212T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250212T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- MaxFlow/MinCut
+DESCRIPTION:K&T 7.2-7.3\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture16_maxflow_mincut.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture16_maxflow_mincut.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture16_maxflow_mincut_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1e2b02b8-9d34-43ab-b32b-b25d0154e499>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250212T140000
+DTEND;TZID=America/New_York:20250212T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250212T140000-Lecture -- MaxFlow/MinCut@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S6 Midterm Review
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section06-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section06-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section06-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section06-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250214T000000
+DTEND;TZID=America/New_York:20250214T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250214T000000-Lab -- S6 Midterm Review@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Network Flow in Polynomial Time
+DESCRIPTION:K&T 7.3\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture17_maxflow_runningtime.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture17_maxflow_runningtime.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture17_maxflow_runningtime_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19ffb3f2-3122-46e7-a412-b25d0154e5b8>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250214T140000
+DTEND;TZID=America/New_York:20250214T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250214T140000-Lecture -- Network Flow in Polynomial Time@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW5 Dynamic Programming
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250214T234400
+DTEND;TZID=America/New_York:20250214T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250214T234400-programming HW5 Dynamic Programming@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250215T140000
+DTEND;TZID=America/New_York:20250215T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250215T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250216T000000
+DTEND;TZID=America/New_York:20250216T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250216T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250216T140000
+DTEND;TZID=America/New_York:20250216T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250216T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250217T000000
+DTEND;TZID=America/New_York:20250217T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250217T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Presidents Day<br>(no class)
+DESCRIPTION:
+DTSTART:20250217
+DTEND:20250218
+DTSTAMP:20250217T192221Z
+UID::20250217-Presidents Day<br>(no class)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250218T140000
+DTEND;TZID=America/New_York:20250218T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250218T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250219T000000
+DTEND;TZID=America/New_York:20250219T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250219T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Midterm (6:00pm-7:30pm, no class meeting)
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250219T140000
+DTEND;TZID=America/New_York:20250219T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250219T140000-Lecture -- Midterm (6:00pm-7:30pm, no class meeting)@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S7 Network Flow
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section07-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section07-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section07-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section07-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250221T000000
+DTEND;TZID=America/New_York:20250221T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250221T000000-Lab -- S7 Network Flow@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Applications of MaxFlow/Mincut 1
+DESCRIPTION:K&T 7.5-7.7\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture18_maxflow_applications.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture18_maxflow_applications.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture18_maxflow_applications_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30963a2e-e73b-4621-aa10-b25d0154e7e3>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250221T140000
+DTEND;TZID=America/New_York:20250221T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250221T140000-Lecture -- Applications of MaxFlow/Mincut 1@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250222T140000
+DTEND;TZID=America/New_York:20250222T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250222T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250223T000000
+DTEND;TZID=America/New_York:20250223T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250223T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250223T140000
+DTEND;TZID=America/New_York:20250223T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250223T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250224T000000
+DTEND;TZID=America/New_York:20250224T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250224T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Applications of MaxFlow/Mincut 2
+DESCRIPTION:K&T 7.10-7.12\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture19_maxflow_applications2.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture19_maxflow_applications2.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture19_maxflow_applications2_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c39e6639-d933-4093-8639-b25d0154e926>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250224T140000
+DTEND;TZID=America/New_York:20250224T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250224T140000-Lecture -- Applications of MaxFlow/Mincut 2@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250225T140000
+DTEND;TZID=America/New_York:20250225T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250225T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250226T000000
+DTEND;TZID=America/New_York:20250226T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250226T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Linear Programming 1
+DESCRIPTION:K&T 11.6\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture20-linearprogramming.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture20-linearprogramming.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6badb7bd-b83e-43ee-971f-b25d0154ea3c>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250226T140000
+DTEND;TZID=America/New_York:20250226T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250226T140000-Lecture -- Linear Programming 1@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW6 DP and Network Flow
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250226T234400
+DTEND;TZID=America/New_York:20250226T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250226T234400-programming HW6 DP and Network Flow@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S8 Algorithm Toolbox - Linear Programming
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section08-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section08-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section08-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section08-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250228T000000
+DTEND;TZID=America/New_York:20250228T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250228T000000-Lab -- S8 Algorithm Toolbox - Linear Programming@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Linear Programming 2; Duality
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture21-linearduality.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture21-linearduality.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28d318f9-c58b-4428-b11b-b25d0154eb40>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250228T140000
+DTEND;TZID=America/New_York:20250228T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250228T140000-Lecture -- Linear Programming 2; Duality@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250301T140000
+DTEND;TZID=America/New_York:20250301T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250301T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250302T000000
+DTEND;TZID=America/New_York:20250302T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250302T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250302T140000
+DTEND;TZID=America/New_York:20250302T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250302T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250303T000000
+DTEND;TZID=America/New_York:20250303T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250303T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- NP-Completeness 1
+DESCRIPTION:K&T 8.1\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture22_polynomial_reductions.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture22_polynomial_reductions.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture22_polynomial_reductions_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=287fc242-8382-4bda-a639-b25d0154ec46>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250303T140000
+DTEND;TZID=America/New_York:20250303T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250303T140000-Lecture -- NP-Completeness 1@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250304T140000
+DTEND;TZID=America/New_York:20250304T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250304T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250305T000000
+DTEND;TZID=America/New_York:20250305T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250305T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- NP-Completeness 2
+DESCRIPTION:K&T 8.2-8.4\nslides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture23_np.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture23_np.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture23_np_ink.pdf>\nvideo <https//uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b04d60ad-c791-42ae-a518-b25d0154ed52>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250305T140000
+DTEND;TZID=America/New_York:20250305T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250305T140000-Lecture -- NP-Completeness 2@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S9 NP Completeness
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section09-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section09-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section09-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section09-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250307T000000
+DTEND;TZID=America/New_York:20250307T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250307T000000-Lab -- S9 NP Completeness@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW7 Network Flow and Linear Programming
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250306T234400
+DTEND;TZID=America/New_York:20250306T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250306T234400-programming HW7 Network Flow and Linear Programming@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- NP-Completeness 3
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture24_np_complete.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture24_np_complete.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture24_np_complete_ink.pdf>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250307T140000
+DTEND;TZID=America/New_York:20250307T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250307T140000-Lecture -- NP-Completeness 3@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250308T140000
+DTEND;TZID=America/New_York:20250308T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250308T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250309T000000
+DTEND;TZID=America/New_York:20250309T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250309T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250309T140000
+DTEND;TZID=America/New_York:20250309T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250309T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250310T000000
+DTEND;TZID=America/New_York:20250310T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250310T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- NP-Completeness 4
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture25_np_complete2.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture25_np_complete2.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture25_np_complete2_ink.pdf>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250310T140000
+DTEND;TZID=America/New_York:20250310T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250310T140000-Lecture -- NP-Completeness 4@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250311T140000
+DTEND;TZID=America/New_York:20250311T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250311T140000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: -- 
+DESCRIPTION:
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250312T000000
+DTEND;TZID=America/New_York:20250312T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250312T000000- -- @cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Dealing with NP-Completeness; SAT Solvers
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture26_dealing.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture26_dealing.pdf>\nslides (ink) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture26_dealing_ink.pdf>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250312T140000
+DTEND;TZID=America/New_York:20250312T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250312T140000-Lecture -- Dealing with NP-Completeness; SAT Solvers@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab -- S10 Review
+DESCRIPTION:slides(pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section10-slides.pptx>\nslides(pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section10-slides.pdf>\nhandout <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section10-handout.pdf>\nsolution <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/section/section10-solutions.pdf>
+LOCATION:Various
+DTSTART;TZID=America/New_York:20250314T000000
+DTEND;TZID=America/New_York:20250314T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250314T000000-Lab -- S10 Review@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:programming HW8 Hardness
+DESCRIPTION:
+DTSTART;TZID=America/New_York:20250313T234400
+DTEND;TZID=America/New_York:20250313T235900
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250313T234400-programming HW8 Hardness@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Courses end
+DESCRIPTION:
+DTSTART:20250314
+DTEND:20250315
+DTSTAMP:20250217T192221Z
+UID::20250314-Courses end@cse421_wi25.cs.virginia.edu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture -- Linear Programming Algorithms
+DESCRIPTION:slides (pptx) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture27_finale.pptx>\nslides (pdf) <https//www.cs.virginia.edu/~njb2b/cs3100/s23/files/slides/lecture27_finale.pdf>
+LOCATION:Gilmer 301
+DTSTART;TZID=America/New_York:20250314T140000
+DTEND;TZID=America/New_York:20250314T145000
+DTSTAMP:20250217T192221Z
+UID:;TZID=America/New_York:20250314T140000-Lecture -- Linear Programming Algorithms@cse421_wi25.cs.virginia.edu
+END:VEVENT
+END:VCALENDAR
