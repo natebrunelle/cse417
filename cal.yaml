@@ -26,7 +26,7 @@ sections:
   Lab:
     type: lab
     room: Various
-    days: [Thursday]
+    days: []
     start: 24:00:00
     duration: 1439
 
