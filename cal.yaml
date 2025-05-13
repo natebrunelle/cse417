@@ -66,15 +66,6 @@ lectures:
 
 labs:
     - S1 Stable Matching; Proofs/Induction
-    - S2 Graph Search; Asymptotics
-    - S3 Problem Solving Strategy - Greedy
-    - S4 Problem Solving Strategy - Divide and Conquer
-    - S5 Problem Solving Strategy - Dynamic Programming
-    - S6 Midterm Review
-    - S7 Network Flow
-    - S8 Algorithm Toolbox - Linear Programming
-    - S9 NP Completeness
-    - S10 Review
 
 reading:
     Intro; Stable Matching:
