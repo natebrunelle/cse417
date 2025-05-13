@@ -59,11 +59,9 @@ lectures:
     - Reductions 1
     - Reductions 2
     - Reductions 3
-      Reductions 4
     - NP-Completeness 1
     - NP-Completeness 2
     - NP-Completeness 3
-    - NP-Completeness 4
 
 labs:
     - S1 Stable Matching; Proofs/Induction
