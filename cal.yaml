@@ -31,7 +31,7 @@ sections:
     duration: 1439
 
 labs:
-    days: [Thursday]
+    days: []
 
 
 lectures:
