@@ -36,33 +36,38 @@ labs:
 
 lectures:
     - Intro; Stable Matching
-    - Stable Matching; Overview
-    - Stable Matching 2
-    - Graph Traversal (BFS & Applications)
-    - Graph Traversal (DFS & Applications)
-    - Greedy Algorithms 1
-    - Greedy Algorithms 2
-    - Greedy Algorithms 3
-    - Divide and Conquer
-    - Multiplication (Matrix, Integer)
-    - Median, Quicksort
+    - Stable Matching; Algorithm Correctness
+    - Mathematical Foundations
+    - Running Time Review
+    - Proof Strategies
+    - Divide and Conquer 1
+    - Divide and Conquer 2
+    - Divide and Conquer 3
+    - Divide and Conquer 4
+    - Graphs 1
+    - Graphs 2
+    - Graphs 3
     - Dynamic Programming 1
     - Dynamic Programming 2
     - Dynamic Programming 3
-    - Network Flow
-    - MaxFlow/MinCut
-    - Network Flow in Polynomial Time
-    - Midterm (6:00pm-7:30pm, no class meeting)
-    - Applications of MaxFlow/Mincut 1
-    - Applications of MaxFlow/Mincut 2
-    - Linear Programming 1
-    - Linear Programming 2; Duality
+    - Dynamic Programming 4
+    - Dynamic Programming 5
+    - Greedy 1
+    - Greedy 2
+    - Greedy 3
+    - Greedy 4
+    - Network Flow 1
+    - Network Flow 2
+    - Network Flow 3
+    - Network Flow 4
+    - Reductions 1
+    - Reductions 2
+    - Reductions 3
+      Reductions 4
     - NP-Completeness 1
     - NP-Completeness 2
     - NP-Completeness 3
     - NP-Completeness 4
-    - Dealing with NP-Completeness; SAT Solvers
-    - Linear Programming Algorithms
 
 labs:
     - S1 Stable Matching; Proofs/Induction
