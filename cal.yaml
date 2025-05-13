@@ -60,14 +60,13 @@ lectures:
     - Network Flow 2
     - Network Flow 3
     - Flex
+    - Quiz 2
     - Reductions 1
     - Reductions 2
     - Reductions 3
-    - Quiz 2
     - NP-Completeness 1
     - NP-Completeness 2
     - NP-Completeness 3
-    - NP-Completeness 4
 
 labs:
     - S1 Stable Matching; Proofs/Induction
