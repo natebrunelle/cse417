@@ -4,59 +4,48 @@ title: Home
 
 Handy links:
 
-- [Gradescope](https://www.gradescope.com/courses/939663)
-- [Ed Board](https://edstem.org/us/courses/70773)
-- [Lecture Recordings](https://canvas.uw.edu/courses/1786105/external_tools/21130)
+- [Canvas](https://canvas.uw.edu/courses/1828368)
+- [Gradescope (TODO)]()
+- [Ed Board (TODO)]()
 
 # Course Description
 
-Techniques for design of efficient algorithms. Methods for showing lower bounds on computational complexity. Particular algorithms for sorting, searching, set manipulation, arithmetic, graph problems, pattern matching.
-
 ## Course Goals
 
-CSE 421 is an introduction to algorithms. By the end of this course, you will be able to:
+CSE 417 is an introduction to algorithms. By the end of this course, you will be able to:
 
-- Model word problems as computational problems.
-- Determine an appropriate algorithm design paradigm for a new problem.
-- Design an algorithm using a variety of algorithm-design paradigms (including greedy algorithms, divide and conquer, dynamic programming, flow modeling, and others).
-- Prove that your algorithm produces the correct answer.
-- Reduce between a known problem and a new problem (for showing hardness or for reusing existing algorithms)
-- Identify and cope with computational problems that are infeasible.
-- Consider the implications of modeling decisions in the real world.
-
-
+- Discuss how and why certain foundational algorithms work.
+- Design algorithms for new problems using a variety of algorithm-design paradigms.
+- Mathematically prove that your algorithm produces the correct answer.
+- Model word problems computationally and consider the implications of modeling decisions in the real world.
 
 ## Eligibility
 
 You should take this course only if
 
-1. You have credit for CSE 312 or equivalent
-1. You have credit for CSE 332 or equivalent
-1. You are a CSE major
+1. You have credit for CSE 373 or equivalent
+1. You are NOT a CSE major
 
 
 # Platforms
 
 Platform                    Purpose
 -------------------------   ----------------------------------------------
-This Website                Central repository of course information and content including: syllabus, schedule, file hosting, readings, assignment writeups, etc.
-Canvas                      Linking to all of the other tools, lecture recordings, roster maintenance, sample solutions
-Ed Message Board            Course content and policy questions
-Gradescope                  Homework submission and grading
+This website                Main location of **public** course content: syllabus, schedule, file hosting, readings, homework descriptions, etc.
+Canvas                      Main location of **private** course content: homework submissions, lecture recordings, sample solutions
+Ed Message Board            Questions and discussion with staff and other students
+Gradescope                  Used for submitting programming assignments only
 
 
 # What to expect in this course
 
-In the opinion of this instructor, an algorithms course should serve to:
+In this course, you will learn some particular noteworthy and widely-used algorithms, as well as learn and apply techniques to develop your own algorithm to solve new problems. Both of these are important, and we will discuss both in detail throughout the course. 
 
-1. introduce students to particular noteworthy and/or widely-used algorithms, and
-1. provide opportunity for students to hone their skill in developing and justifying correct and efficient algorithms.
+At the same time, since developing a skill often requires more effort than understanding prior work of others, most of your homework will be about solving new problems. This will be at times uncomfortable, occasionally frustrating, but hopefully always fun and valuable in retrospect. We have a few guidelines/suggestions for how you can get the most out of this course:
 
-Since developing a skill is a much more substantial undertaking than understanding prior work of others, the majority of your homework time will be spent on developing that skill. This will be at times uncomfortable, occasionally frustrating, but hopefully always fun and valuable in retrospect. I have a few guidelines/suggestions for how you can get the most out of this course:
-
-1. Follow the instructions in the assignments. I've been a student before, and I understand the dizzying experience of learning something brand new. For this reason, I do not ask trick questions that are specifically intended to mislead you. If a question seems misleading, then most likely either there's something about the instructions or the content that you're missing, or else I made an error in drafting the assignment. In either case, the best thing to do is ask!
-1. Think carefully and precisely: While I will not purposefully mislead you, I may ask questions that are specifically designed to expose and correct a flawed intuition or common misconception. To ensure your solutions do not fall into these traps, try and be as careful and precise with your explanations as possible, try not to rely on intuition.
-1. Don't expect homework to match lecture/section perfectly: Lecture and section experiences are designed to introduce topics/concepts/strategies, and show exmples of how they operate. To maximize the future usefulness of this course's content, I selected topics whose applications are broad, and try to demonstrate that breadth through a *combination* of lecture, section, and homework. Almost always, I will tell you which concepts will be most helpful in your solutions. It may not be obvious *how* or *why* that concept is relevant, but I promise it is. The reason for this approach is that your assignments in this course will give you experience stretching what you've learned in a guided way. With that experience you will be better prepared for solving future problems when that guidance is absent.
+1. **If something is not clear, ask.** You are likely not the only person for which it is not clear. In lecture, asking questions helps the instructor pace the class appropriately. On homework and exams, we will never ask trick questions that are intended to mislead you. If you need clarification, we will always be happy to help you.
+1. **Reason carefully and precisely.** While we will not purposefully mislead you, we may ask questions that are specifically designed to expose and correct a flawed intuition or common misconception. You can sometimes let intuition guide your overall thought process, but you must always write your reasoning step-by-step to avoid mistakes. 
+1. **Use techniques from lecture in your homework.** The techniques covered in lecture should be used to solve the homework problems for that week, which help you get started more easily. Note that most homework will be about reinforcing techniques from lecture, *not* specific algorithms and examples discussed.
 
 
 

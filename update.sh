@@ -1,15 +1,21 @@
 #!/bin/bash
 
-here="$(dirname "$(readlink -m "$0")")/"
-self="$(readlink -m "$0")"
+realpath_py() {
+    python3 -c 'import os,sys; print(os.path.realpath(sys.argv[1]))' "$1"
+}
+
+self="$(realpath_py "$0")"
+here="$(dirname "$self")/"
+target="$(realpath_py "$here/demo_site")/"
+
 cd "$here"
-target="$(readlink -f "$here""/demo_site/")/"
+
 remote=brunelle@attu.cs.washington.edu:/cse/web/courses/cse421/25wi/temp_417
 if [ "$#" -gt 0 ] && [ "$1" != 'test' ]
 then
 	remote="$1"@attu.cs.washington.edu:/cse/web/courses/cse421/temp_417
 fi
-mkdir -p "$target"files
+mkdir -p "${target}files"
 
 #if ls ~/.local/pandoc*/bin/pandoc
 #then pd="$(ls  ~/.local/pandoc*/bin/pandoc | tail -1)"
@@ -30,6 +36,28 @@ fi
 
 if [ -n "$1" ]; then always=1; else always=; fi
 
+case "$(uname)" in
+    Darwin*)  # macOS
+        get_datetime() {
+            stat -f "%Sm" -t "%Y-%m-%d %H:%M" "$1"
+        }
+        sed_inplace() {
+            sed -i '' "$@"
+        }
+        ;;
+    Linux*)   # GNU/Linux
+        get_datetime() {
+            stat -c '%y' "$1" | cut -d':' -f-2
+        }
+        sed_inplace() {
+            sed -i "$@"
+        }
+        ;;
+    *)
+        echo "Unsupported OS: $(uname)" >&2
+        exit 1
+        ;;
+esac
 
 # copies, with permission fix (644 for files, 755 for dirs), making dirs if needed
 # also runs markdown, fixing links, if applicable
@@ -45,18 +73,18 @@ function upfile_inner() {
     fi
     if [ "${src%.md}" != "$src" ]
     then
-        tail="$(readlink -f "$src")"
+        tail="$(realpath_py "$src")"
         tail="${tail#${here}markdown/}"
         prefix="$(dirname "$(echo "$tail" | sed 's;[^/]*/;../;g')")"
         if [ "${#prefix}" -lt 2 ]; then prefix=''; else prefix=$prefix/; fi
-        datetime="$(stat -c '%y' "$src" | cut -d':' -f-2)"
+        datetime="$(get_datetime "$src")"
 
         python3 $here/env.py "$src" | \
         $pd --standalone \
             --to=html5 \
             --from=markdown+inline_code_attributes+smart \
             --number-sections \
-            --title-prefix="CSE17" \
+            --title-prefix="CSE417" \
             --table-of-contents --toc-depth=3 \
             --css=${prefix}style.css \
             --katex='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/' \
@@ -65,15 +93,17 @@ function upfile_inner() {
             --variable=year:${datetime:0:4} \
             --variable=datetime:"$datetime" \
             -o "$dst"
-        sed -i \
-            -e 's;</?colgroup>;;g' -e 's;<col [^>]*/>;;g' \
+        sed_inplace \
+            -e 's;</?colgroup>;;g' \
+            -e 's;<col [^>]*/>;;g' \
             -e 's/<span class="co">\&#39;/<span class="st">\&#39;/g' \
             -e 's/<span class="co">\&quot;/<span class="st">\&quot;/g' \
             -e 's/<table style="width:[^"]*">/<table>/g' \
             "$dst"
-        sed -i 's/XXXX-XX-XX/'"$datetime"'/g' "$dst"
-        sed -i "s;\(href=[\"']\)\.\?/;\1$prefix;g" "$dst"
-        sed -i 's/<a href="'"$(basename "$dst")"'">\([^<]*\)<\/a>/<span class="visited">\1<\/span>/g' "$dst"
+
+        sed_inplace 's/XXXX-XX-XX/'"$datetime"'/g' "$dst"
+        sed_inplace "s;\(href=[\"']\)\.\?/;\1$prefix;g" "$dst"
+        sed_inplace 's/<a href="'"$(basename "$dst")"'">\([^<]*\)<\/a>/<span class="visited">\1<\/span>/g' "$dst"
         chmod 664 "$dst"
         #touch --date="$(stat -c "%y" "$src")" "$dst"
     else
@@ -84,7 +114,7 @@ function upfile_inner() {
 
 # computes destination and checks if update needed
 function upfile() {
-    src=$(readlink -f "$1")
+    src="$(realpath_py "$1")"
     tail=${src#${here}markdown/}
     if [ "$tail" = "$src" ];
     then
