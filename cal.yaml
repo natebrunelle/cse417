@@ -35,85 +35,74 @@ labs:
 
 
 lectures:
-    - Intro; Stable Matching
-    - Stable Matching; Algorithm Correctness
-    - Mathematical Foundations
-    - Running Time Review
-    - Proof Strategies
-    - Divide and Conquer 1
-    - Divide and Conquer 2
-    - Divide and Conquer 3
-    - Divide and Conquer 4
-    - Graphs 1
-    - Graphs 2
-    - Graphs 3
-    - Flex
+    - 1.1. Introduction and stable matching
+    - 1.2. Algorithm correctness
+    - 1.3. Proof techniques
+    - 1.4. Gale-Shapley analysis
+    - 1.5. Running time
+    - 2.1. Intro to divide and conquer
+    - 2.2. The technique of computing more
+    - 2.3. Sorting
+    - 3.1. Graph traversal
+    - 3.2. Implication graphs
+    - 3.3. Minimum spanning trees
+    - 3.4. Shortest paths
+    - Flex/review
     - Quiz 1
-    - Dynamic Programming 1
-    - Dynamic Programming 2
-    - Dynamic Programming 3
-    - Dynamic Programming 4
-    - Greedy 1
-    - Greedy 2
-    - Greedy 3
-    - Network Flow 1
-    - Network Flow 2
-    - Network Flow 3
-    - Flex
+    - 4.1. Intro to dynamic programming
+    - 4.2. Adding new parameters
+    - 4.3. DP on intervals
+    - 4.4. DP on DAGs
+    - 5.1. Intro to greedy algorithms
+    - 5.2. Scheduling problems
+    - 5.3. Non-optimal greedy algorithms
+    - 6.1. Intro to flows
+    - 6.2. Flow modeling
+    - 6.3. Flows for matchings
+    - Flex/review
     - Quiz 2
-    - Reductions 1
-    - Reductions 2
-    - Reductions 3
-    - NP-Completeness 1
-    - NP-Completeness 2
-    - NP-Completeness 3
+    - 7.1. Intro to NP-completeness
+    - 7.2. Using SAT solvers
+    - 7.3. Backtracking and SAT solving
+    - 7.4. Proving problems hard
+    - Flex/final review
 
 labs:
     - S1 Stable Matching; Proofs/Induction
 
 reading:
-    Intro; Stable Matching:
-        - "K&T: 1.1"
-    Stable Matching; Overview:
-        - "K&T: 1.1"
-    Stable Matching 2:
-        - "K&T: 2 (review)"
-    Graph Traversal (BFS & Applications):
+    1.1. Introduction and stable matching:
+        - "K&T: 1.1 (p. 1-6 only)"
+    1.4. Gale-Shapley analysis:
+        - "K&T: 1.1 (p. 7-12 only)"
+    1.5. Running time:
+        - "K&T: 2.1-2.4"
+    2.3. Sorting:
+        - "K&T 5.3-5.4"
+    3.1. Graph traversal:
         - "K&T: 3.1-3.4"
-    Graph Traversal (BFS & Applications):
-        - "K&T: 3.1-3.4"
-    Greedy Algorithms 1:
+    3.2. Implication graphs:
+        - "K&T: 3.5-3.6"
+    3.3. Minimum spanning trees:
+        - "K&T: 4.5"
+    3.4. Shortest paths:
+        - "K&T: 4.4"
+    4.2. Adding new parameters:
+        - "K&T: 6.4, 6.8"
+    4.3. DP on intervals:
+        - "K&T: 6.5"
+    5.2. Scheduling problems:
         - "K&T: 4.1-4.2"
-    Greedy Algorithms 2:
-        - "K&T:4.4-4.7"
-    Divide and Conquer:
-        - "K&T 5.1-5.4"
-    Multiplication (Matrix, Integer):
-        - "k&T 5.5-5.6"
-    Median, Quicksort:
-        - "K&T 13.5"
-    Dynamic Programming 1:
-        - "K&T: 6.1-6.2"
-    Dynamic Programming 2:
-        - "K&T: 6.3-6.6"
-    Dynamic Programming 3:
-        - "K&T: 6.8-6.10"
-    Network Flow:
+    5.3. Non-optimal greedy algorithms:
+        - "K&T: 11.1"
+    6.1. Intro to flows:
         - "K&T: 7.1"
-    MaxFlow/MinCut:
-        - "K&T: 7.2-7.3"
-    Network Flow in Polynomial Time:
-        - "K&T: 7.3"
-    Applications of MaxFlow/Mincut 1:
-        - "K&T: 7.5-7.7"
-    Applications of MaxFlow/Mincut 2:
-        - "K&T: 7.10-7.12"
-    Linear Programming 1:
-        - "K&T: 11.6"
-    NP-Completeness 1:
-        - "K&T: 8.1"
-    NP-Completeness 2:
-        - "K&T: 8.2-8.4"
+    6.3. Flows for matchings:
+        - "K&T: 7.5"
+    7.1. Intro to NP-completeness:
+        - "K&T: 8.3-8.4"
+    7.4. Proving problems hard:
+        - "K&T: 8.1-8.2, 8.7"
 
 assignments:
     ".groups":

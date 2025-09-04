@@ -2,6 +2,12 @@
 title: Home
 ...
 
+# Welcome to CSE 417 (25au)
+
+**Official Course Title:** Algorithms and Computational Complexity
+
+**Primary Instructors:** Nathan Brunelle and Glenn Sun
+
 Handy links:
 
 - [Canvas](https://canvas.uw.edu/courses/1828368)
