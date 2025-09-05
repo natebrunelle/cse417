@@ -5,16 +5,16 @@ Special Dates:
   Thanksgiving Day: 2025-11-27
   Native American Heritage Day: 2025-11-28
   Midterm Exam: 2024-11-01
-  Final Exam: 2025-12-08
+#   Final Exam: 2025-12-08
 meta:
   timezone: America/New_York
   name: Algorithms
   lecture exam: true
   home: https://www.cs.virginia.edu/~njb2b/cs3100/s23/
-  final:
-    start: 2025-12-08 08:30:00
-    duration: 110
-    room: NA
+#   final:
+#     start: 2025-12-08 08:30:00
+#     duration: 110
+#     room: NA
 
 sections:
   Lecture:
@@ -105,68 +105,42 @@ reading:
         - "K&T: 8.1-8.2, 8.7"
 
 assignments:
-    ".groups":
-        quiz:
-            portion: "40"
-        programming:
-            portion: "30"
-            drop: 2
-        written:
-            portion: "30"
-                    
-            
-    HW1 Stable Matching:
-        group: programming
-        due: 2025-01-15 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
+    HW1 Intro/<wbr>Correctness:
+        out: 2025-09-26 17:00:00
+        due: 2025-10-03 23:59:00
+        last: 2025-10-15 23:59:00
         
-    HW2 Graph Search:
-        group: programming
-        due: 2025-01-22 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
-       
-    HW3 Greedy:
-        group: programming
-        due: 2025-01-29 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
-    
-    HW4 Divide and Conquer:
-        group: programming
-        due: 2025-02-05 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
-        
-    HW5 Dynamic Programming:
-        group: programming
-        due: 2025-02-14 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
-    
-    HW6 DP and Network Flow:
-        group: programming
-        due: 2025-02-26 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
+    HW2 Gale&ndash;Shapley/<wbr>Running Time:
+        out: 2025-10-03 17:00:00
+        due: 2025-10-10 23:59:00
+        last: 2025-10-22 23:59:00
 
-    HW7 Network Flow and Linear Programming:
-        group: programming
-        due: 2025-03-06 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
+    HW3 Divide and Conquer:
+        out: 2025-10-10 17:00:00
+        due: 2025-10-17 23:59:00
+        last: 2025-10-29 23:59:00
     
-    HW8 Hardness:
-        group: programming
-        due: 2025-03-13 23:59:00
-        writeup: 'https://www.cs.virginia.edu/~njb2b/cs4102/s23/'
-        weight: 1
-        files: 'something.java'
+    HW4 Graphs:
+        out: 2025-10-17 17:00:00
+        due: 2025-10-24 23:59:00
+        last: 2025-11-05 23:59:00
+
+    HW5 Dynamic Programming:
+        out: 2025-10-31 17:00:00
+        due: 2025-11-07 23:59:00
+        last: 2025-11-19 23:59:00
+
+    HW6 Greedy Algorithms:
+        out: 2025-11-07 17:00:00
+        due: 2025-11-14 23:59:00
+        last: 2025-11-26 23:59:00
+
+    HW7 Flows:
+        out: 2025-11-14 17:00:00
+        due: 2025-11-21 23:59:00
+        last: 2025-12-03 23:59:00
+
+    HW8 NP and SAT:
+        out: 2025-11-26 17:00:00
+        due: 2025-12-05 23:59:00
+        last: 2025-12-05 23:59:00

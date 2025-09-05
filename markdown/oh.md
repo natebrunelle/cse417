@@ -18,8 +18,18 @@ title: Office Hours
 1. This Discord server is serving as replacement for face to face Office Hours and Piazza. If you have a question that you would put into text and get a text response, please ask it in the most relevant text channel. After this, either a fellow student or course staff will answer!-->
 
 
-Course staff will be available to help you at the following times:
+<style>
+    iframe {
+        width: 100%;
+        max-width: 800px;
+    }
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=Y181ZDI2ZDUxM2I4NWFjZjA4YjQzNWZmMTAzMjgzNjJlM2YxYzA3MTc3NDEyOWQxZGI0MTZmZDlhZTBkMDFhNWI3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    .row>div:only-child {
+        flex: 0 1 800px !important;
+        margin: 0.5em;
+    }
+</style>
 
+Course staff will be available to help you at the following times. (On small screens, change the view from "Month" to "Schedule" in the upper-right corner.)
 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=Y181ZDI2ZDUxM2I4NWFjZjA4YjQzNWZmMTAzMjgzNjJlM2YxYzA3MTc3NDEyOWQxZGI0MTZmZDlhZTBkMDFhNWI3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043" style="border:solid 1px #777" height="600" frameborder="0" scrolling="no"></iframe>

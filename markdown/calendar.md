@@ -1,9 +1,6 @@
 ---
-title: Autumn 2025 Schedule
+title: Calendar
 ...
-
-
-<hr/>
 
 <style id="schedule-css">
 
@@ -14,7 +11,7 @@ title: Autumn 2025 Schedule
           background: rgba(0,0,0,0.125); 
           border: 0.5ex solid rgba(0,0,0,0);
           border-radius: 1.5ex; 
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr; 
           line-height: 1.4em;
           max-width: 1200px;
           margin: 1ex auto 1ex auto;
@@ -93,7 +90,7 @@ title: Autumn 2025 Schedule
         }
 
         #schedule.calendar .day.today .wrapper { 
-          margin: 0.5ex 0;
+          margin: 0.5ex 0; 
         }
 
         #schedule.calendar .events {
@@ -120,6 +117,13 @@ title: Autumn 2025 Schedule
 
       .assignment:before { content: "due: "; font-size: 80%; }
       .assignment {background: rgba(155,77,227,0.15); }
+
+      .out-date:before { content: "out: "; font-size: 80%; }
+      .out-date {background: rgb(233, 245, 208); }
+
+      .last-date:before { content: "last: "; font-size: 80%; }
+      .last-date {background: rgb(208, 239, 245); }
+
       small { opacity: 0.5; }
       .special { background: rgba(215,215,215,0.5); opacity: 0.75; }
       .exam { background: rgba(255,215,0,0.5); opacity: 0.75; }
@@ -133,6 +137,20 @@ title: Autumn 2025 Schedule
 
       .calendar div.day.empty { background: rgba(0,0,0,0); padding: 0em; margin: 0em; border: none; border-radius: 0; min-height: 1.5em; }
 
+
+  input[type="button"] {
+    font: inherit;
+    padding: 0.5ex 1ex;
+    margin: 0.5ex 1ex;
+    border-radius: 0;
+    border: 1px solid rgb(188, 188, 188); 
+    background-color: rgb(246, 246, 246);
+  }
+
+  input[type="button"]:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+  }
 </style>
 
 
@@ -141,15 +159,9 @@ title: Autumn 2025 Schedule
 
 
 
-{#include schedule.html}
+{#include calendar.html}
 
 
 <script src="schedule.js"></script>
 
 <!--To subscribe to the above calendar, add <http://www.cs.virginia.edu/~njb2b/cs4102/su22/cal.ics> to your calender application of choice.-->
-
-<hr/>
-
-
-
-        

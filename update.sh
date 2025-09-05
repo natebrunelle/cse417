@@ -142,21 +142,27 @@ function upfile() {
 
 
 # cross-link cal.yaml and the various files it makes
-if [ cal.yaml -nt schedule.html ] \
-|| [ links.yaml -nt schedule.html ] \
-|| [ cal2html.py -nt schedule.html ] \
+if [ cal.yaml -nt calendar.html ] \
+|| [ links.yaml -nt calendar.html ] \
+|| [ cal2html.py -nt calendar.html ] \
 || [ cal.yaml -nt markdown/cal.ics ] \
 || [ cal.yaml -nt assignments.json ]
 then
-    echo "doing schedule"
+    echo "doing calendar"
     python3 cal2html.py
     scp "assignments.json" "/var/www/html/cs4102/meta/"
     scp "coursegrade.json" "/var/www/html/cs4102/meta/"
     scp "course.json" "/var/www/html/cs4102/meta/"
 fi
-if [ schedule.html -nt markdown/schedule.md ]
+if [ calendar.html -nt markdown/calendar.md ]
 then
-    touch --date="$(stat -c "%y" schedule.html)" markdown/schedule.md
+    if stat -c %y calendar.html >/dev/null 2>&1; then
+        # Linux (GNU stat)
+        touch --date="$(stat -c %y calendar.html)" markdown/calendar.md
+    else
+        # macOS / BSD
+        touch -r calendar.html markdown/calendar.md
+    fi
 fi
 
 # move all files to the destination tree, compiling as needed

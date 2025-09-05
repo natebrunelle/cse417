@@ -43,10 +43,12 @@ $endfor$
           <li><p class="navbar-text">$date$</p></li>
           $endif$
           <li><p class="navbar-text"><a href="./index.html">Home</a></p></li>
-          <li><p class="navbar-text"><a href="./oh.html">OH</a></p></li>
           <li><p class="navbar-text"><a href="./syllabus.html">Syllabus</a></p></li>
+          <li><p class="navbar-text"><a href="./calendar.html">Calendar</a></p></li>
           <li><p class="navbar-text"><a href="./tasks.html">Tasks</a></p></li>
-	  <li><p class="navbar-text"><a href="./schedule.html">Schedule</a></p></li>
+          <li><p class="navbar-text"><a href="./oh.html">Office Hours</a></p></li>
+          <li><p class="navbar-text"><a href="./guides.html">Guides</a></p></li>
+          <li><p class="navbar-text"><a href="./staff.html">Staff</a></p></li>
         </ul>
       </div>
     </div>
@@ -69,7 +71,7 @@ $endfor$
       $include-before$
       $endfor$
       <!--<blockquote style="background-color:#fbb; font-size:150%">This page is from a previous offering of the course. It has been left up for archival purposes.</blockquote>-->
-      <blockquote style="background-color:#fbb; font-size:150%">This page is under construction. Any content you see now is subject to change until the first day of class. Expect some links to be broken until that time.</blockquote>
+      <!-- <blockquote style="background-color:#fbb; font-size:150%">This page is under construction. Any content you see now is subject to change until the first day of class. Expect some links to be broken until that time.</blockquote> -->
       <!--<blockquote style="background-color:#FFD700; font-size:150%">Looking for someone to talk to about CSE332? Try the Study Center in CSE room 006! There's a table there just for working on and discussing CSE332!</blockquote>-->
       $body$
       $for(include-after)$
@@ -87,7 +89,7 @@ $endfor$
       $endfor$
       </span>
     $else$
-      Copyright © $year$ Nathan Brunelle.
+      Copyright © $year$ Nathan Brunelle and Glenn Sun.
     $endif$
     $if(license)$
       <p>Released under the $license$ license.</p>
@@ -95,9 +97,7 @@ $endfor$
       <p>Released under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /> CC-BY-NC-SA 4.0</a> license</a>.
       </p>
     $endif$
-
-     <br/>
-     Last updated $datetime$
+    <p>Last updated $datetime$</p>
   </footer>
 </body>
 </html>
