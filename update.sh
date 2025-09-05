@@ -13,7 +13,7 @@ cd "$here"
 remote=brunelle@attu.cs.washington.edu:/cse/web/courses/cse421/25wi/temp_417
 if [ "$#" -gt 0 ] && [ "$1" != 'test' ]
 then
-	remote="$1"@attu.cs.washington.edu:/cse/web/courses/cse421/temp_417
+	remote="$1"@attu.cs.washington.edu:/cse/web/courses/cse421/25wi/temp_417
 fi
 mkdir -p "${target}files"
 

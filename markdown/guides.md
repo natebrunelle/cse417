@@ -41,13 +41,15 @@ Just like mathematical writing, good pseudocode depends on your audience. Again,
 
 Since this is likely your first time writing pseudocode, we have some detailed advice and examples in [this pdf (TODO)](/files/pseudocode.pdf). See also [the LaTeX (TODO)](/files/pseudocode.tex) file that generated the pdf.
 
-## Four Steps of an Algorithmic Solution
+## Five Steps of an Algorithmic Solution
 
-In general, if we ask you to "describe" or "design" an algorithm (or use any similar phrase), then you should do all four of these things, unless otherwise noted.
+In general, if we ask you to "describe" or "design" an algorithm (or use any similar phrase), then you should do all five of these things, unless otherwise noted.
 
 1. **Summarize the core idea.** Use 1&ndash;2 sentences to explain to the grader as a human what your algorithm is doing at a high level.
 
 1. **Write pseudocode for your algorithm.** Restate the inputs and desired outputs of the problem, then write the steps of pseudocode to transform those inputs to the desired outputs. Follow the advice above.
+
+1. **Show a representative example(s).** Pick a generic example and walk though your algorithm on this example. If there are multiple major cases, show an example for each case.
 
 1. **Prove your algorithm correct.** This means for all inputs, your algorithm's output matches the desired output. If you have unbounded loops, also justify why your algorithm terminates, and if any operations can raise errors (like popping an empty array, or generally considering something that might not exist), also justify why those errors do not occur. 
 
