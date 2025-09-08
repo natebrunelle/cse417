@@ -16,18 +16,10 @@ title: Tasks
 In the homework you will be asked to:
 
 1. Reason with the definition of a stable matching.
+1. Reflect on the use of LLMs for reasoning.
 1. Prove a simple algorithm to be correct.
 
-Please remember that you will need to make a separate submission for each problem on Canvas. 
-
-For most problems, you have 4 options for submission:
-
-- **Film a video of at most 5 minutes in which you explain your solution.** We do not expect any video editing&ndash;this is just an option if you want a format closer to a technical interview. Feel free to have some pictures, pseudocode, etc. pre-written on a whiteboard or similar device before filming to help you.
-- **Use the LaTeX template to type your solutions.** Note that if uploading to Overleaf, you may need to change the compiler to XeLaTeX within the menu (the button in the top-left corner of the page with the Overleaf logo).
-- **Use Google Docs or Microsoft Word to type your solutions.** If doing so, please use the Equation Editor to ensure that any equations are legible and easy to read.
-- **Handwrite your solutions on paper or digitally.** Please write neatly and if on paper, scan in black/white mode, not grayscale.
-
-We prefer either video or LaTeX, but accept any of the 4 options. Happy problem solving!
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 
 # Assessments

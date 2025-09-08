@@ -98,26 +98,24 @@ Grades                       GPA
 ------------------------     --------------
 35 E, 3 more S+, 2 more N+   4.0
 28 E, 7 more S+, 3 more N+   3.5
-20 E, 12 more S+, 5 more N+  3.0
-10 E, 18 more S+, 8 more N+  2.5
-24 S+, 10 more N+            2.0
+20 E, 12 more S+, 4 more N+  3.0
+10 E, 18 more S+, 6 more N+  2.5
+24 S+, 8 more N+             2.0
 18 S+, 10 more N+            0.7
 
 ## Resubmissions
 
-Each standard homework comes with a due date approximately 1 week after release, and a last resubmission date approximately 3 weeks after release (subject to modifications due to quiz/exam/end-of-course timing). This policy is designed to encourage you to correct your mistakes and learn more, and at the same time prevent procrastination and allow us to release official solutions for some homework problems before quizzes and exams. 
+All standard homework and most homework extensions come with a due date approximately 1 week after release, and a last resubmission date a little under 3 weeks after release (subject to modifications). This policy is designed to encourage you to correct your mistakes and learn more, and at the same time prevent procrastination and allow us to release official solutions for some homework problems before quizzes and exams. 
 
-When resubmitting work, **you must include a changelog that explains what was wrong before and an overview of how you fixed it**. Resubmitted work completely replaces the old grade (meaning it is unlikely but possible that your grade will go down).
+When resubmitting work, **you must include a changelog that explains what was wrong before and an overview of how you fixed it**. Please write the changelog as a comment directly in Canvas. Resubmitted work completely replaces the old grade (meaning it is possible that your grade will go down).
 
-Resubmission policies for homework extensions vary, see individual assignments for details. Concept checks are autograded and can be immediately resubmitted as many times as you like.
-
-There are no resubmissions for quizzes and exams.
+Concept checks are autograded and can be immediately resubmitted as many times as you like. There are no resubmissions for discussion posts. There are no resubmissions for quizzes and exams.
 
 ## Late Policy 
 
-On standard homework, late submissions will be accepted without penalty until the last resubmission date. However, grading of late submissions may be delayed. Since there is no penalty for resubmission either, we encourage you to submit partial work by the standard due date even if you are not done, so that you can recieve feedback on your partial work before submitting your final version.
+All late submissions will be accepted without penalty until the last resubmission date. However, grading of late submissions may be delayed. Since there is no penalty for resubmission either, we encourage you to submit partial work by the standard due date even if you are not done, so that you can recieve feedback on your partial work before submitting your final version.
 
-Late policies for homework extensions vary, see individual assignments for details. Concept checks will not be accepted late (but remember that you can miss 4 concept checks without penalty).
+Discussion posts will not be accepted late. Concept checks will not be accepted late (but remember that you can miss 4 concept checks without penalty).
 
 ## Regrades
 
