@@ -10,10 +10,10 @@ target="$(realpath_py "$here/demo_site")/"
 
 cd "$here"
 
-remote=brunelle@attu.cs.washington.edu:/cse/web/courses/cse421/25wi/temp_417
+remote=brunelle@attu.cs.washington.edu:/cse/web/courses/cse417/25au/temp
 if [ "$#" -gt 0 ] && [ "$1" != 'test' ]
 then
-	remote="$1"@attu.cs.washington.edu:/cse/web/courses/cse421/25wi/temp_417
+	remote="$1"@attu.cs.washington.edu:/cse/web/courses/cse417/25au/temp
 fi
 mkdir -p "${target}files"
 
