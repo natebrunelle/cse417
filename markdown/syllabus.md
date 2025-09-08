@@ -119,7 +119,9 @@ Discussion posts will not be accepted late. Concept checks will not be accepted 
 
 ## Regrades
 
-You can request a regrade for any homework, quiz, or exam within 48 hours of the grade being returned. Please only submit a regrade request if the grader misunderstood your work, leading to letter-grade change in your score. When doing so, please explain **how you believe the grader misunderstood your work and how your work should be understood**. Note that if the resubmission period for homework is still open, we recommend editing your submission to make your intent clearer, instead of submitting a regrade request.
+You can request a regrade for any quiz or exam through Gradescope within 48 hours of the grade being returned. Please only submit a regrade request if the grader made a mistake, leading to letter-grade change in your score, and not for disagreements about harshness. When doing so, please explain **how you believe the grader misunderstood your work and how your work should be understood**. 
+
+For homework, if the resubmission period for homework is still open, we recommend editing your submission to make your intent clearer and resubmitting, instead of submitting a regrade request (since resubmissions are free). If the resubmission period has lapsed, since Canvas does not have a built-in regrade request function, please email us the request following the same policy as quizzes/exams.
 
 # Academic Integrity Policy
 
