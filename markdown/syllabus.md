@@ -67,8 +67,8 @@ This course uses ESNU qualitative grading. Instead of numerical scores, most ass
 
 - **Excellent (E):** Demonstrates near-mastery of skills
 - **Satisfactory (S):** Got the main idea, but some details wrong/missing or other notable room for improvement
-- **Not Yet (N):** Missed a key idea, but making substantial progress towards to a solution
-- **Unassessable (U):** Wrong direction, minimal progress, or failed to follow instructions
+- **Nearly Satisfactory (N):** Missed a key idea, but making substantial progress towards to a solution
+- **Unsatisfactory (U):** Wrong direction, minimal progress, or failed to follow instructions
 
 ## Evaluation Components
 
