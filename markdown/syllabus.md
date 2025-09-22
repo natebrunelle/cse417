@@ -8,7 +8,7 @@ title: Syllabus
 
 In person lectures will be held in [CSE2 (Gates Hall)](https://www.washington.edu/maps/#!/CSE2) room G10 at 10:30am&ndash;11:20pm. 
 
-Attending lecture is strongly encouraged. However, there are no in-class assignments or other penalties for missing lecture. Recordings of lectures are automatically posted to Canvas under the Panopto tool (though delays and technical mishaps may occur). 
+Attending lecture is strongly encouraged. However, apart from the in-class quizzes which are clearly marked in our course calendar, there are no in-class assignments or other penalties for missing lecture. Recordings of lectures are automatically posted to Canvas under the Panopto tool (though delays and technical mishaps may occur). 
 
 Both Nathan and Glenn will lecture on different days. See the [Calendar](./calendar.html) for details.
 
@@ -33,7 +33,7 @@ Optional readings from other texts may be suggested as well, and we will provide
 
 ## Homework
 
-Homework will be posted simultaneously on the [Tasks](./tasks.html) page and Canvas, and should typically be submitted on Canvas. A small number of programming assignments should be submitted on Gradescope.
+Homework will be posted simultaneously on the [Tasks](./tasks.html) page and Canvas, and should typically be submitted on Canvas. Programming assignments (of which we will only have a small number) should be submitted on Gradescope. We will make every attempt to deliver assignment instructions in stuch a way that it is obvious how they should be submitted.
 
 Limited collaboration and external resources will be allowed. See the [Academic Integrity Policy](#academic-integrity-policy) for details.
 
@@ -45,7 +45,7 @@ Homework problems will involve the following types:
     - **Discussion posts:** You may be asked to write a short discussion post on certain topics throughout the quarter. To be typed directly into Canvas.
     - **Theoretical extension:** An additional proof or other theoretical work, to be typed/written up or explained in a 5-minute video. Upload to Canvas.
 - **Pre-lecture reading:** Some lectures may ask you to do some background reading before coming to class. Find these readings in the [Calendar](./calendar.html) page. Required but ungraded.
-- **Multiple-choice concept checks:** Typically due right before lecture, just a few easier questions to make sure that you are following (and have read the pre-lecture reading, if there is any). Autograded on Canvas.
+- **Multiple-choice concept checks:** Typically due right before lecture, just a few easier questions to make sure that you are following (and have read the pre-lecture reading, if there is any). Autograded on Canvas. Unlimited attempts permitted.
 
 ## Assessments
 
@@ -67,7 +67,7 @@ This course uses ESNU qualitative grading. Instead of numerical scores, most ass
 
 - **Excellent (E):** Demonstrates near-mastery of skills
 - **Satisfactory (S):** Got the main idea, but some details wrong/missing or other notable room for improvement
-- **Nearly Satisfactory (N):** Missed a key idea, but making substantial progress towards to a solution
+- **Nearing Satisfactory (N):** Missed a key idea, but making substantial progress towards to a solution
 - **Unsatisfactory (U):** Wrong direction, minimal progress, or failed to follow instructions
 
 ## Evaluation Components
