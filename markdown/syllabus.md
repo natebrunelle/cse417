@@ -83,7 +83,7 @@ Final exam            4       8          20%
 Total                         40         100%
 
 
-Task                  Raw #   ESNU #     % of available Note
+Task                  #       ESNUs      % of available Note
 --------------------- ------- ---------- -------------- ------
 Standard homework     16      14         35%            2 Dropped
 Homework extensions   8       6          15%            2 Dropped
