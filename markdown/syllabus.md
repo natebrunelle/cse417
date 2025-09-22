@@ -82,6 +82,16 @@ Quiz 2                2       4          10%
 Final exam            4       8          20%
 Total                         40         100%
 
+
+Task                  Raw #   ESNU #     %
+--------------------- ------- ---------- -------
+Standard homework     16      14         35%
+Homework extensions   8       6          15%
+Concept checks        28      4          10%
+Quizzes               2       8          20%
+Final exam            1       8          20%
+Total                         40         100% 
+
 Your two worst standard homework grades and two worst homework extension grades will be dropped from the final score calculation.
 
 Concept checks have unlimited retries and are graded for completion. A concept check is considered complete if all questions are correct. Every 6 complete concept checks convert to 1 E grade, after which 4 convert to 1 S grade and 2 convert to 1 N grade, up to a maximum of 4 ESN grades total. Thus, you can miss 4 concept checks without penalty.
