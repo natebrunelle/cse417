@@ -72,16 +72,6 @@ This course uses ESNU qualitative grading. Instead of numerical scores, most ass
 
 ## Evaluation Components
 
-Task                  Raw #   Scaled #   %
---------------------- ------- ---------- -------
-Standard homework     16      14         35%
-Homework extensions   8       6          15%
-Concept checks        28      4          10%
-Quiz 1                2       4          10%
-Quiz 2                2       4          10%
-Final exam            4       8          20%
-Total                         40         100%
-
 
 Task                  #       ESNUs      % of available Note
 --------------------- ------- ---------- -------------- ------
