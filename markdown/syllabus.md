@@ -83,13 +83,13 @@ Final exam            4       8          20%
 Total                         40         100%
 
 
-Task                  Raw #   ESNU #     % of ESNU Note
---------------------- ------- ---------- --------- ------
-Standard homework     16      14         35%       2 Dropped
-Homework extensions   8       6          15%       2 Dropped
-Concept checks        28      4          10%       4 Dropped, every 6 become one E 
-Quizzes               2       8          20%       4 ESNU per quiz, None dropped
-Final exam            1       8          20%       None dropped
+Task                  Raw #   ESNU #     % of available Note
+--------------------- ------- ---------- -------------- ------
+Standard homework     16      14         35%            2 Dropped
+Homework extensions   8       6          15%            2 Dropped
+Concept checks        28      4          10%            4 Dropped, every 6 become one E 
+Quizzes               2       8          20%            4 ESNU per quiz, None dropped
+Final exam            1       8          20%            None dropped
 Total                         40         100% 
 
 Your two worst standard homework grades and two worst homework extension grades will be dropped from the final score calculation.
