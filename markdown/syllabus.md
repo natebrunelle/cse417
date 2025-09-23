@@ -18,7 +18,7 @@ For questions about personal circumstances, please **email both Nathan and Glenn
 
 
 * **Nathan Brunelle:** Allen Center (CSE) 434, <a href="mailto:brunelle@cs.washington.edu?subject=CSE417">brunelle@cs.washington.edu</a>
-* **Glenn Sun:** Gates Center (CSE2) 281 (shared office), <a href="mailto:glennsun@cs.washington.edu?subject=CSE417">glennsun@cs.washington.edu</a>
+* **Glenn Sun:** Allen Center (CSE) 208 (primary), Gates Center (CSE2) 281 (secondary), <a href="mailto:glennsun@cs.washington.edu?subject=CSE417">glennsun@cs.washington.edu</a>
 * **TAs:** Your primary contact with TAs should be through the Ed Discussion Board and office hours. TAs are very busy students too, so please do not ask them to perform TA duties outside of these places. 
 
 For introductions and more information, see [Staff](./staff.html).
@@ -53,7 +53,7 @@ This course contains **two non-cumulative quizzes** and **one cumulative final e
 
 Assessments will feature problems similar to standard homework, but are intended to be slightly easier given the limited time. 
 
-You will be provided a standard reference sheet for each assessment, which will be made accessible to you beforehand, and you may bring one additional sheet of notes **in your own handwriting** (8.5 x 11 in, double sided, to be collected). No collaboration or other assistance is permitted on the exam.
+You will be provided a standard reference sheet for each assessment, which will be made accessible to you beforehand, and you may bring one additional sheet of notes (8.5 x 11 in, double sided, to be collected). **Please do not copy someone else's notes sheet**, since the act of planning and writing a notes sheet is often more impactful than using it during the assessment, especially if you handwrite it. No collaboration or other assistance is permitted on the exam.
 
 ## Anonymous Feedback
 
@@ -73,20 +73,20 @@ This course uses ESNU qualitative grading. Instead of numerical scores, most ass
 ## Evaluation Components
 
 
-Task                  #       ESNUs      % of available Note
---------------------- ------- ---------- -------------- ------
-Standard homework     16      14         35%            2 Dropped
-Homework extensions   8       6          15%            2 Dropped
-Concept checks        28      4          10%            4 Dropped, ESNU conversion below 
-Quizzes               2       8          20%            4 ESNU per quiz, None dropped
-Final exam            1       8          20%            None dropped
+Task                  #       ESNUs      % of available  Note
+--------------------- ------- ---------- --------------- ------
+Standard homework     16      14         35%             2 dropped
+Homework extensions   8       6          15%             2 dropped
+Concept checks        28      4          10%             4 dropped, ESNU conversion below 
+Quizzes               2       8          20%             4 ESNU per quiz, none dropped
+Final exam            1       8          20%             None dropped
 Total                         40         100% 
 
 Your two worst standard homework grades and two worst homework extension grades will be dropped from the final score calculation.
 
 Concept checks have unlimited retries and are graded for completion. A concept check is considered complete if all questions are correct. Every 6 complete concept checks convert to 1 E grade, after which 4 convert to 1 S grade and 2 convert to 1 N grade, up to a maximum of 4 ESN grades total. Thus, you can miss 4 concept checks without penalty.
 
-Each quiz/exam will be divided into sections that will be individually be scored by ESNU. There are 2 sections on a quiz and 4 sections on the final exam. Each section score will be counted twice for final grade calculation.
+Each quiz/exam will be divided into sections that will be individually be scored by ESNU. Each quiz will have 4 sections and the final exam will have 8 sections.
 
 ## Gradepoint Guarantee
 
