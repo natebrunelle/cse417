@@ -36,7 +36,7 @@ labs:
 
 
 lectures:
-    - 1.1. Introduction and stable matching (Nathan/Glenn)
+    - 1.1. Introduction and stable matching (Nathan/Glenn) 
     - 1.2. Algorithm correctness (Glenn)
     - 1.3. Proof techniques (Nathan)
     - 1.4. Gale-Shapley analysis (Glenn)

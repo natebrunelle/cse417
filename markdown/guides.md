@@ -72,4 +72,4 @@ The video should include yourself talking and drawing/writing key points, and no
 
 You **should not** prepare slides, write a script, or edit/clip/cut the video, but feel free to have some things (such as the problem statement, your pseudocode for a solution, etc.) already written down and annotate on top of them during your video. Feel free to also have some small amount of notes that you reference (like talking points), but again, do not read off a script. We will provide an example of what a video should look like.
 
-You *may* ask someone to hold the camera. (You can also use a tripod, use a stand, macgyver a stand, etc.) We prefer that you find someone not enrolled in this class to hold the camera. Contact us if you want to request an exception. 
+You *may* ask someone to hold the camera. (You can also use a tripod, use a stand, macgyver a stand, etc.) We prefer that you find someone not enrolled in this class to hold the camera. Contact us if you need to request an exception. 
