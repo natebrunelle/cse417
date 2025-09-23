@@ -14,11 +14,11 @@ Both Nathan and Glenn will lecture on different days. See the [Calendar](./calen
 
 ## Contact
 
-For questions about personal circumstances, please **email both Nathan and Glenn at the same time, and include "CSE421" in the subject line**. For questions about course content and homework, please use the [Ed Discussion Board (TODO)]() and [office hours](./oh.html).
+For questions about personal circumstances, please **email both Nathan and Glenn at the same time, and include "CSE421" in the subject line**. For questions about course content and homework, please use the [Ed Discussion Board](https://edstem.org/us/courses/86753/) and [office hours](./oh.html).
 
 
 * **Nathan Brunelle:** Allen Center (CSE) 434, <a href="mailto:brunelle@cs.washington.edu?subject=CSE417">brunelle@cs.washington.edu</a>
-* **Glenn Sun:** Allen Center (CSE) 208 (primary), Gates Center (CSE2) 281 (secondary), <a href="mailto:glennsun@cs.washington.edu?subject=CSE417">glennsun@cs.washington.edu</a>
+* **Glenn Sun:** Allen Center (CSE) 214 (primary), Gates Center (CSE2) 281 (secondary), <a href="mailto:glennsun@cs.washington.edu?subject=CSE417">glennsun@cs.washington.edu</a>
 * **TAs:** Your primary contact with TAs should be through the Ed Discussion Board and office hours. TAs are very busy students too, so please do not ask them to perform TA duties outside of these places. 
 
 For introductions and more information, see [Staff](./staff.html).
@@ -39,11 +39,11 @@ Limited collaboration and external resources will be allowed. See the [Academic 
 
 Homework problems will involve the following types:
 
-- **Standard homework:** Problems involving designing an algorithm and/or writing a mathematical proof. You can choose to type/write up your solution or explain it in a video in under 5 minutes. Upload to Canvas.
+- **Standard homework:** Problems involving designing an algorithm and/or writing a mathematical proof. You can choose to type/write up your solution or explain it in a short video. Upload to Canvas.
 - **Homework extensions:** Additional interesting things to try after completing standard homework. Comes in a few different types. Sometimes (not always), you will be given a choice between a few options.
     - **Programming assignments:** You may be asked to code up an algorithm or perform a programming experiment in Java. Different programming assignments may be submitted in different places (Canvas or Gradescope).
     - **Discussion posts:** You may be asked to write a short discussion post on certain topics throughout the quarter. To be typed directly into Canvas.
-    - **Theoretical extension:** An additional proof or other theoretical work, to be typed/written up or explained in a 5-minute video. Upload to Canvas.
+    - **Theoretical extension:** An additional proof or other theoretical work, to be typed/written up or explained in a short video. Upload to Canvas.
 - **Pre-lecture reading:** Some lectures may ask you to do some background reading before coming to class. Find these readings in the [Calendar](./calendar.html) page. Required but ungraded.
 - **Multiple-choice concept checks:** Typically due right before lecture, just a few easier questions to make sure that you are following (and have read the pre-lecture reading, if there is any). Autograded on Canvas. Unlimited attempts permitted.
 
@@ -135,7 +135,7 @@ No homework question will require the use of external materials. You can answer 
 1. **Do not ask homework questions to LLMs or other human sources** (excluding course staff and students currently enrolled in CSE 417, which are allowed). This includes former CSE 417 students, CSE 421 students, forums like Chegg or StackOverflow, and ChatGPT. Broad conceptual questions, like a different explanation of something covered in lecture that confused you, are allowed, but be aware that LLMs and other online sources often make errors.
 1. **Do not seek entire solutions to problems.** Limit your searching to background information only. For example, do not search for GitHub repositories of solutions posted by former students of this course.
 1. **Understand everything you submit.** Do not submit anything you could not explain to a member of the course staff.
-1. **Cite all external sources used, including collaborators.** Moreover, you must identify exactly which components of your submission came from each source. Example: "I collaborated with Brett Wortzman on solving the recurrence relation and I consulted \url{https://www.geeksforgeeks.org/binary-heap/} for the running times of Binary Heap operations."
+1. **Cite all external sources used, including collaborators.** Moreover, you must identify exactly which components of your submission came from each source. Example: "I collaborated with Brett Wortzman on solving the recurrence relation and I consulted www.geeksforgeeks.org/binary-heap for the running times of Binary Heap operations."
 
 ## Collaboration with Other Students
 

@@ -37,9 +37,7 @@ We will typically give a range of expected word count for each problem to help y
 
 Pseudocode is a way to communicate code to humans. It uses programming blocks like `while` and `if`, but is meant to communicate ideas to another human, not a machine. 
 
-Just like mathematical writing, good pseudocode depends on your audience. Again, imagine your audience as a student at a similar level in another university, unless otherwise stated. Thus, avoid Java-specific syntax, but feel free to generally assume that the reader can expand 12X-level subroutines without explicitly writing them in detail, focusing on big-picture clarity. 
-
-Since this is likely your first time writing pseudocode, we have some detailed advice and examples in [this pdf (TODO)](/files/pseudocode.pdf). See also [the LaTeX (TODO)](/files/pseudocode.tex) file that generated the pdf.
+Just like mathematical writing, good pseudocode depends on your audience. Again, imagine your audience as a student at a similar level in another university, unless otherwise stated. Thus, avoid Java-specific syntax, and use context to determine the appropriate level of detail. For most algorithm design problems, except the at the beginning of the course when we are training you on the basics, you should feel free to use phrases like "swap the two array entries," "let `i` be the first index in array `arr` such that __," etc. to shorten your pseudocode, since these are easy things that we will assume you know how to implement correctly. 
 
 ## Five Steps of an Algorithmic Solution
 
@@ -61,3 +59,17 @@ In general, if we ask you to "describe" or "design" an algorithm (or use any sim
 LaTeX is like a programming language for writing mathematics. It produces pretty documents and makes writing complicated symbols, fractions, equations, etc. much easier compared to Word or Google Docs.
 
 You are *not* required to use LaTeX, but we recommend it! Each standard homework will come with a LaTeX template. The easiest way to get started is to upload the template to [Overleaf](https://www.overleaf.com/). We'd be happy to help you with syntax and formatting at office hours, too. (Or, we hate to admit it, but LaTeX formatting is not a bad use of ChatGPT...)
+
+## Filming
+
+In this class, for all standard homework assignments and theoretical extensions, you have the option of recording a short video to explain your solution, instead of writing the solution on paper. The intention is that if you are taking this course to prepare for technical interviews, you may find that speaking your solution is more what you want to practice over writing solutions. It is optional and will be scored the same as if you wrote down the content of the video.
+
+The video should include yourself talking and drawing/writing key points, and no one else. You may choose any of the following formats to film:
+* Film a video of yourself drawing at a physical whiteboard.
+* Film a video of your hand writing on paper. 
+* Screen record on an iPad with an Apple Pencil, or Android/Windows equivalents.
+* Other ideas that acheive the same intent.
+
+You **should not** prepare slides, write a script, or edit/clip/cut the video, but feel free to have some things (such as the problem statement, your pseudocode for a solution, etc.) already written down and annotate on top of them during your video. Feel free to also have some small amount of notes that you reference (like talking points), but again, do not read off a script. We will provide an example of what a video should look like.
+
+You *may* ask someone to hold the camera. (You can also use a tripod, use a stand, macgyver a stand, etc.) We prefer that you find someone not enrolled in this class to hold the camera. Contact us if you want to request an exception. 
