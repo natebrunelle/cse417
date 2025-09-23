@@ -28,4 +28,4 @@ title: Staff
 
 ## Yuchen Xin
 
-<img src="files/photos/yuchen.jpg" alt="Yuchen Xin" height="200"/>
+<img src="files/photos/staff/yuchen.jpg" alt="Yuchen Xin" height="200"/>
