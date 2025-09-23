@@ -12,6 +12,10 @@ Hi, I’m Nathan! I grew up in Virginia Beach, VA, then moved to Charlottesville
 
 ## Glenn Sun
 
+<img src="files/photos/staff/glenn.jpg" alt="Glenn Sun" height="200"/>
+
+Hello everyone! I'm Glenn, a 3rd year Ph.D. student here at UW CSE, and I'm super excited to co-teach a university class for the first time! I've taught math classes at advanced high school math circles and summer camps for 6 years, in addition to TA'ing CSE 421 (the version of this class for CSE majors) 3 times. Ask me about cooking, K-dramas, Jet Lag: The Game, Mahjong with Words, or (of course) algorithms and math. Excited to get to know you and I hope you have a great time in this course!
+
 # TAs
 
 ## Zachary Bi
