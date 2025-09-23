@@ -30,6 +30,6 @@ title: Office Hours
     }
 </style>
 
-Course staff will be available to help you at the following times. (On small screens, change the view from "Month" to "Schedule" in the upper-right corner.)
+Course staff will be available to help you at the following times. (You can change the view from "Schedule" to "Week" in the upper-right corner, if you prefer.)
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=Y181ZDI2ZDUxM2I4NWFjZjA4YjQzNWZmMTAzMjgzNjJlM2YxYzA3MTc3NDEyOWQxZGI0MTZmZDlhZTBkMDFhNWI3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043" style="border:solid 1px #777" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&mode=AGENDA&src=Y19lNzFhODA4N2ExMzBjOGE3MzNiYjI5ZGY2MGIzNGY3YzYwOTc2NzM3OGQ2YzcyOWFmZDcwNGQxYTIzYzlhMWMyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%239e69af" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

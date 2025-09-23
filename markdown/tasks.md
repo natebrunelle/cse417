@@ -6,7 +6,10 @@ title: Tasks
 
 **Important:** Before starting your homework, please review our [homework guide](./guides.html#guide-to-homework) for requirements and suggestions!
 
-## HW 1: Intro/<wbr>Correctness
+Information will be posted here when Homework 1 is released.
+
+
+<!-- ## HW 1: Intro/<wbr>Correctness
 
 **Quick links:**
 
@@ -19,7 +22,7 @@ In the homework you will be asked to:
 1. Reflect on the use of LLMs for reasoning.
 1. Prove a simple algorithm to be correct.
 
-**Please read the instructions in the problem statements PDF.** Happy problem solving!
+**Please read the instructions in the problem statements PDF.** Happy problem solving! -->
 
 
 # Assessments
