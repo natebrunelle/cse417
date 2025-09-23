@@ -65,6 +65,7 @@ You are *not* required to use LaTeX, but we recommend it! Each standard homework
 In this class, for all standard homework assignments and theoretical extensions, you have the option of recording a short video to explain your solution, instead of writing the solution on paper. The intention is that if you are taking this course to prepare for technical interviews, you may find that speaking your solution is more what you want to practice over writing solutions. It is optional and will be scored the same as if you wrote down the content of the video.
 
 The video should include yourself talking and drawing/writing key points, and no one else. You may choose any of the following formats to film:
+
 * Film a video of yourself drawing at a physical whiteboard.
 * Film a video of your hand writing on paper. 
 * Screen record on an iPad with an Apple Pencil, or Android/Windows equivalents.
