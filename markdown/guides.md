@@ -23,7 +23,7 @@ A typical week's homework will include:
 - 2 standard homework problems
 - 1 homework extension
 
-We hope that the concept checks take you no more than 10 minutes each (provided that you paid attention in lecture), and that each reading (when required) takes no more than 15 minutes. If you find yourself taking more than this amount of time, tell us using the [Anonymous Feedback Tool](feedback.cs.washington.edu) and we'll start making them shorter.
+We hope that the concept checks take you no more than 10 minutes each (provided that you paid attention in lecture), and that each reading (when required) takes no more than 15 minutes. If you find yourself taking more than this amount of time, tell us using the [Anonymous Feedback Tool](https://feedback.cs.washington.edu) and we'll start making them shorter.
 
 Do not wait until the due date (or even worse, the resubmission deadline) to start the homework problems! They are meant to be difficult, even if you really understand the course material, because they require creativity to solve. Be sure to start them early enough so that if you find yourself stuck for a while, you still have time to come to office hours and get help.
 
