@@ -30,9 +30,9 @@ Hello y’all, my name is Zachary and I am a current junior. I am a big advocate
 
 Hi! I'm Shayla, and I'm a senior in computer science and math. Looking forward to meeting you all and hope you enjoy this course : D
 
-## Katherine Elena Leavitt
+## Katherine Leavitt
 
-<img src="files/photos/staff/katherine.jpg" alt="Katherine Elena Leavitt" height="200"/>
+<img src="files/photos/staff/katherine.jpg" alt="Katherine Leavitt" height="200"/>
 
 Hi, I'm Katherine! I am a fourth year computer science student. This is my sixth time TA-ing, and my first time TA-ing an algorithms course. Outside of school you can find me rock climbing, swing dancing, and hitting the slopes⛷️. I am super excited to meet you all!
 

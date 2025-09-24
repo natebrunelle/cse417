@@ -69,7 +69,7 @@ The video should include yourself talking and drawing/writing key points, and no
 * Film a video of yourself drawing at a physical whiteboard.
 * Film a video of your hand writing on paper. 
 * Screen record on an iPad with an Apple Pencil, or Android/Windows equivalents.
-* Other ideas that acheive the same intent.
+* Other ideas that achieve the same intent.
 
 You **should not** prepare slides, write a script, or edit/clip/cut the video, but feel free to have some things (such as the problem statement, your pseudocode for a solution, etc.) already written down and annotate on top of them during your video. Feel free to also have some small amount of notes that you reference (like talking points), but again, do not read off a script. We will provide an example of what a video should look like.
 
