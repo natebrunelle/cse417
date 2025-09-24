@@ -173,5 +173,5 @@ done
 
 
 
-rsync --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
+rsync -v --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
 
