@@ -26,8 +26,9 @@ which python3 || module load python3
 
 if [ "$#" -lt 1 ] || [ "$1" != 'test' ]
 then
-    git commit -a -m 'autocommit caused by update'
     git pull
+    git add -A
+    git commit -m 'autocommit caused by update'
     git push
 elif [ "$1" = 'test' ]
 then
