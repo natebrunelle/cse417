@@ -111,4 +111,3 @@ Here are some tips for writing proofs by contradiction:
 - Start by writing out the opposite of the conclusion, then write out all things that you know to to be true from the combination of the assumption and the opposite of the conclusion.
 - When written, a proof by contradiction will appear as if the author knew exactly what the contradiction was going to be all along, but that was almost certainly not the case!
 
-## Proof by Induction
