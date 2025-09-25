@@ -83,6 +83,32 @@ Let's see that in action in this example below (which is not quite the same as t
 > 
 > We begin by assuming $n$ is not even, which means that $n$ is odd. Applying the definition of odd, we can write $n=2k+1$ for some integer $k$. By squaring both sides, we can conclude $n^2 = (2k+1)^2$. Applying algebra allows us to arrive at $n^2 = 4k^2+4k+1$. And so $n^2 = 2(2k^2+2k)+1$. Applying the definition of odd, we can conclude $n^2$ is odd. 
 
+Because an indirect proof is just a direct proof applied to the contrapositive, all of the tips given for direct proofs apply here as well. There are some additional tips I can offer, though:
+
+- If you feel like you're stuck on a direct proof, try attempting an indirect proof. Often times one or the other will be easier (to see an example you could attempt to do a direct proof of the claim in the preceding example)
+- Make sure to explicitly write down your contrapositive, and make sure you got that correct before doing anything else!
+
 ## Proof by Contradiction
+
+Proof by contradiction is perhaps the most powerful proof tool we have, but it is also perhaps the most difficult to follow. Intuitively, a proof by contradiction works by essentially stating "the claim must be true because it doesn't make sense for it to be false". To arrive at this conclusion, we begin by saying "let's suppose that the assumptions are true but the conclusion is wrong", then we provide a sequence of steps which result in a statement that is very obviously incorrect. Another way to think of this is by saying "if the claim is not correct, then here are a bunch of other things that must be correct, one of which is obviously nonsense". The name "proof by contradiction" comes from the mathematical definition of "contradiction" as a statement that cannot be true. The obviously incorrect statement plays the role of the contradiction. 
+
+
+For this strategy, let's start with an example, and then dissect it from there.
+
+> **Claim**: If $n^2$ is even then $n$ is even
+>
+> **Strategy**: Contradiction
+>
+> **Proof**:
+> We procede by contradiction. Assume that $n^2$ is even but $n$ is odd. Because $n^2$ is even we can express it as $n^2=2x$ for some integer $x$. Because $n$ is odd we can express it as $n=2y+1$ for some integer $y$. Since $n=2y+1$, we also have $n^2=(2y+1)^2. This means we should have $2x=(2y+1)^2$. Applying algebra, we then have $2x=4y^2+4y+1$, thus $2x-4y^2-4y=1$, and finally $2(x-2y^2-4y)=1$. This last statement is clearly flase because for any integers $x$ and $y$ the left-hand-side of the equation is an even integer whereas $1$ is odd. This is a contradiction, and so our original claim must be true.  
+
+In my opinion, the primary difficulty of a proof by contradiction comes from the fact that, thoughout, you're working with statements that you believe to be false. The objective here is to start with the statement that is not obviously false (the combination of the assumption and the opposite of the conclusion) and then apply transformations until you arrive at a statement that is obviously false to your target audience. 
+
+Here are some tips for writing proofs by contradiction:
+
+- Due to the greater challenge in following this technique over the previous two, try this one only if neither direct no indirect proof are panning out for you
+- Typically you won't know in advance what the contradiction (obviously false statement) will be, instead I recommend you just keep following various chains of reasoning until you see a statement that you recognize to be false.
+- Start by writing out the opposite of the conclusion, then write out all things that you know to to be true from the combination of the assumption and the opposite of the conclusion.
+- When written, a proof by contradiction will appear as if the author knew exactly what the contradiction was going to be all along, but that was almost certainly not the case!
 
 ## Proof by Induction
