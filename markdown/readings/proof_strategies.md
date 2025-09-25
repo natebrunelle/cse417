@@ -34,15 +34,15 @@ With any proof, you generally start with some things that you assume to be true 
 
 Let's look at an example of a prose proof for the claim "if $n$ is even then $n^2$ is also even".
 
-> Claim: if $n$ is even then $n^2$ is also even
+> **Claim**: if $n$ is even then $n^2$ is also even
 >
-> Strategy: Direct Proof
+> **Strategy**: Direct Proof
 >
-> Assumptions: $n$ is even
+> **Assumptions**: $n$ is even
 >
-> Conclusion: $n^2$ is even
+> **Conclusion**: $n^2$ is even
 > 
-> Proof:
+> **Proof**:
 >
 > We begin by applying the definition of even, which means $n$ can be expressed as $2k$ for some integer $k$. Since $n=2k$ this means that $n^2 = (2k)^2$. Rewriting the right-hand-side of the equation, we have $n^2 = 4k^2$. Which is equivalent to $n^2 = 2(2k^2)$. We can then apply the definition of even to conclude that $n^2$ is even, since it is twice the integer $2k^2$.
 
