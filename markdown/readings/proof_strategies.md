@@ -67,17 +67,21 @@ The idea here is if the conclusion is guaranteed to be true whenever the assumpt
 
 For each of the examples above, we call the second statement the *contrapositive* of the first. We can find the contrapositive of a conditional statement (e.g. "if P is true then Q is true") by performing a logical negation of both the assumption ("P is true" becomes "P is false") and the conclusion ("Q is true becomes Q is false"), then reversing which is which (so the new conclusion is "P is false" and the new assumption is "Q is false"). From there, we just do a direct proof of that contrapositive ("If Q is false then P is false").
 
-Let's see that in action for the same claim as above!
+Let's see that in action in this example below (which is not quite the same as the example above)!
 
-> **Claim**: if $n$ is even then $n^2$ is also even
+> **Claim**: if $n^2$ is even then $n$ is even
 >
 > **Strategy**: Indirect Proof
 >
-> **Contrapositive Claim**: If $n^2$ is not even, then $n$ isn't even either.
+> **Contrapositive Claim**: If $n$ is not even, then $n^2$ isn't even either.
 >
-> **Assumptions**: $n^2$ is not even
+> **Assumptions**: $n$ is not even
 >
-> **Conclusion**: $n$ is not even
+> **Conclusion**: $n^2$ is not even
+>
+> **Proof**:
+> 
+> We begin by assuming $n$ is not even, which means that $n$ is odd. Applying the definition of odd, we can write $n=2k+1$ for some integer $k$. By squaring both sides, we can conclude $n^2 = (2k+1)^2$. Applying algebra allows us to arrive at $n^2 = 4k^2+4k+1$. And so $n^2 = 2(2k^2+2k)+1$. Applying the definition of odd, we can conclude $n^2$ is odd. 
 
 ## Proof by Contradiction
 
