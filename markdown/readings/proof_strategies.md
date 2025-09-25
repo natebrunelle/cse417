@@ -34,6 +34,11 @@ With any proof, you generally start with some things that you assume to be true 
 
 Let's look at an example of a prose proof for the claim "if $n$ is even then $n^2$ is also even".
 
+> Claim: if $n$ is even then $n^2$ is also even
+> Strategy: Direct Proof
+> Assumptions: $n$ is even
+> Conclusion: $n^2$ is even
+
 ## Indirect Proof (Proof by Contrapositive)
 
 ## Proof by Contradiction
