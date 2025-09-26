@@ -18,7 +18,7 @@ To help you see what we expect good solutions to look like, provided below are t
 
 To use the LaTeX source, we recommend uploading the .zip file to [Overleaf](https://www.overleaf.com), and using its online compiler to compile and edit the file `sample.tex`. 
 
-<!-- ## HW 1: Intro/<wbr>Correctness
+## HW 1: Intro/<wbr>Correctness
 
 **Quick links:**
 
@@ -33,7 +33,7 @@ In the homework you will be asked to:
 1. Reflect on the use of LLMs for reasoning.
 1. Prove a simple algorithm to be correct.
 
-**Please read the instructions in the problem statements PDF.** Happy problem solving! -->
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 
 # Assessments

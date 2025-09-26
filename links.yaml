@@ -1,12 +1,17 @@
 2025-09-24:
     slides(pptx): files/slides/01.pptx
     slides(pdf): files/slides/01.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52e722b8-1ebe-481e-942a-b3620114cf11
 
 2025-09-26:
     reading: readings/algorithm_correctness.html
     slides(pptx): files/slides/02.pptx
     slides(pdf): files/slides/02.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=37110a4e-a671-4b6b-b040-b3620114d01a
 
+2025-09-29:
+    reading: readings/proof_techniques.html
+    
 # 2025-01-09:
 #     slides(pptx): files/section/section01-slides.pptx
 #     slides(pdf): files/section/section01-slides.pdf
