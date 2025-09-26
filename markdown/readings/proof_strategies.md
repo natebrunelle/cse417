@@ -111,3 +111,18 @@ Here are some tips for writing proofs by contradiction:
 - Start by writing out the opposite of the conclusion, then write out all things that you know to to be true from the combination of the assumption and the opposite of the conclusion.
 - When written, a proof by contradiction will appear as if the author knew exactly what the contradiction was going to be all along, but that was almost certainly not the case!
 
+# When the statement is incorrect
+
+Sometimes instead of proving that something is correct, you'll want to prove that something is incorrect. We have some good news here, this is almost always going to be easier! Most of the time, the statements we'll consider are going to be of the form "whenever the assumption is true, the conclusion is guaranteed to be true". To show that such a claim is false, we need to provide just one situation where the assumption is true but the conclusion is false. We call such a situation a *counterexample*. So the easiest and most common strategy we will use to show a statement is false we'll call *disproof by counterexample*. Let's look at an example!
+
+> **Claim**: if $n$ is odd then $n^2$ is even
+>
+> **Assumption**: $n$ is odd
+>
+> **Conclusion**: $n^2$ is even
+>
+> **Strategy**: Disprove by counterexample
+>
+> **Proof**: Consider the value $1$, which is odd. Because $1^2=1$, we have an example of an odd integer whose square is also odd, showing that the claim is false.
+
+*Beware: you can disprove a claim by counterexample, but you cannot prove a claim as correct with examples alone*
