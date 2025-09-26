@@ -8,6 +8,15 @@ title: Tasks
 
 Information will be posted here when Homework 1 is released.
 
+## HW 0: Sample
+
+To help you see what we expect good solutions to look like, provided below are the sample solutions to a sample problem. In particular, you can view the LaTeX source to get started learning how to write in LaTeX, and you can watch a video option to see how you should record a video if you so choose.
+
+* [Problem statement/written solution](.files/homework/sample/sample.pdf)
+* [LaTeX source](./files/homework/sample/sample.zip)
+* [Video solution](.files/homework/sample/sample.mp4)
+
+To use the LaTeX source, we recommend uploading the .zip file to [Overleaf](https://www.overleaf.com), and using its online compiler to compile and edit the file `sample.tex`. 
 
 <!-- ## HW 1: Intro/<wbr>Correctness
 
