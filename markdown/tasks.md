@@ -24,6 +24,8 @@ To use the LaTeX source, we recommend uploading the .zip file to [Overleaf](http
 
 - [Problem statements]()
 - [LaTeX template]()
+- [Problem 1 extension 1 programming spec](https://docs.google.com/document/d/e/2PACX-1vSTTKuxOrmNvc4y8pgdwg15vP1qehJP0ykoVPUVYyFGDE-SIvcvoHfNXFa8c3n2_61EHHudH5Bs85Bq/pub)
+- [Problem 1 extension 1 starter code](https://courses.cs.washington.edu/courses/cse417/25au/files/homework/hw1/hw1_p1_x2.zip)
 
 In the homework you will be asked to:
 
