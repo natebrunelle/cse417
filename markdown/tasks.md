@@ -12,9 +12,9 @@ Information will be posted here when Homework 1 is released.
 
 To help you see what we expect good solutions to look like, provided below are the sample solutions to a sample problem. In particular, you can view the LaTeX source to get started learning how to write in LaTeX, and you can watch a video option to see how you should record a video if you so choose.
 
-* [Problem statement/written solution](.files/homework/sample/sample.pdf)
-* [LaTeX source](./files/homework/sample/sample.zip)
-* [Video solution](.files/homework/sample/sample.mp4)
+* [Problem statement/written solution](files/homework/sample/sample.pdf)
+* [LaTeX source](files/homework/sample/sample.zip)
+* [Video solution](files/homework/sample/sample.mp4)
 
 To use the LaTeX source, we recommend uploading the .zip file to [Overleaf](https://www.overleaf.com), and using its online compiler to compile and edit the file `sample.tex`. 
 
@@ -22,10 +22,10 @@ To use the LaTeX source, we recommend uploading the .zip file to [Overleaf](http
 
 **Quick links:**
 
-- [Problem statements](./files/homework/hw1/hw1.pdf)
-- [LaTeX template](./files/homework/hw1/hw1.zip)
+- [Problem statements](files/homework/hw1/hw1.pdf)
+- [LaTeX template](files/homework/hw1/hw1.zip)
 - [Problem 1 extension 1 programming spec](https://docs.google.com/document/d/e/2PACX-1vSTTKuxOrmNvc4y8pgdwg15vP1qehJP0ykoVPUVYyFGDE-SIvcvoHfNXFa8c3n2_61EHHudH5Bs85Bq/pub)
-- [Problem 1 extension 1 starter code](https://courses.cs.washington.edu/courses/cse417/25au/files/homework/hw1/hw1_p1_x2.zip)
+- [Problem 1 extension 1 starter code](files/homework/hw1/hw1_p1_x2.zip)
 
 In the homework you will be asked to:
 
