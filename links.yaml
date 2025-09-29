@@ -13,6 +13,8 @@
     reading: readings/proof_techniques.html
     slides(pptx): files/slides/03.pptx
     slides(pdf): files/slides/03.pdf
+    postlecture slides(pptx): files/slides/03_ink.pptx
+    postlecture slides(pdf): files/slides/03_ink.pdf
     
 2025-10-01:
     reading: readings/gs_proof.html
