@@ -14,6 +14,9 @@
     slides(pptx): files/slides/03.pptx
     slides(pdf): files/slides/03.pdf
     
+2025-10-01:
+    reading: readings/gs_proof.html
+
 # 2025-01-09:
 #     slides(pptx): files/section/section01-slides.pptx
 #     slides(pdf): files/section/section01-slides.pdf
