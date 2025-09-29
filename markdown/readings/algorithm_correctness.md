@@ -41,5 +41,5 @@ At the end of defending all three of these properties for our algorithm, we can 
 
 # Concept Check
 
-To help you to verify your own understanding of the concepts in this reading, we ask that you complete a concept check. Concept checks are instantly graded and so your feedback is provided immediately upon submission. There is no limit to the number of times you may submit a concept check.
+To help you to verify your own understanding of the concepts in this reading, we ask that you complete a concept check. Concept checks are instantly graded and so your feedback is provided immediately upon submission. There is no limit to the number of times you may submit a concept check!
 
