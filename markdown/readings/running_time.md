@@ -2,6 +2,10 @@
 title: Running Time
 ...
 
+We assume that you have seen running time in your prerequisite coursework (such as cse123, cse373, or equivalent). In particular, we expect that you have previously give worst case running times of programs using big-oh notation. What we will be doing this quarter is not substantially different from that. This reading is not at all intending to re-teach or modify your unstanding of this, but is mostly mean to offer a different (and more precise) perspective on what's going on with those concepts, and why computer science has adopted them.
+
+Your concept check will also primarily be a review/refresh of those concepts. This means that you may be able to do the concept check without reading this, but I think it will help you to better understand what we're doing going forward if you have.
+
 # Correctness is not everything
 
 Throughout this course our primary (but not exclusive) focus will be on developing intentional processes for designing faster algorithms. Almost always, for the problems we try to solve, it will be easy to write an algorithm if we have no consideration for the speed of the algorithm. Usually we would be able to write a naive algorithm that simply tries out every possible option and then returns the correct one. While such an algorithm would likely be correct, it likely would not be efficient. Being able to tell when an algorithm is efficient and being able to define efficient algorithms both require insights that we will develop throughout the quarter.
@@ -83,10 +87,22 @@ For example, when discussing sorting algorithms in CSE373 you may have said that
 
 There are generally a few ways that we could select our operation(s), but here are some things to consider when selecting which operation or operations to count:
 
-- **Necessity**: The selected operations should be *necessary* for solving the given problem. By this we mean that any algorithm that solves the same problem should need to do these operations. For the sorting example, comparisons was a good choice because any algorithm needs to compare elements' values to determine their order.
+- **Necessity**: The selected operations should be *necessary* for solving the given problem. By this we mean that any algorithm that solves the same problem should need to do these operations. For the sorting example, comparisons was a good choice because any algorithm needs to compare elements' values to determine their order. This is probably the most important consideration, since it will be most useful in helping us to compare running times of wildly different algorithms.
 - **Frequency**: Looking ahead, we're eventually going to be considering our running times asymptotically, meaning we'll ignore constant coefficients. If we select the *most frequent* operation, then that should give us the same asyptotic answer as if we selected several operations.
 - **Magnitude**: Some operations will be more expensive to perform. Instead of looking at all operations, we could just look at the most expensive one, since that will have a greater impact on the real-world time our final implementation requires. For example, when sorting we often count comparisons because complex objects may require complex procedures to compare.
 
 In most cases, there will be a clear choice of one or a few operations that is best according to all three considerations above. There may be times, however, when different considerations may lead you to select different operations. We'll just ignore that circumstance for now, and then bring it up again later when we see our first example. (But in case you can't wait to see that to have some idea of what we'll do... typically in this situation we would give our audience a running time for each choice of operation so they could choose for themselves based on their application.)
 
+# Comparing running times
 
+Now that we have a definition of what a running time is, we need a way to compare algorithms by their running times to see which is faster. This means that we need to have some way of comparing *functions* to determine which is the larger function. To do this we will use a concept that you should have seen in your prerequisite courses - asymptotic notation. This section (and the follow-on concept check) are intended as a refresher of this concept.
+
+Asymptotic notation is used to compare functions based on their long term rate of growth. Put overly simplistically, when using asymptotic notation, we will determine that the bigger function is the one that as larger output for really big inputs. This means that when comparing functions, we will completely ignore their behavior on "small" inputs. 
+
+In addition to ignoring small inputs, we'll also ignore constant coefficients of the output. This is because of the peculiar way we selected the running time function for our algorithms. For example, if I only selected the most frequent operation when expressing my running time, but you counted all of the most frequent 3 operations, then it would be misleading to say that your algorithm took 3 times as long. Because it would get tedious to exactly communicate the exact operations that were counted, and because different computers might take different amounts of time to do the same operation, we'll have better results by just ignoring constant coefficients so that we'd consider running times that are off by a factor of 3 (for example) to simply be the same running time.
+
+For now, in this reading, we will only give high-level descriptions of our asymptotic notation. In class we'll work with more precise definitions.
+
+- Big-Oh ($O$): We say a function $f(n)$ is in $O(g(n))$ provided that $g(n)$ eventually exceeds and then stays above $c\cdot f(n)$ for some constant $c$. We generally would understand this to mean $f(n)$ is asymptotically less than or equal to $g(n)$.
+- Big-Omega ($\Omega$): We say a function $f(n)$ is in $\Omega(g(n))$ provided that $g(n)$ eventually falls below and the stays below $c\cdot f(n)$ for some constant $c$. We generally would understand this to mean $f(n)$ is asymptotically greater than or equal to $g(n)$.  
+- Big-Theta ($\Theta$): We say a function $f(n)$ is in $\Theta(g(n))$ provided that $f(n)$ is in bother $O(g(n))$ and $\Omega(g(n))$. We generally would understand this to mean $f(n)$ is asymptotically equal to $g(n)$.
