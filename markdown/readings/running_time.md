@@ -67,4 +67,26 @@ All of these properties will help us because they make running time a property o
 
 To achieve all of these properties, we will define algorithm running time in the following way:
 
-We say that the running time of algorithm $A$ is a function $f: \mathbb{N} \rightarrow \mathbb{N}$ such that $f(n)$ is the worst case number of "operations" the algorithm would perform for an input of size $n$.
+We say that the running time of algorithm $A$ is a function $f: \mathbb{N} \rightarrow \mathbb{N}$ (i.e. a function mapping integers to integers) such that $f(n)$ is the worst case number of "operations" the algorithm would perform for an input of size $n$.
+
+In other words, we express the running time of an algorithm $A$ as a function $f$. The input and outputs to that function $f$ will both be integers. The input value to $f$ will be the size of the input given to the algorithm $A$. The output value from $f$ will be the maximum (worst case) number of "operations" that $A$ will perform among all inputs of the given size. 
+
+This definition already pretty clearly gives us some of the properties that we're after. For one, this definition does not depend on the speed of the computer that may run our algorithm. Faster computers just do each operation more quickly, they do not do fewer operations. Also, by making running time a function of the input size, it does not require us to pick a specific input in advance. It turns out this definition gives us ALL of the properties we want, but we need to do a bit more work first to see this.
+
+## Definine "operations"
+
+In this definition of running time, we said that we need to count the number of "operations." However, we did not really state what an "operation" is. If you talked about running time in a prior course (e.g. cse123 or cse373) you most likely used the phrase "primitive operation" or similar to describe the thing that you'd count. From there, you typically said that a primitive operation is something like arithmetic, array indexing, variable assignment, etc. This choice is not wrong, and it will pretty much always give you essentially the same result as what we'll do in this course, but we're going to select something different for our "operations" in order to make our lives easier.
+
+Instead of counting *all primitive operations* for our algorithms, we'll instead pick just a small number of steps of our algorithm and just count those. As long as we're careful about what steps we pick, this should give us the same general answer as counting primitive operations, but with less work.
+
+For example, when discussing sorting algorithms in CSE373 you may have said that "Selection Sort requires $n^2$ comparisons". In this case, the operation we're counting for running time is "comparisons". When doing this, we could ignore all arithmetic, array indexing, etc. when identifying our running time. 
+
+There are generally a few ways that we could select our operation(s), but here are some things to consider when selecting which operation or operations to count:
+
+- **Necessity**: The selected operations should be *necessary* for solving the given problem. By this we mean that any algorithm that solves the same problem should need to do these operations. For the sorting example, comparisons was a good choice because any algorithm needs to compare elements' values to determine their order.
+- **Frequency**: Looking ahead, we're eventually going to be considering our running times asymptotically, meaning we'll ignore constant coefficients. If we select the *most frequent* operation, then that should give us the same asyptotic answer as if we selected several operations.
+- **Magnitude**: Some operations will be more expensive to perform. Instead of looking at all operations, we could just look at the most expensive one, since that will have a greater impact on the real-world time our final implementation requires. For example, when sorting we often count comparisons because complex objects may require complex procedures to compare.
+
+In most cases, there will be a clear choice of one or a few operations that is best according to all three considerations above. There may be times, however, when different considerations may lead you to select different operations. We'll just ignore that circumstance for now, and then bring it up again later when we see our first example. (But in case you can't wait to see that to have some idea of what we'll do... typically in this situation we would give our audience a running time for each choice of operation so they could choose for themselves based on their application.)
+
+
