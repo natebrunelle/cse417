@@ -57,10 +57,14 @@ Timing algorithms with a stop watch to see how long they run is called "Benchmar
 When designing out algorithms, we'll need a way to talk about running time that is *predictive* rather than *measured*. Specifically, we will defince algorithm running time so that it has the following properties:
 
 - It does not require us to implement or run our algorithm to determine its running time
-- The running time will be the same, regardless of how the algorithm is run (i.e. we would not accidentally conclude that an algorithm was faster just because it was run on a faster computer)
+- The running time will be the same, regardless of how the algorithm is run (i.e. we would not accidentally conclude that an algorithm was faster just because it was run on a faster computer or implemented using a more performant programming language)
 - We can use it to compare algorithms (i.e. we have a way of saying that one algorithm is faster than another)
 - We do not need to select an input size in advance (some algorithms may be slower for small inputs, but faster for large inputs, and so we don't want to have to pre-decide what input size we might care about)
 
 All of these properties will help us because they make running time a property of the algorithm itself in that it does not depend on how the algorithm is implemented or deployed. This allows us to evaluate the efficiency of algorithms before we ever write code!
 
+# How we define running time
 
+To achieve all of these properties, we will define algorithm running time in the following way:
+
+We say that the running time of algorithm $A$ is a function $f: \mathbb{N} \rightarrow \mathbb{N}$ such that $f(n)$ is the worst case number of "operations" the algorithm would perform for an input of size $n$.
