@@ -15,23 +15,15 @@
     slides(pdf): files/slides/03.pdf
     postlecture slides(pptx): files/slides/03_ink.pptx
     postlecture slides(pdf): files/slides/03_ink.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec7d6f1a-c4dc-4b44-85c4-b3620114d167
     
 2025-10-01:
     reading: readings/gs_proof.html
     slides(pptx): files/slides/04.pptx
     slides(pdf): files/slides/04.pdf
 
-# 2025-01-09:
-#     slides(pptx): files/section/section01-slides.pptx
-#     slides(pdf): files/section/section01-slides.pdf
-#     handout: files/section/section01-handout.pdf
-#     solution: files/section/section01-solutions.pdf
-    
-# 2025-01-08:
-#     slides(pptx): files/slides/lecture2_stablematching.pptx
-#     slides(pdf): files/slides/lecture2_stablematching.pdf
-#     slides(ink): files/slides/lecture2_stablematching_ink.pdf
-#     video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2bc25796-644a-41df-b240-b25d0154cd99
+2025-10-03:
+    reading: readings/running_time.html
       
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
