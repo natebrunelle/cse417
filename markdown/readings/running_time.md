@@ -2,9 +2,9 @@
 title: Running Time
 ...
 
-We assume that you have seen running time in your prerequisite coursework (such as cse123, cse373, or equivalent). In particular, we expect that you have previously give worst case running times of programs using big-oh notation. What we will be doing this quarter is not substantially different from that. This reading is not at all intending to re-teach or modify your unstanding of this, but is mostly mean to offer a different (and more precise) perspective on what's going on with those concepts, and why computer science has adopted them.
+We assume that you have seen running time in your prerequisite coursework (such as cse123, cse373, or equivalent). In particular, we expect that you have previously given worst case running times of programs using big-oh notation. What we will be doing this quarter is not substantially different from that. This reading is not at all intending to re-teach or modify your understanding of this, but is mostly meant to offer a different (and more precise) perspective on what's going on with those concepts, and why computer science has adopted them.
 
-Your concept check will also primarily be a review/refresh of those concepts. This means that you may be able to do the concept check without reading this, but I think it will help you to better understand what we're doing going forward if you have.
+Your concept check will primarily be a review/refresh of those concepts. This means that you may be able to do the concept check without reading this, but I think this reading will still help you to understand what we're doing going forward.
 
 # Correctness is not everything
 
@@ -14,9 +14,9 @@ Throughout this course our primary (but not exclusive) focus will be on developi
 
 To help us see why we might care so much about efficiency in addition to correctness we'll compare two different sorting algorithms, both of them correct.
 
-The first sorting algorithm we will look at is selection sort, which we discussed in class on Friday 9/26. As a reminder, selection sort will sort a list in descending order by repeatedly selecting the next largest element in the array. More precisely, for each index $i$ of the array, we will swap the value at index $i$ with the value at index $j$ where index $j$ contains the largest value between index $i$ (inclusive) and the end of the array.
+The first sorting algorithm we will look at is selection sort, which we discussed in class on Friday 9/26. As a reminder, selection sort will sort a list into descending order by repeatedly selecting the next largest element in the array. More precisely, for each index $i$ of the array, we will swap the value at index $i$ with the value at index $j$ where index $j$ contains the largest value between index $i$ (inclusive) and the end of the array.
 
-The second algorithm we will look at we will call permutation sort. This algorithm will sort the array by repeatedly producing a different permutation of the array until it is in descending order.  
+The second algorithm we will look at is permutation sort. This algorithm will sort the array by repeatedly producing (and checking) a different permutation of the array until it is in descending order.  
 
 ### Both algorithms are correct
 
@@ -30,25 +30,25 @@ We proved in class that selection sort is correct, so let's quickly demonstrate 
 
 ### One algorithm is wildly less efficient
 
-Even though both algorithms are correct, that does not mean that they are equally good. I implemented both algorithms in Java so that we could try out running each one. I then timed how long each algoritm took to run on arrays of various sizes. The following table shows the results:
+Even though both algorithms are correct, that does not mean that they are equally good. I implemented both algorithms in Java so that we could try running each one. I then timed how long each algorithm took to run on arrays of various sizes. The following table shows the results:
 
-length     Selection Sort    Permutation Sort
-------     --------------    ----------------
-1          2.3 ms            7.1 ms
-2          2.6 ms            10.0 ms  
-3          2.9 ms            14.1 ms
-4          3.0 ms            20.5 ms
-5          3.2 ms            104.6 ms
-6          3.7 ms            581.5 ms
-7          3.8 ms            1253.3 ms
-8          4.1 ms            5576.2 ms
-9          4.3 ms            23513.1 ms
-10         4.4 ms            164403.8 ms
-11         4.8 ms            854988.4 ms
-12         5.4 ms            8442984.5 ms $\approx$ 8.4 s
-13         6.4 ms            120.35 s
-14         6.6 ms            1595.23 s $\approx$ 26 minutes
-15         7.1 ms            I didn't bother trying, but I think it would be over 6 hours
+|length   |  Selection Sort  |  Permutation Sort |
+|------   |  --------------  |  ----------------
+|1        |  2.3 ms          |  7.1 ms
+|2        |  2.6 ms          |  10.0 ms  
+|3        |  2.9 ms          |  14.1 ms
+|4        |  3.0 ms          |  20.5 ms
+|5        |  3.2 ms          |  104.6 ms
+|6        |  3.7 ms          |  581.5 ms
+|7        |  3.8 ms          |  1253.3 ms
+|8        |  4.1 ms          |  5576.2 ms
+|9        |  4.3 ms          |  23513.1 ms
+|10       |  4.4 ms          |  164403.8 ms
+|11       |  4.8 ms          |  854988.4 ms $\approx$ 0.85 s
+|12       |  5.4 ms          |  8442984.5 ms $\approx$ 8.4 s
+|13       |  6.4 ms          |  120.35 s
+|14       |  6.6 ms          |  1595.23 s $\approx$ 26 minutes
+|15       |  7.1 ms          |  I didn't bother trying, but I think it would be over 6 hours
 
 Nathan (the author of this particular reading) is a pretty patient dude, so clearly there's a problem if he couldn't stand to wait for permutation sort to sort an array of length only 15. In practice we'd like to sort lists that are millions of items long in reasonable amounts of time, so selection sort is clearly better!
 
