@@ -2,9 +2,9 @@
 title: Running Time
 ...
 
-We assume that you have seen running time in your prerequisite coursework (such as cse123, cse373, or equivalent). In particular, we expect that you have previously give worst case running times of programs using big-oh notation. What we will be doing this quarter is not substantially different from that. This reading is not at all intending to re-teach or modify your unstanding of this, but is mostly mean to offer a different (and more precise) perspective on what's going on with those concepts, and why computer science has adopted them.
+We assume that you have seen running time in your prerequisite coursework (such as cse123, cse373, or equivalent). In particular, we expect that you have previously given worst case running times of programs using big-oh notation. What we will be doing this quarter is not substantially different from that. This reading is not at all intending to re-teach or modify your understanding of this, but is mostly meant to offer a different (and more precise) perspective on what's going on with those concepts, and why computer science has adopted them.
 
-Your concept check will also primarily be a review/refresh of those concepts. This means that you may be able to do the concept check without reading this, but I think it will help you to better understand what we're doing going forward if you have.
+Your concept check will primarily be a review/refresh of those concepts. This means that you may be able to do the concept check without reading this, but I think this reading will still help you to understand what we're doing going forward.
 
 # Correctness is not everything
 
@@ -14,9 +14,9 @@ Throughout this course our primary (but not exclusive) focus will be on developi
 
 To help us see why we might care so much about efficiency in addition to correctness we'll compare two different sorting algorithms, both of them correct.
 
-The first sorting algorithm we will look at is selection sort, which we discussed in class on Friday 9/26. As a reminder, selection sort will sort a list in descending order by repeatedly selecting the next largest element in the array. More precisely, for each index $i$ of the array, we will swap the value at index $i$ with the value at index $j$ where index $j$ contains the largest value between index $i$ (inclusive) and the end of the array.
+The first sorting algorithm we will look at is selection sort, which we discussed in class on Friday 9/26. As a reminder, selection sort will sort a list into descending order by repeatedly selecting the next largest element in the array. More precisely, for each index $i$ of the array, we will swap the value at index $i$ with the value at index $j$ where index $j$ contains the largest value between index $i$ (inclusive) and the end of the array.
 
-The second algorithm we will look at we will call permutation sort. This algorithm will sort the array by repeatedly producing a different permutation of the array until it is in descending order.  
+The second algorithm we will look at is permutation sort. This algorithm will sort the array by repeatedly producing (and checking) a different permutation of the array until it is in descending order.  
 
 ### Both algorithms are correct
 
@@ -30,25 +30,25 @@ We proved in class that selection sort is correct, so let's quickly demonstrate 
 
 ### One algorithm is wildly less efficient
 
-Even though both algorithms are correct, that does not mean that they are equally good. I implemented both algorithms in Java so that we could try out running each one. I then timed how long each algoritm took to run on arrays of various sizes. The following table shows the results:
+Even though both algorithms are correct, that does not mean that they are equally good. I implemented both algorithms in Java so that we could try running each one. I then timed how long each algorithm took to run on arrays of various sizes. The following table shows the results:
 
-length     Selection Sort    Permutation Sort
-------     --------------    ----------------
-1          2.3 ms            7.1 ms
-2          2.6 ms            10.0 ms  
-3          2.9 ms            14.1 ms
-4          3.0 ms            20.5 ms
-5          3.2 ms            104.6 ms
-6          3.7 ms            581.5 ms
-7          3.8 ms            1253.3 ms
-8          4.1 ms            5576.2 ms
-9          4.3 ms            23513.1 ms
-10         4.4 ms            164403.8 ms
-11         4.8 ms            854988.4 ms
-12         5.4 ms            8442984.5 ms $\approx$ 8.4 s
-13         6.4 ms            120.35 s
-14         6.6 ms            1595.23 s $\approx$ 26 minutes
-15         7.1 ms            I didn't bother trying, but I think it would be over 6 hours
+|length   |  Selection Sort  |  Permutation Sort |
+|------   |  --------------  |  ----------------
+|1        |  2.3 ms          |  7.1 ms
+|2        |  2.6 ms          |  10.0 ms  
+|3        |  2.9 ms          |  14.1 ms
+|4        |  3.0 ms          |  20.5 ms
+|5        |  3.2 ms          |  104.6 ms
+|6        |  3.7 ms          |  581.5 ms
+|7        |  3.8 ms          |  1253.3 ms
+|8        |  4.1 ms          |  5576.2 ms
+|9        |  4.3 ms          |  23513.1 ms
+|10       |  4.4 ms          |  164403.8 ms
+|11       |  4.8 ms          |  854988.4 ms $\approx$ 0.85 s
+|12       |  5.4 ms          |  8442984.5 ms $\approx$ 8.4 s
+|13       |  6.4 ms          |  120.35 s
+|14       |  6.6 ms          |  1595.23 s $\approx$ 26 minutes
+|15       |  7.1 ms          |  I didn't bother trying, but I think it would be over 6 hours
 
 Nathan (the author of this particular reading) is a pretty patient dude, so clearly there's a problem if he couldn't stand to wait for permutation sort to sort an array of length only 15. In practice we'd like to sort lists that are millions of items long in reasonable amounts of time, so selection sort is clearly better!
 
@@ -58,7 +58,7 @@ Perhaps it's intuitive to you why selection sort is better. After all, selection
 
 Timing algorithms with a stop watch to see how long they run is called "Benchmarking". Benchmarking has a lot of value for many applications such as: testing to see how well a program runs on specific hardware, testing to see how well a program runs on real-world input, and testing to see how different implementations compare. In summary, benchmarking is most helpful in testing *code that has already been written*. It is not at all helpful for helping us to decide *which* algorithm to turn into a program, or in identifying how to make an algorithm faster.
 
-When designing out algorithms, we'll need a way to talk about running time that is *predictive* rather than *measured*. Specifically, we will defince algorithm running time so that it has the following properties:
+When designing our algorithms, we'll need a way to talk about running time that is *predictive* rather than *measured*. Specifically, we will define algorithm running time so that it has the following properties:
 
 - It does not require us to implement or run our algorithm to determine its running time
 - The running time will be the same, regardless of how the algorithm is run (i.e. we would not accidentally conclude that an algorithm was faster just because it was run on a faster computer or implemented using a more performant programming language)
@@ -91,13 +91,13 @@ There are generally a few ways that we could select our operation(s), but here a
 - **Frequency**: Looking ahead, we're eventually going to be considering our running times asymptotically, meaning we'll ignore constant coefficients. If we select the *most frequent* operation, then that should give us the same asyptotic answer as if we selected several operations.
 - **Magnitude**: Some operations will be more expensive to perform. Instead of looking at all operations, we could just look at the most expensive one, since that will have a greater impact on the real-world time our final implementation requires. For example, when sorting we often count comparisons because complex objects may require complex procedures to compare.
 
-In most cases, there will be a clear choice of one or a few operations that is best according to all three considerations above. There may be times, however, when different considerations may lead you to select different operations. We'll just ignore that circumstance for now, and then bring it up again later when we see our first example. (But in case you can't wait to see that to have some idea of what we'll do... typically in this situation we would give our audience a running time for each choice of operation so they could choose for themselves based on their application.)
+In most cases, there will be a clear choice of one or a few operations that is best according to all three considerations above. There may be times, however, when different considerations may lead you to select different operations. We'll just ignore that circumstance for now, and then bring it up again later when we see our first example. (But in case you can't wait to see what we'll do... typically in this situation we would give our audience a running time for each choice of operation so they could choose for themselves based on their application.)
 
 # Comparing running times
 
 Now that we have a definition of what a running time is, we need a way to compare algorithms by their running times to see which is faster. This means that we need to have some way of comparing *functions* to determine which is the larger function. To do this we will use a concept that you should have seen in your prerequisite courses - asymptotic notation. This section (and the follow-on concept check) are intended as a refresher of this concept.
 
-Asymptotic notation is used to compare functions based on their long term rate of growth. Put overly simplistically, when using asymptotic notation, we will determine that the bigger function is the one that as larger output for really big inputs. This means that when comparing functions, we will completely ignore their behavior on "small" inputs. 
+Asymptotic notation is used to compare functions based on their long term rate of growth. Put overly simplistically, when using asymptotic notation, we will determine that the bigger function is the one that has larger output for really big inputs. This means that when comparing functions, we will completely ignore their behavior on "small" inputs. 
 
 In addition to ignoring small inputs, we'll also ignore constant coefficients of the output. This is because of the peculiar way we selected the running time function for our algorithms. For example, if I only selected the most frequent operation when expressing my running time, but you counted all of the most frequent 3 operations, then it would be misleading to say that your algorithm took 3 times as long. Because it would get tedious to exactly communicate the exact operations that were counted, and because different computers might take different amounts of time to do the same operation, we'll have better results by just ignoring constant coefficients so that we'd consider running times that are off by a factor of 3 (for example) to simply be the same running time.
 
@@ -105,4 +105,4 @@ For now, in this reading, we will only give high-level descriptions of our asymp
 
 - Big-Oh ($O$): We say a function $f(n)$ is in $O(g(n))$ provided that $g(n)$ eventually exceeds and then stays above $c\cdot f(n)$ for some constant $c$. We generally would understand this to mean $f(n)$ is asymptotically less than or equal to $g(n)$.
 - Big-Omega ($\Omega$): We say a function $f(n)$ is in $\Omega(g(n))$ provided that $g(n)$ eventually falls below and the stays below $c\cdot f(n)$ for some constant $c$. We generally would understand this to mean $f(n)$ is asymptotically greater than or equal to $g(n)$.  
-- Big-Theta ($\Theta$): We say a function $f(n)$ is in $\Theta(g(n))$ provided that $f(n)$ is in bother $O(g(n))$ and $\Omega(g(n))$. We generally would understand this to mean $f(n)$ is asymptotically equal to $g(n)$.
+- Big-Theta ($\Theta$): We say a function $f(n)$ is in $\Theta(g(n))$ provided that $f(n)$ is in both $O(g(n))$ and $\Omega(g(n))$. We generally would understand this to mean $f(n)$ is asymptotically equal to $g(n)$.

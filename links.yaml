@@ -8,6 +8,7 @@
     slides(pptx): files/slides/02.pptx
     slides(pdf): files/slides/02.pdf
     video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=37110a4e-a671-4b6b-b040-b3620114d01a
+    reference: files/references/02.html
 
 2025-09-29:
     reading: readings/proof_techniques.html
@@ -22,6 +23,7 @@
     slides(pptx): files/slides/04.pptx
     slides(pdf): files/slides/04.pdf
     video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=df592860-b391-4873-837d-b3620114d298
+    reference: files/references/04.html
 
 2025-10-03:
     reading: readings/running_time.html
