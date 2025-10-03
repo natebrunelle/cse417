@@ -6,7 +6,6 @@ title: Tasks
 
 **Important:** Before starting your homework, please review our [homework guide](./guides.html#guide-to-homework) for requirements and suggestions!
 
-Information will be posted here when Homework 1 is released.
 
 ## HW 0: Sample
 
@@ -32,6 +31,21 @@ In the homework you will be asked to:
 1. Reason with the definition of a stable matching.
 1. Reflect on the use of LLMs for reasoning.
 1. Prove a simple algorithm to be correct.
+
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
+
+## HW 2: Gale&ndash;Shapley/Running time
+
+**Quick links:**
+
+- [Problem statements](files/homework/hw2/hw2.pdf)
+- [LaTeX template](files/homework/hw2/hw2.zip)
+
+In the homework you will be asked to:
+
+1. Review the running time analysis and proof of the Gale--Shapley algorithm, and extend the arguments to the many-to-one case
+1. Reflect on the appropriateness of the Gale&ndash;Shapley algorithm in applications
+1. Encode a more complicated algorithm in pseudocode and analyze running time in two variables
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
