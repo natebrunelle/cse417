@@ -30,6 +30,7 @@ The key insight that mergesort leverages is that merging two already-sorted list
 ## Base Case, Divide, Conquer, Combine
 
 A divide and conquer algorithm consists of four parts:
+
 - **Base Case**: We will express divide and conquer algorithms recursively, and so we need a base case. Most often, we will check if the input size is below some threshold. If so, then we will solve the problem iteratively (e.g. using a different algorithm or a brute force approach).
 - **Divide**: If the input was too large for the base case, then we will somehow break up the problem into one or more smaller versions *of the same problem*.
 - **Conquer**: We will recursively solve each smaller subproblem identified in the divide step.
@@ -38,6 +39,7 @@ A divide and conquer algorithm consists of four parts:
 As we saw with mergesort, divide and conquer algorithms are helpful in the situation that combining solutions from smaller subproblems is easier than solving the larger superproblem from scratch. 
 
 Once we have identified each of these components, our algorithm will generally behave as follows:
+
 - **Check for base case**: if the input is smaller than some threshold then solve it directly, return the answer
 - Otherwise, **Divide** the problem into one or more smaller versions of the same problem
 - For each subproblem identified in the previous step:
@@ -46,6 +48,7 @@ Once we have identified each of these components, our algorithm will generally b
 - return that final answer
 
 We can now "reverse engineer" mergesort by identifying the **Base Case**, **Divide**, and **Combine** steps of divide and conquer algorithms, then plugging them into that generic psuedocode! (We do not need to identify the conquer step, as that is always the same, just recursively solve all subproblems) In this case, those three steps for mergesort are:
+
 - **Base Case**: check if the list is size 0 or 1, if so then just return it
 - **Divide**: Split the list into a left half and a right half
 - **Combine**: The merge procedure (repeatedly remove the first from the left or right, whichever should come next)
@@ -53,12 +56,14 @@ We can now "reverse engineer" mergesort by identifying the **Base Case**, **Divi
 ## Quicksort
 
 Quicksort, which you saw in CSE373, is another example of a divide and conquer algorithm! As a reminder, here's the behavior of quicksort:
+
 1. If the list is size 0 or 1, just return
 1. Otherwise, select a pivot element and partition the list so that all elements smaller than the pivot are to its left, and those larger than the pivot are to its right
 1. Next, recursively call quicksort on the sublist containing the elements smaller than the pivot and the sublist containing the elements larger than the pivot
 1. Finally, just return.
 
 In this case, our three steps are:
+
 - **Base Case**: step 1
 - **Divide**: step 2
 - **Combine**: step 4
@@ -70,6 +75,7 @@ These two algorithms are at "extreme" ends of the workload distribution. When di
 # Correctness of Divide and Conquer
 
 As a reminder, when demonstrating the correctness of any algorithm, we need to show:
+
 - That it produces no errors (*soundness*)
 - That it does not run forever (*termination*)
 - That the answers it gives are correct (*validity*)
