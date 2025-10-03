@@ -101,4 +101,31 @@ Let's apply these to a proof of correctness for mergesort (skipping soundess for
 
 **Validity**: Lists of size 0 or 1 only have 1 permutation, and so they are guaranteed to be sorted. This means that our base case produces the correct answer. Assuming our recursive calls correctly sort the left and right lists, we can then conclude that the merge step produces a correctly sorted list overall. First, we observe that all elements are present in the final list because its elements will be the union of those in the left and right sublists, therefore making it a permutation of the orginal list. Second, we can conclude all elements in the final list are in the correct order. By assumption that the lists are sorted in the conquer step, we conclude that each sublist is itself in the correct order. Since we only ever extract elements from the sublists in order, the only possible way to have two elements in the wrong order is if they were from different sublists. Because we always added the elements from the sublists in their correct order, this cannot happen either. Therefore our algorithm correctly produces a sorted permutation of the list.
 
+# Running Time
 
+Again due to the recursive nature of divide and conquer algorithms, we're going to need a slightly different approach in expressing their running times as well. Ultimately, our goal is still the same. We want to identify a function whose input is the size of the algorithm's input, and whose output is the worst case count of operations. Because the algorithm is recursive, it will be easiest to make our running time function recursive initially, then convert it into an equivalent non-recurse (i.e. closed) form. A recursive function is called a *recurrence relation*. 
+
+In general, the recurrence relation for the running time will have the form $T(n)=aT(\frac{n}{b})+f(n)$, where:
+
+- $T(n)$ represents the worst case running time of the algorithm for an input of size $n$
+- $a$ represents the number of subproblems we divided our big problem into
+- $\frac{n}{b}$ represents the size of each subproblem
+- $f(n)$ is the amount of non-recursive work done within one stackframe where the input to that stackframe was of size $n$. Specifically, this is the total amount of work done in the divide and combine steps of the algorithm. If we only want to know our running time asymptotically, then it's fine for $f(n)$ to be expressed asymptotically correct as well (i.e. constants don't matter for $f(n)$).
+
+With all of these components, we can understand the recurrence relation  $T(n)=aT(\frac{n}{b})+f(n)$ as saying "the amount of time it takes to run the algorithm on an input of size $n$ is equal to however long it take to run that algorithm on $a$ copies that are each of size $\frac{n}{b}$, plus $f(n)$ additional work".
+
+Applying this to mergesort we get:
+
+- $a=2$ because mergesort divides large lists into 2 smaller sublists
+- $b=2$ because each sublist is one half the size of the original
+- $f(n)=n$ because dividing takes constant time and combining takes linear time, so it's asymptotically linear
+
+And so the recurrence relation for the running time of mergesort is $T(n)=2T(\frac{n}{2})+n$.
+
+From here we need to convert $T(n)$ into a non-recursive function that gives us the same answer. There are ways to do this "from scratch", but for this course will will just use a super handy tool called the Master Theorem.
+
+**Master Theorem**: Suppose $T(n)=aT(\frac{n}{b})+O(n^k)$:
+
+1. If $a<b^k$ then $T(n)=O(n^k)$
+1. If $a=b^k$ then $T(n)=O(n^k \log n)$
+1. If $a>b^k$ then $T(n)=O(n^{\log_b(a)})$
