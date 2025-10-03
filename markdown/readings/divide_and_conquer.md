@@ -129,3 +129,5 @@ From here we need to convert $T(n)$ into a non-recursive function that gives us 
 1. If $a<b^k$ then $T(n)=O(n^k)$
 1. If $a=b^k$ then $T(n)=O(n^k \log n)$
 1. If $a>b^k$ then $T(n)=O(n^{\log_b(a)})$
+
+Now let's apply this to the mergesort relation $T(n)=2T(\frac{n}{2})+n$. The master theorem now applies with $a=2$, $b=2$, and $k=1$. so we want to compare $a$ with $b^k$, which are $2$ and $2^1$. Bacause $a=b^k$, case 2 applies, giving us a running time of $O(n \log n)$.
