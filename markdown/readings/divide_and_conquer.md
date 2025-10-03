@@ -80,4 +80,15 @@ As a reminder, when demonstrating the correctness of any algorithm, we need to s
 - That it does not run forever (*termination*)
 - That the answers it gives are correct (*validity*)
 
+Because divide and conquer algorithms are expressed recursively, we will have slightly different approaches to showing some of these.
 
+Showing *soundness* of a divide and conquer algorithm should follow the same idea as the algorithms we have seen thus far. We simply need to defend how we know that steps that have risks of producing errors will never have those errors occur (e.g. justifying the denominators are never 0, or that indices are always in range).
+
+Showing *termination* will be a bit different. Before, when looking at iterative code (i.e. code that used for loops and while loops), showing termination meant justifying that the loop condition would eventually become false, so we'd exit the loop. For recursive code, termination happens when a base case is reached. Therefore, to justify termination, we need to show that *every* chain of subproblems will eventually reach a base case. Usually we do this by showing that all inputs that are larger than the base case threshold are split into subproblems that are strictly smaller than the original. This guarantees that we're always making progress towards the base case, and so we will reach it eventually.
+
+Showing *validity* is somewhat similar to what we saw with loop invariants, we just have a bit of a recursive twist on it. To show validity we will show two things:
+
+1. That the base case always produces correct answers
+1. That whenever the conquer step produces correct answers for its subproblems, the combine step produces the correct answer for the original superproblem.
+
+This achieves the goal of demonstrating validity because step 2 shows us that we always combine small correct answers into larger correct answers, and step 1 shows us that the smallest answers are always correct. Combining these insights together results in the conclusion "answers start being correct in the base cases, and we always combine correct answers into larger correct answers, so all our answers must be correct."
