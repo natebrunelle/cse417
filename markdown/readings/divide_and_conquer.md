@@ -98,3 +98,7 @@ This achieves the goal of demonstrating validity because step 2 shows us that we
 Let's apply these to a proof of correctness for mergesort (skipping soundess for brevity).
 
 **Termination**: If the list is of size 0 or 1 then the algorithm clearly terminates. If the list is size $n>1$ then we will split it into two lists, each of which is no larger than $\lceil\frac{n}{2}\rceil$. When $n>1$ we are guaranteed that  $\lceil\frac{n}{2}\rceil < n$, so we will eventually reach a base case.
+
+**Validity**: Lists of size 0 or 1 only have 1 permutation, and so they are guaranteed to be sorted. This means that our base case produces the correct answer. Assuming our recursive calls correctly sort the left and right lists, we can then conclude that the merge step produces a correctly sorted list overall. First, we observe that all elements are present in the final list because its elements will be the union of those in the left and right sublists, therefore making it a permutation of the orginal list. Second, we can conclude all elements in the final list are in the correct order. By assumption that the lists are sorted in the conquer step, we conclude that each sublist is itself in the correct order. Since we only ever extract elements from the sublists in order, the only possible way to have two elements in the wrong order is if they were from different sublists. Because we always added the elements from the sublists in their correct order, this cannot happen either. Therefore our algorithm correctly produces a sorted permutation of the list.
+
+
