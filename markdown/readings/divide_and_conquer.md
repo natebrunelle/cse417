@@ -91,4 +91,10 @@ Showing *validity* is somewhat similar to what we saw with loop invariants, we j
 1. That the base case always produces correct answers
 1. That whenever the conquer step produces correct answers for its subproblems, the combine step produces the correct answer for the original superproblem.
 
-This achieves the goal of demonstrating validity because step 2 shows us that we always combine small correct answers into larger correct answers, and step 1 shows us that the smallest answers are always correct. Combining these insights together results in the conclusion "answers start being correct in the base cases, and we always combine correct answers into larger correct answers, so all our answers must be correct."
+This achieves the goal of demonstrating validity because step 2 shows us that we always combine small correct answers into larger correct answers, and step 1 shows us that the smallest answers are always correct. Combining these insights together results in the conclusion "answers start being correct in the base cases, and we always combine correct answers into larger correct answers, so all our answers must be correct." As an aside, for those with prior background in proof writing, you may recognize this proof technique as a proof by structural induction. If you have not heard this term before, no worries, there's no expectation that you know it for this course.
+
+## Correctness of Mergesort
+
+Let's apply these to a proof of correctness for mergesort (skipping soundess for brevity).
+
+**Termination**: If the list is of size 0 or 1 then the algorithm clearly terminates. If the list is size $n>1$ then we will split it into two lists, each of which is no larger than $\lceil\frac{n}{2}\rceil$. When $n>1$ we are guaranteed that  $\lceil\frac{n}{2}\rceil < n$, so we will eventually reach a base case.
