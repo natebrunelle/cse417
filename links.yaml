@@ -29,6 +29,9 @@
     reading: readings/running_time.html
     slides(pptx): files/slides/05.pptx
     slides(pdf): files/slides/05.pdf
+
+2025-10-06:
+    reading: readings/divide_and_conquer.html
       
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
