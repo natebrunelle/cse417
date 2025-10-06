@@ -133,6 +133,8 @@ To make sure we understand, here's an example execution of our algorithm using t
 
 We will only look 1 deep into the recursion to see where the answers come from.
 
+<img src="readings/max_sum_biggest.png" alt="Nathan Brunelle" height="200"/>
+
 > =====stack frame for 0,8=====
 >  
 > To begin, we have $start = 0$ and $end = 7$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $4$, the other from $5$ to $8$.
@@ -143,7 +145,8 @@ We will only look 1 deep into the recursion to see where the answers come from.
 > 
 > Finally we return the best of the three solutions. Since $leftSum$ is $4$, $rightSum$ is $8$, and $midSum$ is $9$, the best answer is the middle solution, so we return $2, 6, 9$.
  
- 
+<img src="readings/max_sum_left.png" alt="Nathan Brunelle" height="200"/>
+
 > =====stack frame for 0,4=====
 >  
 > In this stack frame we're working with the subarray $arr = [ 3, -5, 1, 3, -2]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $2$, the other from $3$ to $4$. 
@@ -154,6 +157,7 @@ We will only look 1 deep into the recursion to see where the answers come from.
 >     
 > Finally we return the best of the three solutions. Since $leftSum$ is $3$, rightSum is $3$, and midSum is $4$, the best answer is the middles solution, so we return $2, 3, 4$. 
 
+<img src="readings/max_sum_right.png" alt="Nathan Brunelle" height="200"/>
 
 > =====stack frame for 5,8=====
 > 
