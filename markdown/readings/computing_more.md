@@ -129,10 +129,12 @@ To make sure we understand, here's an example execution of our algorithm using t
 
 We will only look 1 deep into the recursion to see where the answers come from.
 
->=====stack frame for 0,8=====
-> 
+> =====stack frame for 0,8=====
+>  
 > To begin, we have start = 0 and end = 7. We are not in a base case, so we divide into two subproblems, one for indices 0 to 4, the other from 5 to 8.
+> 
 > From the subproblem for 0,4 we will have leftStart = 2, leftEnd = 3, and leftSum = 4. From the subproblem for 5,8 we have rightStart = 5, rightEnd = 6, and rightSum = 7.
+> 
 > From here we want to find the middle solution, so we want the max sum subarray from the range 0 to 8 which includes indices 4 and 5 (so values -2 and 3). The best suffix on the left is the range 2,4 which has a sum of 1+3-2=2. The best prefix on the right is the range 5,6 which has sum 3+4=7. This means that the middle solution is the range 2,6 which has sum 9.
 > Finally we return the best of the three solutions. Since leftSum is 4, rightSum is 8, and midSum is 9, the best answer is the middle solution, so we return 2, 6, 9.
  
