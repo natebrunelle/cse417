@@ -125,21 +125,21 @@ In class, we will describe a procedure that computes and returns more items per 
 
 ### Example execution
 
-To make sure we understand, here's an example execution of our algorithm using the array $arr = \[4, -5, 1, 3, -2, 3, 4, -8, 7 \]$, expecting the answer $2, 6, 9$. (indicating the maximum sum spans from index $2$ to index $6$ and has sum $9$.
+To make sure we understand, here's an example execution of our algorithm using the array $arr = [4, -5, 1, 3, -2, 3, 4, -8, 7 ]$, expecting the answer $2, 6, 9$. (indicating the maximum sum spans from index $2$ to index $6$ and has sum $9$.
 
 
 > =====stack frame for 0,7=====
 > 
-> To begin, we have $start = 0$ and $end = 7$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $3$, the other from $4$ to $7$.
+> To begin, we have start = 0 and end = 7. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $3$, the other from $4$ to $7$.
 > 
 > 
 >     =====stack frame for 0,3=====
 > 
->     In this stackfram we're working with the subarray $arr = \[ 4, -5, 1, 3\]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $1$, the other from $4$ to $7$. 
+>     In this stackfram we're working with the subarray arr = \[ 4, -5, 1, 3\]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $1$, the other from $4$ to $7$. 
 > 
-> =====stack frame for 0,1=====
+>     =====stack frame for 0,1=====
 > 
-> In this stackfram we're working with the subarray $arr = \[ 4, -5\]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $0$, the other from $1$ to $1$.
+>     In this stackfram we're working with the subarray $arr = \[ 4, -5\]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $0$, the other from $1$ to $1$.
 > 
 > 
 > ====stack from for 4,7=====
