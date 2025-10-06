@@ -14,7 +14,7 @@ In this reading we will look at a divide and conquer algorithm that follows the 
 
 Let's jump into our example algorithm. Our algorithm's goal is to solve a problem called *Maximum Sum Subarray*. Our task will be to take in an array of integers (positive and negative) and find a pair of indices $i$ and $j$ such that the subarray formed by taking indices $i$ through $j$ (inclusive) is maximum such subarray as well as the sum itself, then return $i$, $j$, and the value of the sum. To simplify this description a bit, we want to identify the contiguous region of a given array with the largest sum, then return the start point of that region, the end point of that region, and the sum of the values in between.
 
-For example, if the array is $\[3, -5, 1, 3, -2, 3, 4, -8, 6 \]$ then the maximum sum subarray would be $\[ 1, 3, -2, 3, 4\]$ with the sum $1+3-2+3+4=9$, and so the algorithm will return the indices $2, 6, 9$.
+For example, if the array is $[3, -5, 1, 3, -2, 3, 4, -8, 6 ]$ then the maximum sum subarray would be $[ 1, 3, -2, 3, 4]$ with the sum $1+3-2+3+4=9$, and so the algorithm will return the indices $2, 6, 9$.
 
 ## A Naive Algorithm
 
@@ -22,23 +22,23 @@ I general like first coming up with a naive or brute force algorithm for any new
 
 Specifically we could so something like:
 
-> besti = -1
-> bestj = -1
-> bestSum = -infinity
-> for(int i = 0; i < arr.length; i++){ // select a starting index
->     for(int j = i; j < arr.length; j++){ // select an ending index
->         currSum = 0
-          for(int k = i; k <= j; k++){ // sum the values in between
->             currSum += arr[k];
->         }
->         if(currSum > bestSum){ // if this is the new best, update variables
->             besti = i
-              bestj = j
-              bestSum = currSum
+>     besti = -1
+>     bestj = -1
+>     bestSum = -infinity
+>     for(int i = 0; i < arr.length; i++){ // select a starting index
+>         for(int j = i; j < arr.length; j++){ // select an ending index
+>             currSum = 0
+              for(int k = i; k <= j; k++){ // sum the values in between
+>                 currSum += arr[k];
+>             }
+>             if(currSum > bestSum){ // if this is the new best, update variables
+>                 besti = i
+>                 bestj = j
+>                 bestSum = currSum
+>             }
 >         }
 >     }
-> }
-> return besti, bestj, bestSum
+>     return besti, bestj, bestSum
 
 (Brief aside, Java does not naturally allow for multiple values to be returned, but some other programming languages do. In Java we would need to either use an array or create some sort of custom object to contain the values of besti, bestj, and bestSum to return all of them.)
 
@@ -71,34 +71,34 @@ Because this middle solution must include at least one element from each of the 
 
 If we wish to find the middle solution for the region between indices start and end, we might then do the following:
 
-> findMiddleSolution(arr, start, end){
->     // finding the best suffix of the left
->     bestSuffix = (start+end)/2 // at first, the best suffix seen is only the last element on the left
->     bestSuffixSum = arr[bestSuffix]  // so the sum is the value of that element
->     currSum = bestSuffixSum
->     for(int midStart = bestSuffix-1; midStart >= start; midStart--){ // from the middle going backwards
->         currSum += arr[midStart] // add in the preceding element
->         if(currSum > bestSuffixSum){  // check if starting the suffix one element sooner gives a larger sum
->             bestSuffixSum = currSum // if so update the sum
->             bestSuffix = midStart // and update the starting index
+>     findMiddleSolution(arr, start, end){
+>         // finding the best suffix of the left
+>         bestSuffix = (start+end)/2 // at first, the best suffix seen is only the last element on the left
+>         bestSuffixSum = arr[bestSuffix]  // so the sum is the value of that element
+>         currSum = bestSuffixSum
+>         for(int midStart = bestSuffix-1; midStart >= start; midStart--){ // from the middle going backwards
+>             currSum += arr[midStart] // add in the preceding element
+>             if(currSum > bestSuffixSum){  // check if starting the suffix one element sooner gives a larger sum
+>                 bestSuffixSum = currSum // if so update the sum
+>                 bestSuffix = midStart // and update the starting index
+>             }
 >         }
->     }
->     // finding the best prefix of the right
->     bestPrefix = (start+end)/2+1 // at first, the best prefix seen is only the first element on the right
->     bestPrefixSum = arr[bestPrefix]  // so the sum is the value of that element
->     currSum = bestPrefixSum
->     for(int midEnd = bestPrefix+1; midStart <= end; midEnd++){ // from the middle going forwards
->         currSum += arr[midEnd] // add in the next element
->         if(currSum > bestPrefixSum){  // check if ending the prefix one element later gives a larger sum
->             bestPrefixSum = currSum // if so update the sum
->             bestPrefix = midEnd // and update the ending index
+>         // finding the best prefix of the right
+>         bestPrefix = (start+end)/2+1 // at first, the best prefix seen is only the first element on the right
+>         bestPrefixSum = arr[bestPrefix]  // so the sum is the value of that element
+>         currSum = bestPrefixSum
+>         for(int midEnd = bestPrefix+1; midStart <= end; midEnd++){ // from the middle going forwards
+>             currSum += arr[midEnd] // add in the next element
+>             if(currSum > bestPrefixSum){  // check if ending the prefix one element later gives a larger sum
+>                 bestPrefixSum = currSum // if so update the sum
+>                 bestPrefix = midEnd // and update the ending index
+>             }
 >         }
+>         // the best middle solution is the best suffix on the left followed by the best prefix on the right
+>         // The sum of the elements in this range is the sum of the elements in the prefix plus those in the suffix
+>         middleSum = bestSuffixSum + bestPrefixSum
+>         return bestSuffix, bestPrefix, middleSum
 >     }
->     // the best middle solution is the best suffix on the left followed by the best prefix on the right
->     // The sum of the elements in this range is the sum of the elements in the prefix plus those in the suffix
->     middleSum = bestSuffixSum + bestPrefixSum
->     return bestSuffix, bestPrefix, middleSum
-> }
 
 To summarize the behavior, this algorithm:
 
