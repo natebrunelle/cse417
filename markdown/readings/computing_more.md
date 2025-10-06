@@ -112,9 +112,13 @@ We have now identified all of the pieces of our divide and conquer algorithm, so
 
 
 For finding the maximum sum subarray of array $arr$ starting from index $start$ and ending at index $end$
+
 **Base Case**: If there is only one element in our current subproblem, return that element's index as the start and end, and return that element's value as the sum
+
 **Divide**: Split our current subproblem in half by index. This creates subproblems from $start$ to $(start+end)/2$ and from $(start+end)/2$ to $end$.
+
 **Conquer**: recursively solve both subproblems. We will say that the maximum sum on the left is $leftSum$, the maximum sum on the right is $rightSum$, the left solution goes from index $leftStart$ to index $leftEnd$, and the right solution goes from index $rightStart$ to $rightEnd$.
+
 **Combine**: find $bestSuffix$, $bestPrefix$, $middleSum$ according to the procedure above. Then compare $leftSum$, $rightSum$ and $bestPrefixSum+bestSuffixSum$. If $leftSum$ is largest then return $leftStart$, $leftEnd$, and $leftSum$. If $rightSum$ is largest then return $rightStart$, $rightEnd$, and $rightSum$. If $middleSum$ is largest then return $bestSuffix$, $bestPrefix$ and $middleSum$.
 
 ### Running time
