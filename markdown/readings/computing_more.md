@@ -28,7 +28,7 @@ Specifically we could so something like:
 >     for(int i = 0; i < arr.length; i++){ // select a starting index
 >         for(int j = i; j < arr.length; j++){ // select an ending index
 >             currSum = 0
-              for(int k = i; k <= j; k++){ // sum the values in between
+>              for(int k = i; k <= j; k++){ // sum the values in between
 >                 currSum += arr[k];
 >             }
 >             if(currSum > bestSum){ // if this is the new best, update variables
