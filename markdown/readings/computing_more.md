@@ -153,7 +153,7 @@ We will only look 1 deep into the recursion to see where the answers come from.
 >    
 > From the subproblem for $0,2$ we will have $leftStart = 0$, $leftEnd = 0$, and $leftSum = 3$. From the subproblem for $3,4$ we have $rightStart = 3$, $rightEnd = 3$, and $rightSum = 3$.
 >   
-> From here we want to find the middle solution, so we want the max sum subarray from the range $0$ to $4 which includes indices $2$ and $3$ (so values $1$ and $3$). The best suffix on the left is the range $2,2$ which has a sum of $1$. The best prefix on the right is the range $3,3$ which has sum $3$. This means that the middle solution is the range $2,3$ which has sum $4$.                               
+> From here we want to find the middle solution, so we want the max sum subarray from the range $0$ to $4$ which includes indices $2$ and $3$ (so values $1$ and $3$). The best suffix on the left is the range $2,2$ which has a sum of $1$. The best prefix on the right is the range $3,3$ which has sum $3$. This means that the middle solution is the range $2,3$ which has sum $4$.                               
 >     
 > Finally we return the best of the three solutions. Since $leftSum$ is $3$, rightSum is $3$, and midSum is $4$, the best answer is the middles solution, so we return $2, 3, 4$. 
 
