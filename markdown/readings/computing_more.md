@@ -131,33 +131,34 @@ We will only look 1 deep into the recursion to see where the answers come from.
 
 > =====stack frame for 0,8=====
 >  
-> To begin, we have start = 0 and end = 7. We are not in a base case, so we divide into two subproblems, one for indices 0 to 4, the other from 5 to 8.
+> To begin, we have $start = 0$ and $end = 7$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $4$, the other from $5$ to $8$.
 > 
-> From the subproblem for 0,4 we will have leftStart = 2, leftEnd = 3, and leftSum = 4. From the subproblem for 5,8 we have rightStart = 5, rightEnd = 6, and rightSum = 7.
+> From the subproblem for $0,4$ we will have $leftStart = 2$, $leftEnd = 3$, and $leftSum = 4$. From the subproblem for $5,8$ we have $rightStart = 5$, $rightEnd = 6$, and $rightSum = 7$.
 > 
-> From here we want to find the middle solution, so we want the max sum subarray from the range 0 to 8 which includes indices 4 and 5 (so values -2 and 3). The best suffix on the left is the range 2,4 which has a sum of 1+3-2=2. The best prefix on the right is the range 5,6 which has sum 3+4=7. This means that the middle solution is the range 2,6 which has sum 9.
-> Finally we return the best of the three solutions. Since leftSum is 4, rightSum is 8, and midSum is 9, the best answer is the middle solution, so we return 2, 6, 9.
+> From here we want to find the middle solution, so we want the max sum subarray from the range $0$ to $8$ which includes indices $4$ and $5$ (so values $-2$ and $3$). The best suffix on the left is the range $2,4$ which has a sum of $1+3-2=2$. The best prefix on the right is the range $5,6$ which has sum $3+4=7$. This means that the middle solution is the range $2,6$ which has sum $9$.
+> 
+> Finally we return the best of the three solutions. Since $leftSum$ is $4$, $rightSum$ is $8$, and $midSum$ is $9$, the best answer is the middle solution, so we return $2, 6, 9$.
  
  
 > =====stack frame for 0,4=====
 >  
-> In this stack frame we're working with the subarray arr = [ 3, -5, 1, 3, -2]. We are not in a base case, so we divide into two subproblems, one for indices 0 to 2, the other from 3 to 4. 
+> In this stack frame we're working with the subarray $arr = [ 3, -5, 1, 3, -2]$. We are not in a base case, so we divide into two subproblems, one for indices $0$ to $2$, the other from $3$ to $4$. 
 >    
-> From the subproblem for 0,2 we will have leftStart = 0, leftEnd = 0, and leftSum = 3. From the subproblem for 3,4 we have rightStart = 3, rightEnd = 3, and rightSum = 3.
+> From the subproblem for $0,2$ we will have $leftStart = 0$, $leftEnd = 0$, and $leftSum = 3$. From the subproblem for $3,4$ we have $rightStart = 3$, $rightEnd = 3$, and $rightSum = 3$.
 >   
-> From here we want to find the middle solution, so we want the max sum subarray from the range 0 to 4 which includes indices 2 and 3 (so values 1 and 3). The best suffix on the left is the range 2,2 which has a sum of 1. The best prefix on the right is the range 3,3 which has sum 3. This means that the middle solution is the range 2,3 which has sum 4.                               
+> From here we want to find the middle solution, so we want the max sum subarray from the range $0$ to $4 which includes indices $2$ and $3$ (so values $1$ and $3$). The best suffix on the left is the range $2,2$ which has a sum of $1$. The best prefix on the right is the range $3,3$ which has sum $3$. This means that the middle solution is the range $2,3$ which has sum $4$.                               
 >     
-> Finally we return the best of the three solutions. Since leftSum is 3, rightSum is 3, and midSum is 4, the best answer is the middles solution, so we return 2, 3, 4. 
+> Finally we return the best of the three solutions. Since $leftSum$ is $3$, rightSum is $3$, and midSum is $4$, the best answer is the middles solution, so we return $2, 3, 4$. 
 
 
 > =====stack frame for 5,8=====
 > 
-> In this stack frame we're working with the subarray arr = [ 3, 4, -8, 6]. We are not in a base case, so we divide into two subproblems, one for indices 5 to 6, the other from 7 to 8.
+> In this stack frame we're working with the subarray $arr = [ 3, 4, -8, 6]$. We are not in a base case, so we divide into two subproblems, one for indices $5$ to $6$, the other from $7$ to $8$.
 > 
-> From the subproblem for 5,6 we will have leftStart = 5, leftEnd = 6, and leftSum = 7. From the subproblem for 3,4 we have rightStart = 8, rightEnd = 8, and rightSum = 6.
+> From the subproblem for $5,6$ we will have $leftStart = 5$, $leftEnd = 6$, and $leftSum = 7$. From the subproblem for $3,4$ we have $rightStart = 8$, $rightEnd = 8$, and $rightSum = 6$.
 > 
-> From here we want to find the middle solution, so we want the max sum subarray from the range 5 to 8 which includes indices 6 and 7 (so values 4 and -8). The best suffix on the left is the range 5,6 which has a sum of 7. The best prefix on the right is the range 7,8 which has sum -2. This means that the middle solution is the range 5,8 which has sum 5.
+> From here we want to find the middle solution, so we want the max sum subarray from the range $5$ to $8$ which includes indices $6$ and $7$ (so values $4$ and $-8$). The best suffix on the left is the range $5,6$ which has a sum of $7$. The best prefix on the right is the range $7,8$ which has sum $-2$. This means that the middle solution is the range $5,8$ which has sum $5$.
 > 
-> Finally we return the best of the three solutions. Since leftSum is 7, rightSum is 6, and midSum is 5, the best answer is the left solution, so we return 5, 6, 7.
+> Finally we return the best of the three solutions. Since $leftSum$ is $7$, $rightSum$ is $6$, and $midSum$ is $5$, the best answer is the left solution, so we return $5, 6, 7$.
 
 
