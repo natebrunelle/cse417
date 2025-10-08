@@ -37,6 +37,11 @@
 
 2025-10-08:
     reading: readings/computing_more.html
+    slides(pptx): files/slides/07.pptx
+    slides(pdf): files/slides/07.pdf
+
+2025-10-10:
+    reading: readings/sorting.html
 
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
