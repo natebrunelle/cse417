@@ -29,11 +29,13 @@
     reading: readings/running_time.html
     slides(pptx): files/slides/05.pptx
     slides(pdf): files/slides/05.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a0fea09-4403-4458-a622-b3620114d398
 
 2025-10-06:
     reading: readings/divide_and_conquer.html
     slides(pptx): files/slides/06.pptx
     slides(pdf): files/slides/06.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd99f4d3-6713-4a6f-9a77-b3620114d494
 
 2025-10-08:
     reading: readings/computing_more.html
