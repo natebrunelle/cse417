@@ -45,4 +45,18 @@ To put this in psuedocode, we'll get:
 >         return inversions;
 >     }
 
-Given the two nested for loops, this algorithm will run in time $O(n^2)$. Now let's use divide and conquer to bring this down to $O(n \log n)$.
+Given the two nested for loops, this algorithm will run in time $O(n^2)$. Now let's use divide and conquer to bring this down to $O(n \log n)$!
+
+# Divide and Conquer
+
+To write our divide and conquer algorithm, we will look at one more way of thinking about an inversion in a list. From our definition of an inversion, that $i<j$ but $arr[i]>arr[j]$, we can see that the number of inversions involving index $j$ paired with a smaller index matches the number of values $j$ must "overtake" to sort the list. So if $j$ is involved in $3$ inversions, then there are 3 values that $j$ should "overtake" when sorting the list!
+
+Let's see some examples of this.
+
+For the list [1,2,4,3] we will look at $j=3$ (so the value $3$). In this case $3$ participates in one such inversion (with index $2$), and in the sorted list [1,2,3,4] its value overtakes just one other value.
+
+In the list [4,3,2,1] the index $3$ is the larger index in 3 inversions, $2$ is the larger index in 2 inversions, $1$ is the larger index in 1 inversion, and $0$ is the larger index in 0 inversions. Comparing to the sorted list [1,2,3,4], the value $1$ overtakes 3 other values $4$, $3$, and $2$), the value $2$ overtakes 2 other values ($3$ and $4$), and the value $3$ overtakes one value ($4$).
+
+By way of analogy, we could consider this like a formula 1 race. If we have 4 cars racing that begin in the order [4,3,2,1], and the final race results are [1,2,3,4], then it must be that car number 1 overtook all three other drivers, car number 2 overtook numbers 3 and 4, etc.
+
+Our divide and conquer algorithm will work by counting the total number of these "overtakings" when sorting a list.
