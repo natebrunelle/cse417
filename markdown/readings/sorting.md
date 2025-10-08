@@ -90,4 +90,14 @@ With all of these insights, we can now give our divide and conquer algorithm!
 
 Let's look at what this algorithm does for the list [1,3,5,7,6,4,0,2]
 
+After **dividing** we will have two sublists, the left being [1,3,5,7], and the right being [6,4,0,2]. Note that the left sublist is already sorted, and so it has 0 inversions. After sorting, the right sublist will be [0,2,4,6]. To get to this order both of 0 and 2 had to overtake both of 6 and 4, and 4 must overtake 6. Therefore so it has 5 inversions.
 
+This means that after **conquering** we have $leftInversions=0$ and $rightInversions=5$, and our left and right sublists are both sorted.
+
+Finally we need to **combine**. To do this we'll merge [1,3,5,7] with [6,4,0,2]. Let's step through this carefully.
+
+> $left$ = [1,3,5,7]
+>
+> $right$ = [6,4,0,2]
+>
+> we also have a list we're merging into that we'll call $merged$. It is currently empty 
