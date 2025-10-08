@@ -96,8 +96,23 @@ This means that after **conquering** we have $leftInversions=0$ and $rightInvers
 
 Finally we need to **combine**. To do this we'll merge [1,3,5,7] with [6,4,0,2]. Let's step through this carefully.
 
+> ====Before merging====
 > $left$ = [1,3,5,7]
 >
-> $right$ = [6,4,0,2]
+> $right$ = [0,2,4,6]
+>
+> $inversions$ = 5
 >
 > we also have a list we're merging into that we'll call $merged$. It is currently empty 
+
+> ====First element====
+>
+> The first element removed will be the value $0$ from the $right$ sublist. When we do this, $0$ has now overtaken every single value in $left$, which is $4$ values. We therefore add $4$ to our count of inversions.
+>
+> $left$ = [1,3,5,7]
+>
+> $right$ = [2,4,6]
+>
+> $inversions$ = 9
+>
+> $merged$ = [0]
