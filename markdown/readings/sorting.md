@@ -88,6 +88,8 @@ With all of these insights, we can now give our divide and conquer algorithm!
 
 ## Example
 
+(Note to reader: there is nothing following the walkthrough of the example below, so feel free to stop reading once you have the idea down!)
+
 Let's look at what this algorithm does for the list [1,3,5,7,6,4,0,2]
 
 After **dividing** we will have two sublists, the left being [1,3,5,7], and the right being [6,4,0,2]. Note that the left sublist is already sorted, and so it has 0 inversions. After sorting, the right sublist will be [0,2,4,6]. To get to this order both of 0 and 2 had to overtake both of 6 and 4, and 4 must overtake 6. Therefore so it has 5 inversions.
@@ -116,3 +118,89 @@ Finally we need to **combine**. To do this we'll merge [1,3,5,7] with [6,4,0,2].
 > $inversions$ = 9
 >
 > $merged$ = [0]
+
+> ====Second element====
+>
+> The next element removed will be the value $1$ from the $left$ sublist. When we do this, $1$ was already the leftmost value, and so we do not add to the number of inversions.
+>
+> $left$ = [3,5,7]
+>
+> $right$ = [2,4,6]
+>
+> $inversions$ = 9
+>
+> $merged$ = [0,1]
+
+> ====Third element====
+> 
+> The next element removed will be the value $2$ from the $right$ sublist. When we do this, $0$ has now overtaken every single value in $left$, which is $3$ values. We therefore add $3$ to our count of inversions.
+> 
+> $left$ = [3,5,7]
+>
+> $right$ = [4,6]
+>
+> $inversions$ = 12
+>
+> $merged$ = [0,1,2]
+
+> ====Fourth element====
+>
+> The next element removed will be the value $3$ from the $left$ sublist. When we do this, $3$ was already the leftmost value, and so we do not add to the number of inversions.
+>
+> $left$ = [5,7]
+>
+> $right$ = [4,6]
+>
+> $inversions$ = 12
+>
+> $merged$ = [0,1,2,3]
+
+> ====Fifth element====
+>
+> The next element removed will be the value $4$ from the $right$ sublist. When we do this, $4$ has now overtaken every single value in $left$, which is $2$ values. We therefore add $2$ to our count of inversions.
+>
+> $left$ = [5,7]
+>
+> $right$ = [6]
+>
+> $inversions$ = 14
+>
+> $merged$ = [0,1,2,3,4]
+
+> ====Sixth element====
+>
+> The next element removed will be the value $5$ from the $left$ sublist. When we do this, $5$ was already the leftmost value, and so we do not add to the number of inversions.
+>
+> $left$ = [5,7]
+>
+> $right$ = [6]
+>
+> $inversions$ = 14
+>
+> $merged$ = [0,1,2,3,4,5]
+
+> ====Seventh element====
+>
+> The next element removed will be the value $6$ from the $right$ sublist. When we do this, $6$ has now overtaken every single value in $left$, which is now just $1$ value. We therefore add $1$ to our count of inversions.
+>
+> $left$ = [7]
+>
+> $right$ = []
+>
+> $inversions$ = 15
+>
+> $merged$ = [0,1,2,3,4,5,6]
+
+> ====Last element====
+>
+> The last element removed will be the value $7$ from the $left$ sublist. When we do this, $7$ was already the leftmost value, and so we do not add to the number of inversions.
+>
+> $left$ = []
+>
+> $right$ = []
+>
+> $inversions$ = 15
+>
+> $merged$ = [0,1,2,3,4,5,6,7]
+>
+> At this point, our merge step is done, so we return the $merged$ list as well as the value 15.
