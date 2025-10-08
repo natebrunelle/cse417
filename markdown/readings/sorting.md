@@ -33,16 +33,16 @@ We will leverage this last statement to produce an algorithm. To find the number
 
 To put this in psuedocode, we'll get:
 
->    public int inversions(List arr){
->        inversions = 0
->        for(int i = 0; i < arr.size(); i++){
->            for(int j = i+1; j < arr.size(); j++){
->                if(arr[i] > arr[j]){
->                    inversions += 1;
->                }
->            }
->        }
->        return inversions;
->    }
+>     public int inversions(List arr){
+>         inversions = 0
+>         for(int i = 0; i < arr.size(); i++){
+>             for(int j = i+1; j < arr.size(); j++){
+>                 if(arr[i] > arr[j]){
+>                     inversions += 1;
+>                 }
+>             }
+>         }
+>         return inversions;
+>     }
 
 Given the two nested for loops, this algorithm will run in time $O(n^2)$. Now let's use divide and conquer to bring this down to $O(n \log n)$.
