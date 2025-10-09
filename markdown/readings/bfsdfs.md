@@ -4,14 +4,14 @@ title: Graph Search
 
 # Review of graphs
 
+You learned about graphs and algorithms for traversing graphs in CSE 373. This reading is mostly a review of those algorithms. This reading covers what you need to know for CSE 417, but if it's been a while, it might feel a bit fast and condensed. [Review this reading from CSE 373 about graphs and graph traversal if you need a second explanation.](https://courses.cs.washington.edu/courses/cse373/25su/lessons/midterm-and-graphs/)
+
 Recall that an graph is a data structure with vertices connected by edges. Some people call vertices "nodes" and edges "arcs"&mdash;it doesn't matter. In a **directed graph**, edges go from one vertex to another, but you may not necessarily be able to go back. In an **undirected graph**, edges go in both directions. 
 
 We assume that the graph is represented in a bidirectional adjacency list, which means that the following two basic operations can be performed in $O(1)$ time from a vertex $v$:
 
 * Getting the list of vertices that $v$ can go to via a single edge, called out-neighbors.
 * Getting the list of vertices that can go to $v$ via a single edge, called in-neighbors. (Identical to out-neighbors for undirected graphs.)
-
-You learned about algorithms for traversing graphs in CSE 373. This reading is mostly a review of those algorithms.
 
 # Breadth-first search (BFS)
 
@@ -101,13 +101,3 @@ Suppose we start DFS at 1 and default to **higher** number first when multiple o
 ## Running time
 
 For a graph with $n$ vertices and $m$ edges, DFS also runs in time $O(n +m)$. Although the stack may take more iterations to clear than the BFS queue, many iterations only involve a constant amount of work (when the vertex is already processed). Already-processed vertices can only be seen as many times as there are incoming edges, so these add only $O(m)$ time. Every vertex is processed exactly once, and adds their outneighbors to the queue then. Thus, overall, we still do a constant amount of work for every vertex and for every edge, which is $O(n + m)$.
-
-# Concept check
-
-Consider the following graph for questions 1 and 2:
-
-[todo]
-
-Run BFS on this graph starting from 1. When there are multiple options, pick the smallest number. (That is, add the smallest numbered neighbor to the queue first.) In what order are the vertices processed? Write the order as a 9-digit number, i.e. if the order is 1, 2, ..., 8, 9, then you should write 123456789.
-
-Run DFS on this graph starting from 1. When there are multiple options, pick the smallest number. (That is, add the largest numbered neighbor to the stack first, so the smallest number will be picked first.) In what order are the vertices processed? Write the order as a 9-digit number, i.e. if the order is 1, 2, ..., 8, 9, then you should write 123456789.
