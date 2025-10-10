@@ -49,6 +49,22 @@ In the homework you will be asked to:
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
+## HW 3: Divide and conquer
+
+**Quick links:**
+
+- [Problem statements](files/homework/hw3/hw3.pdf)
+- [LaTeX template](files/homework/hw3/hw3.zip)
+- [Problem 5X.1 programming spec](https://docs.google.com/document/d/e/2PACX-1vQfSAoKmu5_8oC0gyRd2hUerurZCoSjM0wCuoAE3wvu7x_IaLKOIxm1FmKiHYJqNWXgEjrf31fm043A/pub)
+- [Problem 5X.1 starter code](files/homework/hw3/hw3_p5_x1.zip)
+
+In the homework you will be asked to:
+
+1. Extend the closest pair of points algorithm to related contexts.
+1. Experimentally benchmark a divide and conquer algorithm against a brute force algorithm.
+1. Develop and prove correct your own divide and conquer algorithm.
+
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 # Assessments
 Information will be posted here closer to the day of Quiz 1.
