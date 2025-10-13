@@ -18,7 +18,7 @@ Depending on who you took 373 with, you may or may already know an algorithm for
 
 # Strongly connected components
 
-Recall that in an undirected graph, a graph is connected if you can go from any vertex to any other vertex. In math, this is the *definition* of connecteness, and it captures the English intuitive sense quite well.
+Recall that in an undirected graph, a graph is connected if you can go from any vertex to any other vertex. In math, this is the *definition* of connectedness, and it captures the English intuitive sense quite well.
 
 In a directed graph, the English word "connected" does not really align with the above definition. For example, if you just have two vertices $a$ and $b$, and a directed edge $(a, b)$, it is *not* true that you can go from any vertex to any other vertex, since you cannot go from $b$ to $a$. But if you showed a non-math person on the street this graph, they would likely use the English word "connected" to describe this.
 
