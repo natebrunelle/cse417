@@ -11,6 +11,7 @@ The most important property of a DAG is that they admit a *topological sort*. A 
 In the pictures below, I have drawn a graph, as well as the same graph whose vertices are laid out in a topologically sorted order. Check for yourself that they really are the same graph (all the edges are between the same vertices), and that the only difference is layout. Topological sort means that all the edges are pointing to the right.
 
 ![A directed graph with no cycles](./tps-1.png)
+
 ![A topological sort of the graph](./tps-2.png)
 
 Depending on who you took 373 with, you may or may already know an algorithm for topological sort. There are many different algorithms that all work. I encourage you to brainstorm how you might try to do this, if not on a computer, at least techniques for pen-and-paper. 
