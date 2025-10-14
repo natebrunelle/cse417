@@ -41,16 +41,19 @@
     reading: readings/computing_more.html
     slides(pptx): files/slides/07.pptx
     slides(pdf): files/slides/07.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d953ded5-9108-4093-8276-b3620114d585
 
 2025-10-10:
     reading: readings/sorting.html
     slides(pptx): files/slides/08.pptx
     slides(pdf): files/slides/08.pdf
+    video(cse421 25wi): https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f996c131-04d0-4e56-a099-b25d0154dca0
 
 2025-10-13:
     reading: readings/bfsdfs.html
     slides(pptx): files/slides/09.pptx
     slides(pdf): files/slides/09.pdf
+    video: https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4eb0ab9-cfd1-4c56-b757-b3620114d7ba
 
 2025-10-15:
     reading: readings/directed_graphs.html
