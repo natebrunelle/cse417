@@ -73,11 +73,13 @@ In the homework you will be asked to:
 We will have 2 quizzes this quarter, which will be held in class on the following dates. We will allocate the full 50 minute lecture period for the quiz.
 
 1. Friday 10/24
-1. Fridy 11/21
+1. Friday 11/21
 
 You will be permitted to bring 1 letter-sized page, front and back, of notes *of your own creation* to reference. You are welcome to collaborate on the construction, but there are well-supported studies that suggest a lot of learning happens during the construction of that notes page, so we strongly suggest that you actively participate in building it. You may type it or hand-write it. 
 
 Besides this one page, we will also provide you a reference sheet with the quiz. The quiz will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.).
+
+
 
 # Quiz 1
 
@@ -90,7 +92,7 @@ Quiz 1 (on 10/24) will cover all material from the beginning of the quarter thro
 
 We will add a link to the quiz reference sheet here no later than 10/17.
 
-To give you a sense for what to expect, we have provided a practice quiz. This practice quiz is intended to be representative of what we believe would be a reasonable quiz, but is not necessarily going to match *your* quiz. We recommend using this quiz as a tool to self-evaluated your preparedness after studying, rather than as a guide on what to study.
+To give you a sense for what to expect, we have provided a practice quiz. This practice quiz is intended to be representative of what we believe would be a reasonable quiz, but is not necessarily going to resemble *your* quiz. We recommend using this quiz as a tool to self-evaluated your preparedness after studying, rather than as a guide on what to study.
 
 - Practice quiz will be provided here no later than end of 10/17
 
