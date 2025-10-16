@@ -67,29 +67,45 @@ In the homework you will be asked to:
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 # Assessments
-Information will be posted here closer to the day of Quiz 1.
 
-<!-- Your midterm exam will be at 6:00pm-7:30pm on Wednesday February 19 in [Bagly 131](https://www.washington.edu/maps/#!/BAG) in lieue of a normal class meeting.
+# Quizzes
 
-You will be permitted 1 letter-sized page, front and back, of notes to reference for the exam. You are welcome to construct that independently or in groups. You may type it or hand-write it. Besides this one page, the exam will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.). The exam will additionally have some information provided for you (see what will be included by looking at the practice exam below). It's wortwhile to keep in mind what we include there when designing your personal notes sheet.
+We will have 2 quizzes this quarter, which will be held in class on the following dates. We will allocate the full 50 minute lecture period for the quiz.
 
+1. Friday 10/24
+1. Fridy 11/21
 
-The midterm will cover all material from the beginning of the quarter through Dynamic Programming (i.e. everything through Homework 5). This includes all of:
+You will be permitted to bring 1 letter-sized page, front and back, of notes *of your own creation* to reference. You are welcome to collaborate on the construction, but there are well-supported studies that suggest a lot of learning happens during the construction of that notes page, so we strongly suggest that you actively participate in building it. You may type it or hand-write it. 
+
+Besides this one page, we will also provide you a reference sheet with the quiz. The quiz will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.).
+
+# Quiz 1
+
+Quiz 1 (on 10/24) will cover all material from the beginning of the quarter through Divide and Conquer (i.e. Homeworks 1,2, and 3). This includes all of:
 
 - Stable Matching
-- Graph Algorithms and aymptotic analysis
-- Greedy Algorithms
+- Algorithm correctness
+- Running time and asymptotic analysis
 - Divide and Conquer Algorithms
-- Dynamic Programming Algorithms.
 
-To give you a sense for what to expect, here are some practice exams for you:
+We will add a link to the quiz reference sheet here no later than 10/17.
 
-- [practice exam 1](files/exams/practice-midterm-1.pdf) ([solutions](files/exams/practice-midterm-1-solutions.pdf))
-- [practice exam 2](files/exams/practice-midterm-2.pdf) ([solutions](files/exams/practice-midterm-2-solutions.pdf))
+To give you a sense for what to expect, we have provided a practice quiz. This practice quiz is intended to be representative of what we believe would be a reasonable quiz, but is not necessarily going to match *your* quiz. We recommend using this quiz as a tool to self-evaluated your preparedness after studying, rather than as a guide on what to study.
 
-We will additionally have a review session at 4:30pm on Tuesday February 18 in Bagly 131 (i.e. the exam room). During that review session we will discuss practice exam 1. There will be additional review in your regular section on 2/13. Office hours are also certainly a resource for preparing for the exam (Nathan will hold some on Tuesday 2/18 since 2/17 is a holiday). -->
+- Practice quiz will be provided here no later than end of 10/17
 
-<!-- ## Final
+We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 10/22). 
+
+<!-- 
+## Quiz 2
+
+Quiz 2 (on 11/21) will cover all material from the end of quiz 1 content through Greedy Algorithms (i.e. Homeworks 4,5, and 6). This includes all of:
+
+- Graph Algorithms
+- Dynamic Programming Algorithms
+- Greedy Algorithms
+
+## Final
 Your final exam will occur at 2:30pm on Monday March 17. Because the course scheduled into the final exam block after ours does not have a final exam, you will have until 5:20pm to take the exam. Again, if you have anticipated conflicts with this time, please let Prof. Brunelle.
 
 You will be permitted 1 letter-sized page, front and back, of notes to reference for the exam. You are welcome to construct that independently or in groups. You may type it or hand-write it. Besides this one page, the exam will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.). The exam will additionally have some information provided for you (see what will be included by looking at the practice exam below). It's wortwhile to keep in mind what we include there when designing your personal notes sheet.
