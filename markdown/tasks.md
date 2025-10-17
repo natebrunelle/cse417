@@ -73,7 +73,7 @@ In the homework you will be asked to:
 - [Problem statements](files/homework/hw4/hw4.pdf)
 - [LaTeX template](files/homework/hw4/hw4.zip)
 - [Problem 7X.2 programming spec](https://docs.google.com/document/d/e/2PACX-1vSuCFZK5uPf929Z4_PFpewUwX4aiR0A--DEHlE52iu9wrCRLV8-Jm3jDD8-0-Ww2Uo3WTANfQv1eU0W/pub)
-- [Problem 7X.2 starter code](files/homework/hw3/hw4_p7_x2.zip)
+- [Problem 7X.2 starter code](files/homework/hw4/hw4_p7_x2.zip)
 
 In the homework you will be asked to:
 
