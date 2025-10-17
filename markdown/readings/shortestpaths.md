@@ -12,7 +12,7 @@ Recall from CSE 373 that a (min)-priority queue is an abstract data type similar
 1. `peek` the element with lowest priority in $O(1)$ time
 1. `decrease_priority` for a given element to a given new priority in $O(\log n)$ time.
 
-Some of these running times can be improved with clever data structures, for example `decrease_priority` can be made to take amortized $O(1)$ time using a [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap), but we won't need these optimizations today, and you don't have to know them for this class.
+Some of these running times can be improved with clever data structures, for example `decrease_priority` can be made to take amortized $O(1)$ time using a [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap), but you're not required to know how it works for this class.
 
 # Dijkstra's algorithm
 
@@ -44,6 +44,8 @@ The pseudocode itself is nearly identical to BFS with layers, the only notable d
 8.             Decrease the priority of y in Q to currPriority[y].
 9. return currPriority
 ```
+
+Note that Dijkstra's algorithm uses $n$ `extract` operations and up to $m$ `decrease_priority` operations. That means that with the basic priority queue outlined above, this takes overall $O(m \log n)$ time. With a Fibonacci heap, the algorithm takes $O(m + n \log n)$ time, a slight improvement. 
 
 # Other shortest path algorithms
 
