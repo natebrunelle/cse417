@@ -77,9 +77,9 @@ In the homework you will be asked to:
 
 In the homework you will be asked to:
 
-1. Extend the closest pair of points algorithm to related contexts.
-1. Experimentally benchmark a divide and conquer algorithm against a brute force algorithm.
-1. Develop and prove correct your own divide and conquer algorithm.
+1. Extend algorithms for minimum spanning trees to solve a new problem.
+1. Determine when an algorithm that is mathematically correct may still be inappropriate for some uses.
+1. Use graph modeling to solve an algorithmic problem.
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
