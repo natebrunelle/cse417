@@ -105,11 +105,11 @@ Quiz 1 (on 10/24) will cover all material from the beginning of the quarter thro
 - Running time and asymptotic analysis
 - Divide and Conquer Algorithms
 
-Here a [link to the quiz reference sheet](/files/quizzes/q1reference.pdf).
+Here a [link to the quiz reference sheet](https://courses.cs.washington.edu/courses/cse417/25au/files/quizzes/q1reference.pdf).
 
 To give you a sense for what to expect, we have provided a practice quiz. This practice quiz is intended to be representative of what we believe would be a reasonable quiz, but is not necessarily going to resemble *your* quiz. We recommend using this quiz as a tool to self-evaluated your preparedness after studying, rather than as a guide on what to study.
 
-- [Practice quiz 1](/files/quizzes/practicequiz1_au25.pdf)
+- [Practice quiz 1](https://courses.cs.washington.edu/courses/cse417/25au/files/quizzes/practicequiz1_au25.pdf)
 - Solutions will be posted Wednesday 10/22
 
 We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 10/22). 
