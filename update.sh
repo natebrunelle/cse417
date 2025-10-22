@@ -103,7 +103,8 @@ function upfile_inner() {
             "$dst"
 
         sed_inplace 's/XXXX-XX-XX/'"$datetime"'/g' "$dst"
-        sed_inplace "s;\(href=[\"']\)\.\?/;\1$prefix;g" "$dst"
+        sed_inplace "s;\(href=[\"']\)\./;\1${prefix};g" "$dst"
+        sed_inplace "s;\(href=[\"']\)/;\1${prefix};g" "$dst"
         sed_inplace 's/<a href="'"$(basename "$dst")"'">\([^<]*\)<\/a>/<span class="visited">\1<\/span>/g' "$dst"
         chmod 664 "$dst"
         #touch --date="$(stat -c "%y" "$src")" "$dst"
