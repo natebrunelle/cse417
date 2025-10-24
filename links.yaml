@@ -74,6 +74,9 @@
     slides(pptx): files/slides/13.pptx
     slides(pdf): files/slides/13.pdf
 
+2025-10-20:
+    reading: readings/dynamic_programming.html
+
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
 #     slides(pdf): files/slides/lecture3_stablematching2.pdf
