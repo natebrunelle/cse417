@@ -76,6 +76,11 @@
 
 2025-10-27:
     reading: readings/dynamic_programming.html
+    slides(pptx): files/slides/14.pptx
+    slides(pdf): files/slides/14.pdf
+
+2025-10-29:
+    reading: readings/weighted_interval_scheduling.html
 
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx

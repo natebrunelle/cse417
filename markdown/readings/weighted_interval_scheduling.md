@@ -121,7 +121,7 @@ def wis(j):
         i--
     included = v_j + wis(i) // case for including j
     answer = max(excluded, included)
-    choices[j] = (answer == included) // T/F to indate whether we included event j
+    choices[j] = (answer == included) // T/F to indate whether we included j
     mem[j] = answer
     return answer
 
@@ -129,12 +129,12 @@ def findset(bids, choices):
     bidSet = {}
     i = choices.length-1
     while(i>-1):
-        if(!choices[i]):
+        if(!choices[i]): // if we excluded i, look at i-1
             i--
-        if(choices[i]):
-            bidset.add(bids[i])
+        if(choices[i]): // if we included i then...
+            bidset.add(bids[i]) // add that bid to our solution
             start = s_i
-            while(e_i > start):
+            while(e_i > start): // find the next compatible bid
                 i--
     return bidset
 ```
