@@ -67,7 +67,7 @@ Now that we've defined our recursive structure, let's take a look at how we migh
 
 We now have everything we need to provide a top-down algorithm:
 
-'''
+```
 def wis(bids):
     mem = array of -1s matching length of bids
     return wis(bids.length-1)
@@ -85,5 +85,5 @@ def wis(j):
     answer = max(excluded, included)
     mem[j] = answer
     return answer
-'''
+```
 
