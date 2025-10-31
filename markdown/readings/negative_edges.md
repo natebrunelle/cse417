@@ -37,7 +37,7 @@ For Disjkstra's algorithm to correctly find shortest paths, we require that the 
 
 Consider the following graph:
 
-![dijkstras_counterexample.png](A graph with a negative cost edge. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 2, the edge from $s$ to $b$ has cost 7, the edge from $a$ to $t$ has cost 3, and the edge from $b$ to $t$ has cost -3.)
+![readings/dijkstras_counterexample.png](A graph with a negative cost edge. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 2, the edge from $s$ to $b$ has cost 7, the edge from $a$ to $t$ has cost 3, and the edge from $b$ to $t$ has cost -3.)
 
 Let's step through what Dijksra's algorithm does on this graph.
 
@@ -61,15 +61,15 @@ There are a few techniques you might consider for how to overcome Dijkstra's lim
 
 The most common question I hear from students about Dijkstra's algorithm is something like "why can't we just add a value to each edge's weight so that none are negative". For example, the suggestion is to add 3 to the cost of every edge in the graph above to produce the following graph 
 
-![dijkstras_adjusted.png](The graph above with $3$ added to each edge's cost. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 5, the edge from $s$ to $b$ has cost 10, the edge from $a$ to $t$ has cost 6, and the edge from $b$ to $t$ has cost 0.)
+![readings/dijkstras_adjusted.png](The graph above with $3$ added to each edge's cost. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 5, the edge from $s$ to $b$ has cost 10, the edge from $a$ to $t$ has cost 6, and the edge from $b$ to $t$ has cost 0.)
 
 Running Dijkstra's algorithm on this graph *does* correctly determine the least cost path from $s$ to $t$ is the $s\rightarrow b \rightarrow t$ path. So it seems like a promising direction. But let's consider *this* graph next. In this graph we split up the original graph's edge of cost $7$ to become two edges by inserting an intermediate node. One of the new edges has cost $2$ and the other of cost $5$.
 
-![dijkstras_split_edge.png](The original graph above, but with a new node $c$ inserted between $s$ and $b$. This means the that path $s\ rightarrow c \rightarrow b \rightarrow t$ is the lease cost path from $s$ to $t$.)
+![readings/dijkstras_split_edge.png](The original graph above, but with a new node $c$ inserted between $s$ and $b$. This means the that path $s\ rightarrow c \rightarrow b \rightarrow t$ is the lease cost path from $s$ to $t$.)
 
 For that graph, Dijkstra's algorithm still incorrectly determines that the path $s\rightarrow a \rightarrow t$ is the least cost. Now let's see what our suggested strategy does to this graph. Again, we're going to add $3$ to each edge's cost, giving the following graph as a result.
 
-![dijkstras_split_edge_adjusted.png](The previous graph above, but with $3$ added to each edge's cost so that all edges have non-negative weight.)
+![readings/dijkstras_split_edge_adjusted.png](The previous graph above, but with $3$ added to each edge's cost so that all edges have non-negative weight.)
 
 In this graph, Dijkstra's algorithm *still* incorrectly determines that  the path $s\rightarrow a \rightarrow t$ is the least cost. The reason for this is because we are adding $3$ to the cost of every edge, and so the amount a path's cost increases depends on the number of edges along that path. The end result is that paths with more edges incurr more additional cost than paths with fewer edges. 
 
@@ -83,7 +83,7 @@ A **cycle** is defined as a path that starts and ends with the same node. For ex
 
 Let's look a what happens when we consider shortest paths on the following graph.
 
-![negative_cycle.png](An undirected graph with nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 1, the edge from $s$ to $b$ has cost -3, the edge from $b$ to $a$ has cost 1, and the edge from $a$ to $t$ has cost 6.)
+![readings/negative_cycle.png](An undirected graph with nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 1, the edge from $s$ to $b$ has cost -3, the edge from $b$ to $a$ has cost 1, and the edge from $a$ to $t$ has cost 6.)
 
 If we were to run Dijkstra's algorithm to find the least cost path from $s$ to $t$ we would get the path $s\rightarrow b \rightarrow a \rightarrow t$ which has cost 4. This might seem reasonable at first, however this is actually a *better* path than that! Because the cycle $s\rightarrow b \rightarrow a \rightarrow s$ has cost -1, we could get a path of cost 3 by doing $s\rightarrow b \rightarrow a \rightarrow s\rightarrow b \rightarrow a \rightarrow t$. But why stop there?! We could get this cost down to 2 by taking the cycle twice! This would give the path $s\rightarrow b \rightarrow a \rightarrow s\rightarrow b \rightarrow a \rightarrow s\rightarrow b \rightarrow a \rightarrow t$. And we could keep doing this! Three spins of the cycle reduces the cost to 1, four spins reduces to to 0! In fact, we can never find a least cost path because we could always take the cycle more times to get a better path.
 
