@@ -83,6 +83,22 @@ In the homework you will be asked to:
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
+## HW 5: Dynamic Programming
+
+**Quick links:**
+
+- [Problem statements](files/homework/hw5/hw5.pdf)
+- [LaTeX template](files/homework/hw5/hw5.zip)
+- [Extra hint/reading for P9](readings/finitecases.html)
+
+In the homework you will be asked to:
+
+1. Extend the edit distance algorithm to solve a more realistic variant used in practice.
+1. Think about other variations or applications of edit distance.
+1. Use dynamic programming to solve a novel problem.
+
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
+
 # Quizzes
 
 We will have 2 quizzes this quarter, which will be held in class on the following dates. We will allocate the full 50 minute lecture period for the quiz.
