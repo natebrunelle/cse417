@@ -4,7 +4,7 @@ title: Finite cases in DP
 
 # A bit of setup
 
-Looking forward to tomorrow's release of HW5, the intended solution to Problem 9 will rely on a common idea that you haven't seen in lecture, so I wanted to give you an example. The technique is: conditioning on a finite set of cases.
+On HW5, the intended solution to Problem 9 will rely on a common idea that you haven't seen in lecture, so I wanted to give you an example. The technique is: conditioning on a finite set of cases.
 
 You saw in lecture that sometimes, it is useful in dynamic programming problems to add another parameter. For example, in the oven problem, when deciding whether or not bake item $i$, in the case that you bake it, you don't get exactly the original problem on $i-1$. You used some time, and thus now have less time. Thus, we added an additional time parameter to the DP, to express that subproblem depend both on $i$ and the time remaining.
 
