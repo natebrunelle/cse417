@@ -83,7 +83,7 @@
     reading: readings/weighted_interval_scheduling.html
     slides(pptx): files/slides/15.pptx
     slides(pdf): files/slides/15.pdf
-    sample code: files/sample_code/Oven.java
+    implementation: files/sample_code/Oven.java
 
 2025-10-31:
     reading: readings/string_distance.html
