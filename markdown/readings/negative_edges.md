@@ -12,15 +12,15 @@ Input: a graph $G$ and a start node $s$
 Output: a list of shortest path distances from $s$ to every other node in the graph
 
 ```
-set the priority[s] to 0, and the priority of all other nodes to infinity
-make a priority queue Q, add all nodes to it
-while Q is not empty:
-    remove the lowest priority node x from Q
-    for each neighbor y of x:
-        if priority[y] > priority[x]+distance(x,y):
-            priority[y] = priority[x]+distance(x,y)
-            decrease priority of y in Q to match priority[y]
-return priority
+    set the priority[s] to 0, and the priority of all other nodes to infinity
+    make a priority queue Q, add all nodes to it
+    while Q is not empty:
+        remove the lowest priority node x from Q
+        for each neighbor y of x:
+            if priority[y] > priority[x]+distance(x,y):
+                priority[y] = priority[x]+distance(x,y)
+                decrease priority of y in Q to match priority[y]
+    return priority
 ```
 
 The running time of this algorithm is then $m \log(n)$ where $m$ is the number of edges in the graph and $n$ is the number of vertices. This is because:
