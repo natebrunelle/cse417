@@ -12,6 +12,7 @@ Input: a graph $G$ and a start node $s$
 Output: a list of shortest path distances from $s$ to every other node in the graph
 
 ```
+shortestPath(G, s)
     set the priority[s] to 0, and the priority of all other nodes to infinity
     make a priority queue Q, add all nodes to it
     while Q is not empty:
