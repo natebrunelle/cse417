@@ -61,7 +61,7 @@ There are a few techniques you might consider for how to overcome Dijkstra's lim
 
 The most common question I hear from students about Dijkstra's algorithm is something like "why can't we just add a value to each edge's weight so that none are negative". For example, the suggestion is to add 3 to the cost of every edge in the graph above to produce the following graph 
 
-![The graph above with $3$ added to each edge's cost. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 5, the edge from $s$ to $b$ has cost 10, the edge from $a$ to $t$ has cost 6, and the edge from $b$ to $t$ has cost 0.(dijkstras_adjusted.png)
+![The graph above with $3$ added to each edge's cost. It has nodes $s$, $a$, $b$, and $t$. The edge from $s$ to $a$ has cost 5, the edge from $s$ to $b$ has cost 10, the edge from $a$ to $t$ has cost 6, and the edge from $b$ to $t$ has cost 0.](dijkstras_adjusted.png)
 
 Running Dijkstra's algorithm on this graph *does* correctly determine the least cost path from $s$ to $t$ is the $s\rightarrow b \rightarrow t$ path. So it seems like a promising direction. But let's consider *this* graph next. In this graph we split up the original graph's edge of cost $7$ to become two edges by inserting an intermediate node. One of the new edges has cost $2$ and the other of cost $5$.
 
