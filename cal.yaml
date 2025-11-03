@@ -53,7 +53,7 @@ lectures:
     - 4.1. Intro to dynamic programming (Nathan)
     - 4.2. Adding new parameters (Nathan)
     - 4.3. DP on intervals (Nathan)
-    - 4.4. DP on DAGs (Nathan)
+    - 4.4. DP on Graphs (Nathan)
     - 5.1. Intro to greedy algorithms (Glenn)
     - 5.2. Scheduling problems (Glenn)
     - 5.3. Non-optimal greedy algorithms (Glenn)
