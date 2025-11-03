@@ -95,6 +95,9 @@
     slides(pptx): files/slides/16.pptx
     slides(pdf): files/slides/16.pdf
 
+2025-11-05:
+    reading: readings/introgreedy.html
+
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
 #     slides(pdf): files/slides/lecture3_stablematching2.pdf
