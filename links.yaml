@@ -100,6 +100,9 @@
     slides(pptx): files/slides/18.pptx
     slides(pdf): files/slides/18.pdf
 
+2025-11-07:
+    reading: readings/huffman.html
+
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
 #     slides(pdf): files/slides/lecture3_stablematching2.pdf
