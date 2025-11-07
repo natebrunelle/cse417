@@ -103,8 +103,8 @@ In the homework you will be asked to:
 
 - [Problem statements](files/homework/hw6/hw6.pdf)
 - [LaTeX template](files/homework/hw6/hw6.zip)
-- [Problem 11X.2 programming spec]()
-- [Problem 11X.2 starter code]()
+- [Problem 11X.2 programming spec](https://docs.google.com/document/d/e/2PACX-1vQ_d7eYhJmmESZL-2bBVOSP-f9Q-Rc1lCHaqKLV1EeK2rIUybK0nyC0ffn2MzbFjUhjIbQGk5-QWKoS/pub)
+- [Problem 11X.2 starter code](files/homework/hw6/hw6_p11_x2.zip)
 
 In the homework you will be asked to:
 
