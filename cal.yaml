@@ -55,7 +55,7 @@ lectures:
     - 4.3. DP on intervals (Nathan)
     - 4.4. DP on Graphs (Nathan)
     - 5.1. Intro to greedy algorithms (Glenn)
-    - 5.2. Scheduling problems (Glenn)
+    - 5.2. Huffman codes (Glenn)
     - 5.3. Non-optimal greedy algorithms (Glenn)
     - 6.1. Intro to flows (Nathan)
     - 6.2. Flow modeling (Nathan)
@@ -92,8 +92,8 @@ reading:
         - "K&T: 6.4, 6.8"
     4.3. DP on intervals (Nathan):
         - "K&T: 6.5"
-    5.2. Scheduling problems (Glenn):
-        - "K&T: 4.1-4.2"
+    5.2. Huffman codes (Glenn):
+        - "K&T: 4.8"
     5.3. Non-optimal greedy algorithms (Glenn):
         - "K&T: 11.1"
     6.1. Intro to flows (Nathan):
