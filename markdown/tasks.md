@@ -97,6 +97,21 @@ In the homework you will be asked to:
 1. Think about other variations or applications of edit distance.
 1. Use dynamic programming to solve a novel problem.
 
+## HW 6: Greedy Algorithms
+
+**Quick links:**
+
+- [Problem statements](files/homework/hw6/hw6.pdf)
+- [LaTeX template](files/homework/hw6/hw6.zip)
+- [Problem 11X.2 programming spec]()
+- [Problem 11X.2 starter code]()
+
+In the homework you will be asked to:
+
+1. Extend the concepts behind Huffman codes to solve a different problem.
+1. Construct counterexamples by hand and/or by computer.
+1. Use greedy algorithms to solve a novel problem.
+
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 # Quizzes
