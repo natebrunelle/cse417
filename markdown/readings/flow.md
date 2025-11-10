@@ -75,7 +75,9 @@ The following is a graph with three units of flow. We were able to obtain more f
 
 ![A flow graph with 3 units of flow](flowgraph2.png)
 
-We typically think of flow being added along a path from $s$ to $t$, as this ensures we maintain the flow conservation contraint (every unit of flow entering a node gets immediately passed along to the next in the path).
+We typically think of flow being added along a path from $s$ to $t$, as this ensures we maintain the flow conservation contraint (every unit of flow entering a node gets immediately passed along to the next in the path). Note that this graph still satisfies the flow conservation constraint. To verify this we need to ensure the total flow entering each node exactly matches the total flow exiting. For example, there are 4 total units of flow entering node $2$ (1 from edge $(s,2)$ and 3 from edge $(1,2)$), and there are 4 total units of flow exiting node $s$ (all 4 on edge $(2,3)$).
+
+
 
 Finally, the following reprents a graph with 8 units of flow, which is the maximum for this flow network. We therefore say that this is the solution for the max flow problem. We will discuss how to find this graph, and how to verify that it's flow is maximum in class.
 
