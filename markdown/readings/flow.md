@@ -6,9 +6,9 @@ title: Flow
 
 So far we've discussed 3 different algorithm design strategies: divide and conquer, dynamic programming, and greedy. In this unit we will introduce our final algorithm design strategy of the quarter called *reductions*. 
 
-All three algorithm design strategies we have covered thus far work on the same idea, that smaller problems are easier to solve than bigger ones. Therefore they take the approach of converting large inputs to the problem into smaller inputs to the same problem. Reductions take a different approach, working off of the idea that the easiest problems to solve are the ones you already have an algorithm for. With reductions, you design an algorithm for you problem by converting it to a different problem that you already have an algorithm for. In other words, you transform the new problem to an already-solved one so you can just use a preexisting algorithm to solve it.
+All three algorithm design strategies we have covered thus far work on the same idea, that smaller problems are easier to solve than bigger ones. Therefore they take the approach of converting large inputs to the problem into smaller inputs to the same problem. Reductions take a different approach, working off of the idea that the easiest problems to solve are the ones you already have an algorithm for. With reductions, you design an algorithm for your problem by converting it to a different problem that you already have an algorithm for. In other words, you transform the new problem to an already-solved one so you can just use a preexisting algorithm to solve it.
 
-You've actually already seen examples of this. Most notably, the problem of finding a "money pump" in currency exchanges could be converted into the problem of finding a negative-cost cycle in a graph. This conversion of a the money pump problem into a cycle-finding problem then allowed us to just use Bellman-Ford to solve the problem.
+You've actually already seen examples of this. Most notably, the problem of finding a "money pump" in currency exchanges could be converted into the problem of finding a negative-cost cycle in a graph. This conversion of the money pump problem into a cycle-finding problem then allowed us to just use Bellman-Ford to solve the problem.
 
 Because reductions require you to convert a new problem into one with a pre-existing solution, the first thing you need in order to be proficient at solving problems by reduction is a solid foundation of problems you're familiar with. Towards this end, in this unit we will begin by introducing a problem which is heavily used in a broad diversity of reductions. This problem is called Max Flow.
 
@@ -20,7 +20,7 @@ To put it broadly, the Max Flow problem relates to finding the optimal way of mo
 
 Now lets take this motivating example, and express it in a way suitable for writing an algorithm to solve it.
 
-Fundamentally, this problem is a graph problem. Our input will be a special kind of weighted and directed graph that we call a *flow network*. The edges in a flow network are like the train tracks, they carry "flow" (e.g. tanks), and their weights represent the maximum amount of flow they can carry, which we call *capacity*. The nodes are like train stations, they allow flow to be redistributed across other edges. To make things simpler at first (we'll discuss how to modify this later), we'll assume that there is a special node that we call the *source* where all flow must originate from (e.g. it's the tank factory). Additionally, we'll have a special node called the *sink* which is the final destination of all flow (e.g. the tank store).
+Fundamentally, this problem is a graph problem. Our input will be a special kind of weighted and directed graph that we call a *flow network*. The edges in a flow network are like the train tracks, they carry "flow" (e.g. tanks), and their weights represent the maximum amount of flow they can carry, which we call *capacity*. The nodes are like train stations, they allow flow to be redistributed across other edges. To make things simpler at first (we'll discuss how to modify this later), we'll assume that there is a special node that we call the *source* where all flow must originate from (e.g. the tank factory). Additionally, we'll have a special node called the *sink* which is the final destination of all flow (e.g. the tank store).
 
 To summarize, a *flow network* is a weighted directed graph with the following properties:
 
@@ -60,26 +60,26 @@ This flow network has 7 nodes. The source node is labelled $s$, the sink is labe
 - edge $(4,3)$ has capacity 4
 - edge $(5,t)$ has capacity 4
 
-Any way of assigning flow to edges to satisfy the two constrains above is considered a valid flow graph. For example, this is a valid flow graph:
+Any way of assigning flow to edges to satisfy the two constraints above is considered a valid flow graph. For example, this is a valid flow graph:
 
 ![A flow graph with 2 units of flow](flowgraph1.png)
 
-In this flow graph, we denote the amount of flow assigned to an edge as $f/c$ where $f$ is the flow assigned and $c$ is the capacity of that edge. By convention, if we assign 0 flow to an edge then we only write the capacity for that edge. In the illustration above, we have assign 2 units of flow to each of the edges $(s,1),(1,4),(4,3),(3,t)$. All other edges have 0 flow. To verify that this is a valid flow network we need to verify that it satisfies the constraints above:
+In this flow graph, we denote the amount of flow assigned to an edge as $f/c$ where $f$ is the flow assigned and $c$ is the capacity of that edge. By convention, if we assign 0 flow to an edge then we only write the capacity for that edge. In the illustration above, we have assigned 2 units of flow to each of the edges $(s,1),(1,4),(4,3),(3,t)$. All other edges have 0 flow. To verify that this is a valid flow network we need to verify that it satisfies the constraints above:
 
 - **Capacity Constraint**: Satisfied because no edge's flow has exceeded its capacity
-- **Flow Conservation Constraint**: satisfied because the total amount of flow entering each node exactly matches the flow exiting ($s$ and $t$ are excempt from this requirement).
+- **Flow Conservation Constraint**: satisfied because the total amount of flow entering each node exactly matches the flow exiting ($s$ and $t$ are exempt from this requirement).
 
-Since this a valid flow graph, we can next find the total flow going through it. To do this, we will add up all of the flow exiting from $s$. In this case, only the edge $(s,1)$ has flow, so the total flow through the graph is 2, the flow assigned to that edge.
+Since this a valid flow graph, we can next find the total flow going through it. To do this, we will add up all of the flow exiting from $s$. In this case, only the edge $(s,1)$ has flow, and the flow assigned to that edge is 2, so the total flow through the graph is 2.
 
 The following is a graph with three units of flow. We were able to obtain more flow through this graph by adding 1 unit of flow along the path $s, 1, 2, 3, t$.
 
 ![A flow graph with 3 units of flow](flowgraph2.png)
 
-We typically think of flow being added along a path from $s$ to $t$, as this ensures we maintain the flow conservation contraint (every unit of flow entering a node gets immediately passed along to the next in the path). Note that this graph still satisfies the flow conservation constraint. To verify this we need to ensure the total flow entering each node exactly matches the total flow exiting. For example, there are 4 total units of flow entering node $2$ (1 from edge $(s,2)$ and 3 from edge $(1,2)$), and there are 4 total units of flow exiting node $s$ (all 4 on edge $(2,3)$).
+We typically think of flow being added along a path from $s$ to $t$, as this ensures we maintain the flow conservation contraint (every unit of flow entering a node gets immediately passed along to the next node in the path). Note that this graph still satisfies the flow conservation constraint. To verify this we need to ensure the total flow entering each node exactly matches the total flow exiting. For example, there are 3 total units of flow entering node $1$ (all from edge $(s,1)$), and there are 3 total units of flow exiting node $1$ (1 on edge $(1, 2)$ and 2 on edge $(1,4)$).
 
 
 
-Finally, the following reprents a graph with 8 units of flow, which is the maximum for this flow network. We therefore say that this is the solution for the max flow problem. We will discuss how to find this graph, and how to verify that it's flow is maximum in class.
+Finally, the following reprents a graph with 8 units of flow, which is the maximum for this flow network. We therefore say that this is the solution for the max flow problem. We will discuss how to find this graph, and how to verify that its flow is maximum in class.
 
 ![A graph with maximum flow](maxflow.png)
 
