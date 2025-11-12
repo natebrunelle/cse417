@@ -112,7 +112,9 @@
 
 2025-11-12:
     reading: readings/flow.html
-    
+    slides(pptx): files/slides/21.pptx
+    slides(pdf): files/slides/21.pdf
+
 2025-11-14:
     reading: readings/flow_reductions.html
 
