@@ -136,7 +136,7 @@ Quiz 1 (on 10/24) will cover all material from the beginning of the quarter thro
 - Running time and asymptotic analysis
 - Divide and Conquer Algorithms
 
-Here a [link to the quiz reference sheet](https://courses.cs.washington.edu/courses/cse417/25au/files/quizzes/q1reference.pdf).
+Here's a [link to the quiz reference sheet](https://courses.cs.washington.edu/courses/cse417/25au/files/quizzes/q1reference.pdf).
 
 To give you a sense for what to expect, we have provided a practice quiz. This practice quiz is intended to be representative of what we believe would be a reasonable quiz, but is not necessarily going to resemble *your* quiz. We recommend using this quiz as a tool to self-evaluated your preparedness after studying, rather than as a guide on what to study.
 
@@ -144,7 +144,7 @@ To give you a sense for what to expect, we have provided a practice quiz. This p
 
 We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 10/22). 
 
-<!-- 
+
 ## Quiz 2
 
 Quiz 2 (on 11/21) will cover all material from the end of quiz 1 content through Greedy Algorithms (i.e. Homeworks 4,5, and 6). This includes all of:
@@ -153,6 +153,11 @@ Quiz 2 (on 11/21) will cover all material from the end of quiz 1 content through
 - Dynamic Programming Algorithms
 - Greedy Algorithms
 
+As with Quiz 1, we will provide a reference sheet for Quiz 2, and you are additionally welcome to bring a 1-page (front and back) reference sheet of your own to the quiz. We will release the reference sheet that we will provide plus a practice quiz approximately 1 week in advance of Quiz 2.
+
+We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 11/19).
+
+<!-- 
 ## Final
 Your final exam will occur at 2:30pm on Monday March 17. Because the course scheduled into the final exam block after ours does not have a final exam, you will have until 5:20pm to take the exam. Again, if you have anticipated conflicts with this time, please let Prof. Brunelle.
 
