@@ -49,7 +49,7 @@ Homework problems will involve the following types:
 
 ## Assessments
 
-This course contains **two non-cumulative quizzes** and **one cumulative final exam**. See the [Calendar](./calendar.md) for dates and topics. Quizzes will be held during the normal lecture time in the normal lecture room.
+This course contains **two non-cumulative quizzes** and **one cumulative final exam**. See the [Calendar](./calendar.html) for dates and topics. Quizzes will be held during the normal lecture time in the normal lecture room.
 
 Assessments will feature problems similar to standard homework, but are intended to be slightly easier given the limited time. 
 
