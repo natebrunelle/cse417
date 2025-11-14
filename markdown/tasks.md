@@ -114,6 +114,20 @@ In the homework you will be asked to:
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
+## HW 7: Network Flows
+
+**Quick links:**
+
+- [Problem statements](files/homework/hw7/hw7.pdf)
+- [LaTeX template](files/homework/hw7/hw7.zip)
+
+In the homework you will be asked to:
+
+1. Analyze an improvement to the Ford-Fulkerson algorithm.
+1. Use network flows to model a realistic situation.
+
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
+
 # Quizzes
 
 We will have 2 quizzes this quarter, which will be held in class on the following dates. We will allocate the full 50 minute lecture period for the quiz.
