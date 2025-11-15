@@ -141,7 +141,7 @@ Besides this one page, we will also provide you a reference sheet with the quiz.
 
 
 
-# Quiz 1
+## Quiz 1
 
 Quiz 1 (on 10/24) will cover all material from the beginning of the quarter through Divide and Conquer (i.e. Homeworks 1,2, and 3). This includes all of:
 
