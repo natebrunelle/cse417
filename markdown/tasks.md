@@ -167,7 +167,13 @@ Quiz 2 (on 11/21) will cover all material from the end of quiz 1 content through
 - Dynamic Programming Algorithms
 - Greedy Algorithms
 
-As with Quiz 1, we will provide a reference sheet for Quiz 2, and you are additionally welcome to bring a 1-page (front and back) reference sheet of your own to the quiz. We will release the reference sheet that we will provide plus a practice quiz approximately 1 week in advance of Quiz 2.
+It does NOT include max flow.
+
+As with Quiz 1, we will provide a reference sheet for Quiz 2, and you are additionally welcome to bring a 1-page (front and back) reference sheet of your own to the quiz. Below you can find a practice quiz, which includes the reference sheet we will provide on your actual quiz.
+
+As with quiz 1, the practice quiz is intended to be representative of *a* reasonable quiz, but may not necessarily be substantially similar to *your* quiz (we were surprised by how similar we could make quiz 1 to the practice quiz, and we cannot expect that degree of similarity on every assessment). 
+
+- [Practice quiz 2](files/quizzes/practicequiz2_au25.pdf) and [solutions](files/quizzes/practicequiz2_au25_sols.pdf)
 
 We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 11/19).
 
