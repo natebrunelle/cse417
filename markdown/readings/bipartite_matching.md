@@ -16,7 +16,7 @@ We next introduce a *bipartite matching*. Because it's called a "matching", we c
 
 The word "bipartite" means having two parts. For the maximum bipartite matching problem, this adjective specifically describes a graph. We say an undirected graph is bipartite provided its vertices can be partitioned (split into 2 parts) such that no two nodes in the same set share an edge. In other words, a graph is bipartite if we can identify a cut in the graph such that all edges cross the cut.
 
-Formally, a bipartite graph $G=(V,E)$ is a graph whose set of vertices $V$ can be partitioned into two sets $L$ and $R$ (for "left" and "right") such that $L \cup R = V$ and $E\ subset L times R$.
+Formally, a bipartite graph $G=(V,E)$ is a graph whose set of vertices $V$ can be partitioned into two sets $L$ and $R$ (for "left" and "right") such that $L \cup R = V$ and $E \subset L \times R$.
 
 ## Bipartite Matching
 
@@ -30,7 +30,7 @@ The resulting graph will certainly be bipartite where $L$ is the set of families
 
 ## Maximum Bipartite Matching
 
-Now that we know what a bipartite matching is, we can finally define *maximum bipartite matching*. A maximum bipartite matching is a bipartite matching which produces that largest number of pairs. Using the dog adoption example, a maximum bipartite matching is one which maximizes the number of adoptions (an therefore minimizes the number of sad families and dogs).
+Now that we know what a bipartite matching is, we can finally define *maximum bipartite matching*. A maximum bipartite matching is a bipartite matching which produces that largest number of pairs. Using the dog adoption example, a maximum bipartite matching is one which maximizes the number of adoptions (and therefore minimizes the number of sad families and dogs).
 
 # Example inputs-outputs
 
