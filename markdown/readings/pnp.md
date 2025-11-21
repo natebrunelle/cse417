@@ -46,10 +46,10 @@ A common misconception is that NP stands for "not polynomial time". That's not t
 
 Examples of NP problems include:
 
-* Graph coloring. In this problem, we were given a graph and we had to determine if we can color the vertices with $k$ colors, such that no edge has the same color on both ends. It's very easy to check that a sample coloring works - just iterate through all the vertices, make sure that there are less than $k$ colors used overall, and iterate through all the edges, making sure that each edge has different colors on each end. This check is certainly polynomial time.
+* Graph 3-coloring. In this problem, we were given a graph and we had to determine if we can color the vertices with 3 colors, such that no edge has the same color on both ends. It's very easy to check that a sample coloring works - just iterate through all the vertices, make sure that there are at most 3 colors used overall, and iterate through all the edges, making sure that each edge has different colors on each end. This check is certainly polynomial time.
 * Travelling salesperson problem, introduced earlier. The decision version asks if there is a route of length at most $k$. Given a sample route for the salesperson to take, we can just add up the distances along the route, and check that the sum is less than $k$. (And also verify that the route touches every vertex at least once.) This check is certainly polynomial time. 
 
-Problems that are easy to check can always be solved as follows: Enumerate all possible solutions. There are typically something some exponential number of these, for example, $2^n$ possible subsets of the $n$ vertices for vertex cover. Use the checking algorithm to brute-force check every possible solution. This certainly works, but takes exponential time.
+Problems that are easy to check can always be solved as follows: Enumerate all possible solutions. There are typically something some exponential number of these, for example, at most $3^n$ possible colorings of the $n$ vertices for graph 3-coloring. Use the checking algorithm to brute-force check every possible solution. This certainly works, but takes exponential time.
 
 There are still more *complexity classes* beyond P and NP. For example, EXP is the set of decision problems that you can solve in $O(2^{n^c})$ time, for some $c$. As we said before, NP is a subset of EXP. Problems like the Halting problem mentioned earlier actually cannot be solved at all, placing them outside of even EXP. But P and NP are the two most important complexity classes.
 
