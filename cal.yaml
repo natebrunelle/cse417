@@ -12,10 +12,10 @@ meta:
   name: Algorithms
   lecture exam: true
   home: https://www.cs.virginia.edu/~njb2b/cs3100/s23/
-#   final:
-#     start: 2025-12-08 08:30:00
-#     duration: 110
-#     room: NA
+  final:
+    start: 2025-12-08 08:30:00
+    duration: 110
+    room: NA
 
 sections:
   Lecture:
