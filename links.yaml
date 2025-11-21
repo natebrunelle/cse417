@@ -122,8 +122,11 @@
 
 2025-11-17:
     reading: readings/bipartite_matching.html    
-    slides(pptx): files/slides/22.pptx
-    slides(pdf): files/slides/22.pdf
+    slides(pptx): files/slides/23.pptx
+    slides(pdf): files/slides/23.pdf
+
+2025-11-24:
+    reading: readings/pnp.html
 
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
