@@ -54,7 +54,7 @@ For Carol's statement, a new concept to translate is that the number of witches 
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-If we stare at this for a little, you'll notice that $x \oplus y$ is basically $x + y$ (mod 2), meaning we compute $x + by$ and take the remainder when divided by 2. Thus, this can be used to detect even or odd! False would mean 0 (mod 2), i.e. even, and true would mean 1 (mod 2), i.e. odd. We get that:
+If we stare at this for a little, you'll notice that $x \oplus y$ is basically $x + y$ (mod 2), meaning we compute $x + y$ and take the remainder when divided by 2. Thus, this can be used to detect even or odd! False would mean 0 (mod 2), i.e. even, and true would mean 1 (mod 2), i.e. odd. We get that:
 
 $$\text{EvenWitches} = \lnot (\text{AWitch} \oplus \text{BWitch} \oplus \text{CWitch} \oplus \text{DWitch})$$
 
