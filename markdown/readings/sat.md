@@ -64,9 +64,11 @@ $$\text{CTrue} \iff (\text{EvenWitches} \land {} \lnot (\text{ATrue} \land \text
 
 David's statement is:
 
+
 $$\begin{align*}
 \text{DTrue} \iff (&(\text{ATrue} \land \text{AWitch}) \lor (\text{BTrue} \land \text{BWitch}) \lor {} \\ & (\text{CTrue} \land \text{CWitch}) \lor (\text{DTrue} \land \text{DWitch}) )
 \end{align*}$$
+
 
 # Conversion to CNF
 

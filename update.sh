@@ -88,7 +88,7 @@ function upfile_inner() {
             --title-prefix="CSE417" \
             --table-of-contents --toc-depth=3 \
             --css=${prefix}style.css \
-            --katex='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/' \
+            --katex='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/' \
             --html-q-tags \
             --template=${here}template.html \
             --variable=year:${datetime:0:4} \
