@@ -130,7 +130,7 @@ In the homework you will be asked to:
 
 **Please read the instructions in the problem statements PDF.** Happy problem solving!
 
-<!-- ## HW 8: SAT and NP-completeness
+## HW 8: SAT and NP-completeness
 
 **Quick links:**
 
@@ -144,7 +144,7 @@ In the homework you will be asked to:
 1. Reduce a problem to SAT
 1. Answer questions related to the definitions of P, NP, NP-Complete, and the state of human knowledge about their relationships
 
-**Please read the instructions in the problem statements PDF.** Happy problem solving! -->
+**Please read the instructions in the problem statements PDF.** Happy problem solving!
 
 
 
