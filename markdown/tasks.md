@@ -197,20 +197,19 @@ As with quiz 1, the practice quiz is intended to be representative of *a* reason
 
 We will additionally have a quiz review in the lecture prior to the quiz (so Wednesday 11/19).
 
-<!-- 
+
 ## Final
-Your final exam will occur at 2:30pm on Monday March 17. Because the course scheduled into the final exam block after ours does not have a final exam, you will have until 5:20pm to take the exam. Again, if you have anticipated conflicts with this time, please let Prof. Brunelle.
+Your final exam will occur at 8:30am on Monday December 8 in our regular classroom (CSE2 room G10).
 
-You will be permitted 1 letter-sized page, front and back, of notes to reference for the exam. You are welcome to construct that independently or in groups. You may type it or hand-write it. Besides this one page, the exam will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.). The exam will additionally have some information provided for you (see what will be included by looking at the practice exam below). It's wortwhile to keep in mind what we include there when designing your personal notes sheet.
+You will be permitted 2 letter-sized pages, front and back, of notes to reference for the exam. You are welcome to construct that independently or in groups. You may type it or hand-write it. Besides these pages, the exam will otherwise be closed resources (i.e. no textbook, electronics, neighbors, etc.). The exam will additionally have some information provided for you (see what will be included by looking at the practice exam below). It's wortwhile to keep in mind what we include there when designing your personal notes sheet.
 
-The exam is cumulative, and so may include any topic from the entire quarter. In particular, this means all midterm content as well as:
+The exam is cumulative, and so may include any topic from the entire quarter. In particular, this means all content covered by quizzes 1 and 2 as well as content from homeworks 7 and 8, which cover:
 
 - Max flow, min cut, and applications thereof
-- Linear Programming
 - NP Completeness
+- SAT
 
-Expect the exam to contain roughly 8 short answer questions and roughly 4 long-form questions (the exact numbers will depend on the diffucly level of the specific questions selected). We have provided a sample exam below. Note that this sample exam is actually slightly longer than the actual final will be (it has 10 short answer and 6 long-form questions). We provided more questions in the practice in order to demonstrate a broader variety of questions you might see on the actual exam.
-
+The final exam contains 8 questions, each worth 1 ESNU grade. We have provided a sample exam below. 
 [practice final](files/exams/practice-final.pdf) ([solutions](files/exams/practice-final-solutions.pdf))
 
-We will discuss this practice exam during a review session on Friday 3/14 4:30pm-6:30pm in CSE2 room G20. -->
+We will include some final exam review in our last class on December 5.
