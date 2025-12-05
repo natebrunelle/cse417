@@ -145,6 +145,10 @@
     slides(pptx): files/slides/27.pptx
     slides(pdf): files/slides/27.pdf
 
+2025-12-05:
+    slides(pptx): files/slides/28.pptx
+    slides(pdf): files/slides/28.pdf
+
 # 2025-01-10:
 #     slides(pptx): files/slides/lecture3_stablematching2.pptx
 #     slides(pdf): files/slides/lecture3_stablematching2.pdf
